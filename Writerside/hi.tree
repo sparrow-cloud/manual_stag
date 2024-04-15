@@ -7,7 +7,6 @@
                  start-page="사용가이드.md">
 
     <toc-element topic="사용가이드.md">
-        <toc-element topic="Sparrow_Cloud_Guide_Home.md"/>
         <toc-element topic="등록.md"/>
         <toc-element topic="프로젝트-만들기.md"/>
         <toc-element topic="분석.md"/>
