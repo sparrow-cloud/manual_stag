@@ -1,9 +1,9 @@
-# SBOM 분석하기
+# Analyze SBOMs
 
-SBOM의 형식이 다양하기 때문에 아래에 해당하지 않는 파일은 컴포넌트 분석을 통해 결과가 수행되지 않을 수 있습니다.
+Due to the different formats of SBOMs, files that do not fall into the following categories may not result from component analysis.
 
-- SPDX (.spdx) 버전 2.2
+- SPDX (.spdx) version 2.2
 
-- CycloneDX (.json): 버전 1.4
+- CycloneDX (.json): Version 1.4
 
-- SWID tag(.swidtag): 버전 ISO/IEC 19770-2:2015
+- SWID tag (.swidtag): Version ISO/IEC 19770-2:2015
