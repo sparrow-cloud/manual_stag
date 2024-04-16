@@ -2,13 +2,13 @@
 
 Welcome to Sparrow Cloud. This page explains how to use Sparrow Cloud and what knowledge you need to use Sparrow Cloud.
 
-[Register Account](등록.md)
+[Register Account](Register)
 
-[Create Project](프로젝트-만들기.md)
+[Create Project](Create-Project)
 
-[Analyze](분석.md)
+[Analyze](Analyze)
 
-[Analysis Results](분석-결과.md)
+[Analysis Results](Analysis-Results)
 
 [FAQ](FAQ.md)
 

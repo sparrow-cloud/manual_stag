@@ -4,23 +4,23 @@
 
 <instance-profile id="hi"
                  name="Sparrow Cloud"
-                 start-page="사용가이드.md">
+                 start-page="UserGuide.md">
 
-    <toc-element topic="사용가이드.md">
-        <toc-element topic="등록.md"/>
-        <toc-element topic="프로젝트-만들기.md"/>
-        <toc-element topic="분석.md"/>
-        <toc-element topic="분석-결과.md">
-            <toc-element topic="이슈.md"/>
-            <toc-element topic="자산.md"/>
-            <toc-element topic="컴포넌트.md"/>
+    <toc-element topic="UserGuide.md">
+        <toc-element topic="Register.md"/>
+        <toc-element topic="Create-Project.md"/>
+        <toc-element topic="Analyze.md"/>
+        <toc-element topic="Analysis-Results.md">
+            <toc-element topic="Issue.md"/>
+            <toc-element topic="Asset.md"/>
+            <toc-element topic="Component.md"/>
         </toc-element>
-        <toc-element topic="SBOM-내보내기.md"/>
+        <toc-element topic="Export-SBOM.md"/>
     </toc-element>
     <toc-element topic="FAQ.md">
-        <toc-element topic="구독.md"/>
-        <toc-element topic="프로젝트와-분석.md"/>
-        <toc-element topic="분석 옵션.md"/>
-        <toc-element topic="SBOM-분석하기.md"/>
+        <toc-element topic="Subscription.md"/>
+        <toc-element topic="GitHub.md"/>
+        <toc-element topic="Analysis-Options.md"/>
+        <toc-element topic="Analyze-SBOM.md"/>
     </toc-element>
 </instance-profile>
