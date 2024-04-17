@@ -60,5 +60,5 @@ If you are a free user, you can still experience all three services, but with so
 - You can see open source licences identified through component analysis.
 - Web vulnerability analysis uses more rules and increases the depth of analysis.
 
-> **Tip**: Even if you are a paid user, there may be differences in the types of repositories you can analyse depending on where you have installed the GitHub App. For more information, see [Where to install GitHub App](http://localhost:63342/Cloud_Guide/preview/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%99%80-%EB%B6%84%EC%84%9D.html#github-app).
+> **Tip**: Even if you are a paid user, there may be differences in the types of repositories you can analyse depending on where you have installed the GitHub App. For more information, see [Where to install GitHub App](#installing-the-github-app-sparrow-cloud).
 

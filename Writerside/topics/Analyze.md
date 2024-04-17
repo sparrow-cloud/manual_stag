@@ -30,8 +30,8 @@ You have now set up your **Source code repository**, where files stored in the s
 8. In **URL**, enter the address of the web page you want to analyse and click the **Test Connection** button to verify the connection.
 > **Tip**: The URL must be entered in URL format starting with `http://`.
 9. Adjust the **Analysis Options** if necessary and click the **Setup** button.
-> **Tip**: Users can adjust the web vulnerability analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035).
-10. Download the **key file** and save it to the web page you want to analyse, see [Saving a key file](http://localhost:63342/hi.tree/preview/%EB%B6%84%EC%84%9D.html#saving-the-key-file).
+> **Tip**: Users can adjust the web vulnerability analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](Analysis-Options.md)
+10. Download the **key file** and save it to the web page you want to analyse, see [Saving a key file](#saving-the-key-file).
 11. Click the **Modify** button on the project information slide.
 
 
@@ -43,7 +43,7 @@ Here's how to save a key file.
 
 <img src="modifyProj04.png" alt="Alt text" width="450"/>
 
-1. First, you need to set up analysable web pages in your project. See [Setting up web pages to analyse] (http://localhost:63342/hi.tree/preview/%EB%B6%84%EC%84%9D.html#setting-up-a-web-page) above.
+1. First, you need to set up analysable web pages in your project. See [Setting up web pages to analyse](#setting-up-a-web-page) above.
 2. Click the **Download key file** button on the target URL in the **Modify project** slide.
 3. Navigate to the **root directory** of the server running the web page in a CMD window or file explorer.
 4. Save the downloaded **key file**.

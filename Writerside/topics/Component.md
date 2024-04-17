@@ -21,4 +21,4 @@ It's important to check the licences you identify in your analysis, because whil
 ## SBOM
 
 The Software Bill Of Materials (SBOM) is meta-information about the components used by the analysed software to provide services. Sparrow Cloud provides the ability to export the analysed components to a file in the form of an SBOM.
-For more information, see [Export SBOM](SBOM_내보내기.md).
+For more information, see [Export SBOM](Export-SBOM.md).
