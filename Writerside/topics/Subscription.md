@@ -24,9 +24,9 @@ and provide enhanced analysis results</td>
 <tr>
 <td>0,00</td>
 <td>₩ 26,000
-1인 기준/월</td>
+per person/month</td>
 <td>$ 26,000
-1 person/month</td>
+per person/month</td>
 <td>$ 195,000
 per person/month</td>
 </tr>
