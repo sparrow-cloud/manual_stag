@@ -23,12 +23,12 @@ and provide enhanced analysis results</td>
 </tr>
 <tr>
 <td>0,00</td>
-<td>₩ 26,000
-per person/month</td>
-<td>$ 26,000
-per person/month</td>
-<td>$ 195,000
-per person/month</td>
+<td>$ 20
+per month</td>
+<td>$ 20
+per month</td>
+<td>$ 150
+per month</td>
 </tr>
 <tr>
 <td>- SLA does not apply<br>
