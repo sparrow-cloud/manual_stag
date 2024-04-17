@@ -5,21 +5,20 @@ Welcome to Sparrow Cloud. This page explains how to use Sparrow Cloud and what k
 {type="narrow" sorted="desc"}
 Topics
 :
+[Register Account](Register.md)
 
-    [Register Account](등록.md)
 :
+[Create Project](Create-Project.md)
 
-    [Create Project](프로젝트-만들기.md)
 :
+[Analyze](Analyze.md)
 
-    [Analyze](분석.md)
 :
+[Analysis Results](Analysis-Results.md)
 
-    [Analysis Results](분석-결과.md)
 :
+[FAQ](FAQ.md)
 
-    [FAQ](FAQ.md)
-:
 
 {type="text"}
 
