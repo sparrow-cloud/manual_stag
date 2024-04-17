@@ -20,6 +20,7 @@
     <toc-element topic="FAQ.md">
         <toc-element topic="구독.md"/>
         <toc-element topic="프로젝트와-분석.md"/>
+        <toc-element topic="분석-이력.md"/>
         <toc-element topic="분석 옵션.md"/>
         <toc-element topic="SBOM-분석하기.md"/>
     </toc-element>

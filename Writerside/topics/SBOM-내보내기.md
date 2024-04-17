@@ -6,6 +6,8 @@ The **Software Bill of Materials (SBOM)** is a bill of materials for software th
 
 2. Click the **Export SBOM** button in the top right corner.
 
+<img src="exportSBOM.png" alt="Alt text" width="450"/>
+
 3. Enter a file name.
 
 4. Select the desired format: **SPDX (.spdx)**, **CycloneDX (.json)**, **Software Identification (SWID) (.zip)**.
