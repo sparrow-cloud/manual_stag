@@ -14,4 +14,4 @@ Create a project before you perform any analysis. You can create a project by en
 3. Enter a name for the project.
 4. Click the **Add** button to create the project.
 
-To start analysing, navigate to the project you created. For more information, see [Analyze](분석.md).
+To start analysing, navigate to the project you created. For more information, see [Analyze](Analyze.md).
