@@ -1,25 +1,28 @@
-# Analysis Results
+# 분석 결과
 
-In Projects, you can view information about analyses performed on your project, including recent analyses, and set options for performing analyses. The detailed results of analyses are displayed in four tabs on the right side of the project: Summary, Issues, Assets, and Components.
+프로젝트에서 확인할 수 있는 결과는 **최근 분석**에서 발견한 내용이 포함됩니다. 여기서 **최근 분석**이란 다음 두 가지를 포함합니다: 1) 리포지토리 및 압축 파일을 비롯한 **파일** 자산을 대상으로 수행한 마지막 분석, 2) 웹 페이지를 가리키는 **URL** 자산을 대상으로 수행한 마지막 분석. 즉, 최근 분석에는 최대 2개의 분석 결과가 함께 표시될 수 있습니다.
+
+> **Tip**: **최근 분석** 이전에 수행한 분석 결과의 내용을 확인할 수 없다는 점에 주의하세요.
+
+프로젝트의 오른쪽에 있는 **요약**, **이슈**, **자산**, **컴포넌트**라는 네 개의 탭을 클릭해서 상세한 결과를 확인하세요.
 
 <img src="projdetails01.png" alt="Alt text" width="450"/>
 
-## Issues
+## 이슈
 
-**Issues** are the security vulnerabilities and quality issues found as a result of analysing the analysed object. The **Issue List** displayed in the **Issues** tab contains the issues detected by Sparrow Cloud. Issues are categorised as source code issues, component issues, or web vulnerability issues, depending on the tool that detected them.
+**이슈**는 분석 대상을 분석한 결과로써 발견한 보안 취약점 및 품질 관련 문제를 가리킵니다. **이슈** 탭에 표시되는 **이슈 목록**에는 Sparrow Cloud에서 검출한 이슈가 포함되어 있습니다. 이슈는 검출한 도구에 따라서 **소스코드 이슈**, **컴포넌트 이슈**, **웹 취약점 이슈**로 분류됩니다.
 
-For more information about issues, see [Issue](Issue.md).
+이슈에 대한 더 자세한 내용은 [이슈](Issue.md)를 참고하세요.
 
-## Assets
+## 자산
 
-Sparrow Cloud displays analysis results called **Assets**. Assets are created from the analyzing target you used for your analysis: It identifies the files or sub URLs contained in the analysis target and uses this information to show a list of **assets**. Depending on the analysis target, assets identified from repositories used for source code analysis and component analysis are shown as **Files**, while assets sourced from web pages used for web vulnerability analysis are shown as **URLs**.
+Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은 분석에 사용한 분석 대상에서 생성됩니다: 분석 대상에 포함된 파일이나 하위 URL을 식별하고 이 정보로 **자산 목록**을 보여줍니다. 분석 대상에 따라서 소스코드 분석과 컴포넌트 분석에 사용된 리포지토리에서 식별한 자산은 **파일**로 표시되고, 웹 취약점 분석에 사용된 웹 페이지에서 시결한 자산은 **URL**로 표시됩니다.
 
-For more information about assets, see [Asset](Asset.md).
+자산에 대한 더 자세한 내용은 [자산](Asset.md)을 참고하세요.
 
-## Component
+## 컴포넌트
 
-A **component** is the smallest unit that can identify a specific programme and refers to software that requires a licence, proprietary software, open source software, etc. Sparrow Cloud breaks down files into components to identify what software is included in the file being analysed, and organises the open source licences that the components are using into individual components on the **Components** tab. Additionally, components that are under a specific licence are detected as issues in the issue list.
+**컴포넌트**란 특정 프로그램을 식별할 수 있는 최소 단위이며 라이선스가 필요한 소프트웨어, 독점 소프트웨어, 오픈소스 소프트웨어 등을 가리킵니다. Sparrow Cloud에서는 분석 대상 파일에 포함된 소프트웨어가 무엇인지를 식별하기 위해 파일을 컴포넌트로 나누어서 분석합니다. 그리고 컴포넌트가 사용하고 있는 오픈소스 라이선스를 **컴포넌트** 탭의 개별 컴포넌트에 정리합니다. 또한, 특정 라이선스에 해당하는 컴포넌트는 이슈 목록에서 이슈로 검출됩니다.
 
-For more information about components, see [Component](Component.md).
+컴포넌트에 대한 더 자세한 내용은 [컴포넌트](Component.md)를 참고하세요.
 
-> **Tip**: The project will show one result from the last repository analysed and one result from the web page URL. Note that you will not see results from analyses performed before that.
