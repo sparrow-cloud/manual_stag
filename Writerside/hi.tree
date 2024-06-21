@@ -9,7 +9,7 @@
     <toc-element topic="User-Guide.md">
         <toc-element topic="Register.md"/>
         <toc-element topic="Create-Project.md"/>
-        <toc-element topic="analyze-md.md">
+        <toc-element topic="Run-Analysis.md">
             <toc-element topic="analysisSetting.md"/>
             <toc-element topic="Analysis-Option.md">
             </toc-element>

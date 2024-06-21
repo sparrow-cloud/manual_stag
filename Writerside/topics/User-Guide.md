@@ -1,4 +1,10 @@
-# 사용가이드
+---
+switcher-label: Language
+---
+
+# Welcome to Sparrow Cloud
+
+## 사용가이드 {switcher-key="한국어"}
 
 Sparrow Cloud에 방문하신 것을 환영합니다. 이 페이지에서는 Sparrow Cloud를 사용하는 방법과 Sparrow Cloud를 사용하기 위해 필요한 지식을 설명합니다.
 
@@ -14,6 +20,8 @@ Sparrow Cloud에 방문하신 것을 환영합니다. 이 페이지에서는 Spa
 
 [결과 확인하기](Analysis-Results.md)
 
+[분석 보고서](Analysis-Report.md)
+
 [SBOM 내보내기](Export-SBOM.md)
 
 [FAQ](FAQ.md)
@@ -21,3 +29,31 @@ Sparrow Cloud에 방문하신 것을 환영합니다. 이 페이지에서는 Spa
 {type="text"}
 
 추가적인 문의가 있으시면 Sparrow 고객센터로 연락해주세요.
+
+
+## User Guide {switcher-key="English"}
+
+Welcome to Sparrow Cloud. This page explains how to use Sparrow Cloud and what you need to know to use Sparrow Cloud.
+
+
+{type="narrow" sorted="desc"}
+Go to
+
+[Register Account](Register.md)
+
+[Create Project](Create-Project.md)
+
+[Run Analysis](Run-Analysis.md)
+
+[Check Results](Analysis-Results.md)
+
+[Analysis Report](Analysis-Report.md)
+
+[Export SBOM](Export-SBOM.md)
+
+[FAQ](FAQ.md)
+
+{type="text"}
+
+If you have any further questions, please contact Sparrow Customer Support.
+
