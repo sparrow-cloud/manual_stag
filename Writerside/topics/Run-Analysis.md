@@ -24,7 +24,7 @@ Now go to the project you created earlier and perform an analysis. To analyse a 
 <img src="runAnalysis.png" alt="Alt text" width="450"/>
 
 1. Click the **Start a new analysis** button.
-2. Select a repository or compressed file to start analysing **Source code and components**.
+2. Select a repository or compressed file to start analysing **Source code and supply chains**.
 3. Select **URL** to start analysing **Web Vulnerabilities**.
 4. The analysis will now start.
 
@@ -49,7 +49,7 @@ You can analyse compressed files up to 100 MB. Users without a subscription to t
 
 #### SBOM file {switcher-key="English"}
 
-You can compress an SBOM file that has already been generated, and then run the analysis to see the results. However, due to the various formats of SBOMs, files that do not fall into the following categories may not result in component analysis.
+You can compress an SBOM file that has already been generated, and then run the analysis to see the results. However, due to the various formats of SBOMs, files that do not fall into the following categories may not result in supply chain analysis.
 
 - SPDX (.spdx): version 2.2
 - CycloneDX (.json): Version 1.4

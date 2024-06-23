@@ -28,7 +28,7 @@ switcher-label: Language
 
 ## Export SBOM {switcher-key="English"}
 
-**A Software Bill of Materials (SBOM)** is a bill of materials for software that contains detailed information about the components that make up the software. In Sparrow Cloud, you can print and view the SBOMs included in one or more projects.
+**A Software Bill of Materials (SBOM)** is a bill of materials for software that contains detailed information about the supply chains that make up the software. In Sparrow Cloud, you can print and view the SBOMs included in one or more projects.
 
 
 1. Navigate to the **Project** you want to export the SBOM from.

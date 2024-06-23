@@ -21,12 +21,12 @@ switcher-label: Language
 
 ## Issue type {switcher-key="en"}
 
-Issues can be categorised as Source Issues, Component Issues, or Web Vulnerability Issues, depending on the analysis engine that detected the issue.
+Issues can be categorised as Source Issues, Supply Chain Issues, or Web Vulnerability Issues, depending on the analysis engine that detected the issue.
 
 - Source issues: Issues detected through source code analysis.
   - Security vulnerability: A potential vulnerability in the source code that is related to software security.
   - Quality issues: Issues that do not cause security issues in the source code, but should be reviewed from a quality perspective.
-- Component issues: Issues detected through component analysis.
+- Supply Chain issues: Issues detected through supply chain analysis.
   - Vulnerable component: An issue that is considered vulnerable because a vulnerability has been found in the component itself.
   - Licence: Issues where the open source licence used by the component contains a copyleft or permissive licence.
 - Web vulnerability issues: Issues detected through web vulnerability analysis.

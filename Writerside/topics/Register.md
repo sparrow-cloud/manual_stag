@@ -27,7 +27,7 @@ To use the Sparrow Cloud service, you need to register a user account. Users can
 <img src="로그인.png" alt="Alt text" width="450"/>.
 
 2. Click the **Sign-up** button to create an account with your email. To use your GitHub account, click the **Sign in with GitHub account** button.
-> **Tip**: Sparrow Cloud recommends that users who will be using GitHub repositories to perform source code or component analysis verify their GitHub account when creating an account.
+> **Tip**: Sparrow Cloud recommends that users who will be using GitHub repositories to perform source code or supply chain analysis verify their GitHub account when creating an account.
 
 
 ### 이메일로 등록하기 {switcher-key="한국어"}

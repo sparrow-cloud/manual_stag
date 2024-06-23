@@ -35,7 +35,7 @@ To see detailed results, click the four tabs on the right side of the project: *
 
 ### Issues {switcher-key="English"}
 
-**Issues** are security vulnerabilities and quality issues found as a result of analysing your analytics targets. The **Issues list** displayed in the **Issues** tab contains the issues detected by Sparrow Cloud. Issues are categorised as source code issues, component issues, or web vulnerability issues, depending on the tool that detected them.
+**Issues** are security vulnerabilities and quality issues found as a result of analysing your analytics targets. The **Issues list** displayed in the **Issues** tab contains the issues detected by Sparrow Cloud. Issues are categorised as source code issues, supply chain issues, or web vulnerability issues, depending on the tool that detected them.
 
 For more information about the issues, see [Issue](Issue.md).
 
@@ -49,7 +49,7 @@ Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은
 
 ### Assets {switcher-key="English"}
 
-Sparrow Cloud displays analysis results called **Assets**. Assets are generated from the analytics target you used for analysis: It identifies the files or sub URLs contained in the analyse target and uses this information to show a list of **assets**. Depending on the analysis target, assets identified from repositories used for source code analysis and component analysis are shown as **Files**, while assets sourced from web pages used for web vulnerability analysis are shown as **URLs**.
+Sparrow Cloud displays analysis results called **Assets**. Assets are generated from the analytics target you used for analysis: It identifies the files or sub URLs contained in the analyse target and uses this information to show a list of **assets**. Depending on the analysis target, assets identified from repositories used for source code analysis and supply chain analysis are shown as **Files**, while assets sourced from web pages used for web vulnerability analysis are shown as **URLs**.
 
 For more information about assets, see [Asset](Asset.md).
 
@@ -63,6 +63,6 @@ For more information about assets, see [Asset](Asset.md).
 
 ### Components {switcher-key="English"}
 
-**Component** is the smallest unit that can identify a specific program and refers to software that requires a licence, proprietary software, open source software, etc. Sparrow Cloud breaks down files into components to identify what software is included in the file being analysed, and organises the open source licences that the components are using into individual components on the Components tab. Components that are under a specific licence are also detected as issues in the issue list.
+**Components** are the smallest units that can identify a specific program and refers to software that requires a licence, proprietary software, open source software, etc. Sparrow Cloud breaks down files into components to identify what software is included in the file being analysed, and organises the open source licences that the components are using into individual components on the Components tab. Components that are under a specific licence are also detected as issues in the issue list.
 
 For more information about components, see [Component](Component.md).

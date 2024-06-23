@@ -15,8 +15,6 @@ switcher-label: Language
 - **SBOM**: 소프트웨어를 구성하는 컴포넌트를 정리한 SBOM 파일을 분석한 경우를 가리킵니다.
 
 
-# Component {switcher-key="English"}
-
 ## identification type {switcher-key="English"}
 
 Displays the type of target used to identify the component: **Binary**, **Dependencies**, **Source Code**, **Snippets**, **SBOM**.

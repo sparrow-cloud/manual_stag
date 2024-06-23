@@ -19,7 +19,7 @@ Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 다음
 > **Tip**: 분석 보고서 파일이 너무 큰 경우 여러 개의 파일로 나뉘어서 출력됩니다.
 
 
-## Analysis Report {switcher-key="English"}
+## Export Report {switcher-key="English"}
 
 Sparrow Cloud provides reports on the analysis in PDF format. Export the report in the following way
 
