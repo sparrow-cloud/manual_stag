@@ -67,7 +67,7 @@ switcher-label: Language
 
 
 
-## Run Analysis {switcher-key="Korean"}
+## Run Analysis {switcher-key="English"}
 
 Now go to the project you created earlier and perform an analysis. To analyse a **repository** or **URL**, you must first set up a project, see [Setting up analysis](analysisSetting.md) for more information.
 

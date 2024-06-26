@@ -42,7 +42,7 @@ Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도�
 
 
 
-## Issue type {switcher-key="en"}
+## Issue type {switcher-key="English"}
 
 Issues can be categorised as Source Issues, Supply Chain Issues, or Web Vulnerability Issues, depending on the analysis engine that detected the issue.
 
