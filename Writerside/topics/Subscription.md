@@ -100,11 +100,11 @@ and generate SBOMs</td>
 and provide enhanced analysis results</td>
 </tr>
 <tr>
-<td>0,00</td>
+<td>free</td>
 <td>$ 20.00
-1 person/month</td>
+per person/month</td>
 <td>$ 20.00
-1 person/month</td>
+per person/month</td>
 <td>$ 20.00
 per person/month</td>
 </tr>
