@@ -100,11 +100,11 @@ and generate SBOMs</td>
 and provide enhanced analysis results</td>
 </tr>
 <tr>
-<td>0,00</td>
+<td>free</td>
 <td>$ 20.00
-1 person/month</td>
+per person/month</td>
 <td>$ 20.00
-1 person/month</td>
+per person/month</td>
 <td>$ 20.00
 per person/month</td>
 </tr>
@@ -122,13 +122,13 @@ per person/month</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
-- Private storage support<br>
+- Private repository support<br>
 - 100MB per source code upload</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
 - No limit on analyses depth<br>
-- No analytics rule limits</td>
+- No analysis rule limits</td>
 </tr>
 </table>
 

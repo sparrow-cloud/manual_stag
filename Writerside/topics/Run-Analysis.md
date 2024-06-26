@@ -73,9 +73,9 @@ Now go to the project you created earlier and perform an analysis. To analyse a 
 
 <img src="runAnalysis.png" alt="Alt text" width="450"/>
 
-1. Click the **Start a new analysis** button.
-2. Select a repository or compressed file to start analysing **Source code and supply chains**.
-3. Select **URL** to start analysing **Web Vulnerabilities**.
+1. Click the **Start analysis** button.
+2. Select a repository or a zipped file to start analysing **Source code and supply chains**.
+3. Or select **URL** to start analysing **Web Vulnerabilities**.
 4. The analysis will now start.
 
 > **Tip**: You cannot perform additional analyses of the same type while an analysis is running. If you want to stop a running analysis, you can do so from the list of analyses. Note that you cannot stop or delete an analysis that has already been completed.
@@ -124,11 +124,11 @@ Now that you've installed the Event Clipboard, let's run it.
 
 Let's use the **Login History File** we recorded above to perform an analysis.
 
-1. click the **Web page settings** button on the **Modify project** slide.
-2. Click the Browse for File button in the Login History File option.
-3. select the saved event clipboard file.
-4. Click the Set button in the Web page settings.
-5. Click the **Modify** button under **Modify Project**.
+1. Click **Modify project** button and click the **Set web page** button.
+2. Click **Search File** button in **Sign-in Log File** option.
+3. Select the saved event clipboard file.
+4. Click **Set** button in the Web page settings.
+5. Click **Modify** button under **Modify Project**.
 
-> **Tip**: When recording login behaviour from the event clipboard, make sure to start recording from the redirected page. Also, to prevent clicking the logout button after login, add the logout button to the **Event Action Exclusions** in the Analytics options.
+> **Tip**: When recording login behaviour from the event clipboard, make sure to start recording from the redirected page. Also, to prevent clicking the logout button after login, add the logout button to the **Element to Unload** in the web page options.
  

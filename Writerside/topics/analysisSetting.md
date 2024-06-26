@@ -21,6 +21,7 @@ GitHub 저장소나 URL을 분석하려면 **프로젝트**에서 분석 대상�
 5. 슬라이드에서 분석할 저장소를 선택하세요.
 6. 프로젝트 정보 슬라이드에서 **수정하기** 버튼을 클릭하세요.
 
+이제 **소스코드 저장소**를 설정했습니다. 여기에서 선택한 저장소에 저장된 파일을 **소스코드** 및 **오픈소스** 분석에서 사용하게 됩니다.
 
 ### 분석 대상 웹 페이지 설정하기 
 
@@ -60,16 +61,14 @@ To analyse a GitHub repository or URL, you need to set up a **Source repository*
 2. Click the **Modify project** button.
 
 
-이제 **소스코드 저장소**를 설정했습니다. 여기에서 선택한 저장소에 저장된 파일을 **소스코드** 및 **오픈소스** 분석에서 사용하게 됩니다.
-
 ### Setting up the source code repository 
 
 <img src="modifyProj01.png" alt="Alt text" width="450"/>.
 
 3. If you don't have GitHub authentication, click the **GitHub authentication** button in the **Source repository** and log in to GitHub.
-4. If you have registered an account with GitHub or have already authenticated, click the **Select a GitHub repository** button.
+4. If you have registered an account with GitHub or have already authenticated, click the **Select GitHub repository** button.
 5. Select the repository you want to analyse from the slides.
-6. Click the **Modify** button on the project information slide.
+6. Click the **Modify** button on the slide.
 
 
 You have now set up your **Source code repository**, where files stored in the selected repository will be used in your **Source code** and **Open source** analyses.
@@ -82,7 +81,7 @@ You have now set up your **Source code repository**, where files stored in the s
 7. On the **Modify project** slide, click the **Set up web page** button.
 8. In **URL**, enter the address of the web page you want to analyse and click the **Test Connection** button to check the connection.
 > **Tip**: The URL must be entered in URL format starting with `http://`.
-9. Adjust the **Analysis options** if necessary and click the **Setup** button.
+9. Adjust the **options** if necessary and click the **Set** button.
 > **Tip**: Users can adjust the web vulnerability analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035).
 10. See [Saving a key file](#analysissetting.html#hpery9_1989) to download the **key file** and save it to the web page being analysed.
 11. Click the **Modify** button on the project information slide.
