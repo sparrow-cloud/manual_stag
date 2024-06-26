@@ -207,192 +207,192 @@ Sparrow Cloud has prepared various options especially for web vulnerability anal
 ### Web Vulnerability Analysis Options 
 
 
+
 **Detailed Execution Log**
 
-This option indicates whether to log detailed browser behaviour, HTTP client behaviour, etc. when collecting URLs (default: `OFF`).
+Detailed Execution Log means whether to **store the detailed actions of the Browser, HTTP client, etc. that were executed when collecting the URL in the Log.(Default: `OFF`)
 
-Setting this option to `ON' allows you to log the actions taken during ingestion, so you can verify that you ingested the URL correctly, but it increases the size of the log. Setting this option to `OFF` will result in smaller logs, but will make it harder to verify that the URL was collected correctly.
+If this Option is set to `ON`, you can check the actions you started when collecting in the Log, so you can **OK if you collected the URL correctly**, but it will increase the size of the Log. If this Option is set to `OFF`, the Log volume will be smaller, but it will be harder to check if the URL was collected normally.
 
 
-**Mobile screen**
+**Mobile Screen**
 
-The Mobile screen means whether the internal browser used in the analysis is set to mobile screen if the web application being analysed supports mobile screen. This option allows you to analyse web pages that display differently on PC and mobile (default: `OFF`).
+Mobile Screen means whether to **Set the internal browser used in the analysis to Mobile Screen if the Web application being analyzed supports Mobile Screen**. This option allows you to analyze Web pages that are displayed differently on PC and mobile.(Default: `OFF`)
 
-Setting this option to `ON' will **change the browser used when analysing URLs to the mobile screen**. Setting this option to `OFF` will **use the browser as the default PC screen** when analysing URLs.
+If this Option is set to `ON`, it will **Change Browser to Mobile Screen** used when analyzing URLs. If this Option is set to `OFF`, **enable the Browser to be the Default PC screen**.
 
 
-**Partial page loading**
+**Partial Page Loading**
 
-The Partial page loading refers to whether **the internal browser proceeds with collection without fully loading the page's resources**. For pages whose resources cannot be loaded or take a while to load, waiting for them to fully load may take a long time or cause a timeout and prevent collection from proceeding. (Default: `OFF')
+Partial Page Loading refers to whether **the internal Browser will proceed with Crawling without fully loading the resources on the page**. For pages whose resources cannot be loaded or take time to load, waiting for them to fully load may take a long time or cause a Timeout, preventing Crawling from proceeding.(Default: `OFF`)
 
-Setting this option to `ON' speeds up ingestion by **proceeding with ingestion without waiting for the resource to load**. This may prevent pages that absolutely need the resource from collecting properly. Setting this option to `OFF` will **proceed with ingestion only after all resources on the page have loaded**. This will allow pages that absolutely need resources to collect normally, but will slow down pages that have problems loading resources.
+If this Option is set to `ON` then it will speed up Crawling by **proceeding with Crawling without waiting for the resource to load**. This may prevent pages that absolutely need the resource from crawling properly. If this Option is set to `OFF`, it **will wait for All of the page's resources to load before proceeding with Crawling**. This will likely result in normal crawling for pages that absolutely need resources, but will slow down for pages that have problems loading resources.
 
+**Plain Text Analysis**
 
-**Plain text analysis**
+Plain Text Analysis means **Collecting URLs from the plain text of the response Message received during URL collection**, not from HTML.(Default: `ON`)
 
-The Plain text analysis means that the body of the response message received during URL collection is collected in plain text rather than HTML. (Default: `ON`)
+If this Option is set to `ON`, it will **Crawling URLs from the General Contents using the URL pattern**. This will result in collecting more URLs, but because it will analyze all the Contents, not just the HTML, it will be slower and more likely to collect meaningless URLs.
 
-Setting this option to `ON' will **collect URLs using URL patterns from the plain body**. This will result in more URLs being collected, but because it analyses all the body, not just the HTML, it will be slower and more likely to collect meaningless URLs.
 
+**Sub-domain Crawling**
 
-**Sub-domain crawling**
+Sub-domain Crawling means **whether it collects URLs that are sub-domains of the Analyzing Target URL entered in the Project**. A subdomain is **an extension of a domain that is Auto linked to support specific content** and is displayed in the Format of `(sub).(main domain)`. For example, if the URL Input in your Project is `https://google.com`, then `google.com` is the main domain and `translate.google.com`, `mail.google.com`, `drive.google.com`, etc. are subdomains.(Default: `ON`)
 
-The Sub-domain crawling refers to whether the project collects URLs that are subdomains of the URL to be analysed. **A subdomain is an extension of a domain that is automatically linked to to support specific content, and is represented in the form of `(sub).(main domain)'. For example, if the URL you enter in your project is `https://google.com`, then `google.com` is the main domain and `translate.google.com`, `mail.google.com`, `drive.google.com`, etc. are subdomains. (Default: `ON`)
+If this option is set to `ON`, it will **also collect URLs that are sub-domains of the Analyzing Target URL**. If this Option is set to `OFF`, it will **not collect URLs that are subdomains of the Analyzing Target URL**.
 
-Setting this option to `ON' will **collect URLs that are subdomains of the URL being analysed**. Setting this option to `OFF` will **not collect URLs that are subdomains of the URL being analysed**.
 
+**Parent Domain Crawling**
 
-**Parent domain crawling**
+Parent Path Collection means whether to **collect the URLs corresponding to the parent path of the Analyzing Target URL entered in the Project**, if any. For example, if the URL is `http://dast.com/1/2/3`, the parent paths are `http://dast.com/1/2`, `http://dast.com/1`, and `http://dast.com`. (Default: `OFF`)
 
-The Parent domain crawling means whether to **collect the parent path of the analysed URL entered in the project** if it exists. For example, if the URL is `http://dast.com/1/2/3`, the parent paths are `http://dast.com/1/2`, `http://dast.com/1`, and `http://dast.com` (default: `OFF`).
+If this option is set to `ON`, **Analyzing Target URL's parent path will also be analyzed**. However, if the parent path is a site that doesn't need to be analyzed, or if accessing the parent path automatically takes you to another URL, there is a possibility of analyzing a meaningless URL. If this option is set to `OFF`, you will **Only analyze the child paths included in the Analyzing Target URL for the Project**.
 
-Setting this option to `ON' will **also analyse the parent path of the URL being analysed**. However, if the parent path is a site that does not need to be analysed, or if accessing the parent path will automatically take you to another URL, there is a possibility of analysing meaningless URLs. Setting this option to `OFF` will only analyse the child paths contained in the URLs to be analysed in the project.
 
+**HTML Comment Analysis**
 
-**HTML comment analysis**
+HTML Comment Analysis means whether **When collecting URLs, collect the URLs in the comments if you receive a response Message in the Contents of HTML**. (Default: `OFF`)
 
-The HTML comment analysis means whether to **collect URLs in comments when receiving response messages in the body of HTML when collecting URLs** (default: `OFF`).
+If this option is set to `ON`, it will **look for URLs Included in HTML comments and crawl those URLs**. This will result in collecting more URLs, but because it analyzes the comments, the analysis will be slower and more likely to collect meaningless URLs.
 
-Setting this option to `ON' will **look for URLs contained in HTML comments and collect them**. This will result in more URLs being collected, but it will also slow down the analysis due to analysing the comments and is more likely to collect meaningless URLs.
 
+**Detect Storage Vulnerability**
 
-**Detect storage vulnerability**
+Detect Storage Vulnerability refers to whether **additionally performs actions to detect storage-based vulnerabilities**. A storage-based vulnerability is a vulnerability that is stored in the DB, such as Stored XSS (Persistent XSS) or Stored SQL Injection (Persistent SQL Injection), and affects other pages without being reflected on the page immediately after the attack.(Default: `OFF`)
 
-The Storage vulnerability detection refers to whether we **take additional steps to detect storage-based vulnerabilities**. A storage-based vulnerability is a vulnerability that is stored in the DB, such as Stored XSS (Persistent XSS) or Stored SQL Injection (Persistent SQL Injection), and affects other pages after an attack, rather than being reflected directly on the page. (Default: `OFF`)
+If this option is Setting to `ON`, it will **Start Work extra to Detect Storage Vulnerability and Enable Checker to Detect Storage Vulnerability. This slows down the analysis, but allows for the detection of storage-based vulnerabilities. If this option is set to `OFF`, **Does not perform any additional work to detect storage-based vulnerabilities, and disables the checker to detect storage-based vulnerabilities**. This will speed up the analysis, but will not detect storage-based vulnerabilities.
 
-Setting this option to `ON` will **take extra work to detect storage-based vulnerabilities and enable checkers to detect storage-based vulnerabilities**. This slows down the analysis, but allows for the detection of storage-based vulnerabilities. Setting this option to `OFF` **does not perform any work to detect storage-based vulnerabilities, and disables the checker for detecting storage-based vulnerabilities. This speeds up analysis, but does not detect storage-based vulnerabilities.
 
+**URL Crawling Depth**
 
-**URL crawling depth**
+URL Crawling Depth means **how far away the URL to be crawled is from the Start URL** and is categorized into `High`, `Medium`, and `Low`. The farther the URL is from the Start URL, the more minimal actions you need to perform, such as Going to a page, to reach a specific URL.(Default: `Medium`)
 
-The URL crawling depth refers to **how far away the URLs to be collected are from the starting URL** and is categorised as `high`, `medium`, or `low`. The further away the URL is from the starting URL, the more minimal actions must be performed to reach the specific URL, such as page navigation. (Default: `Medium`)
+If this option is set to `High`, we will **crawl URLs farther away from the Start URL**, but it will take longer to do so. If this option is set to `Low`, the Project will **crawl URLs in less time**, but will not collect URLs that are farther away.
 
-Setting this option to `Up` will collect URLs farther away from the starting URL, but it will take longer to collect them. Setting this option to `Low` will cause the project to spend less time collecting URLs, but will not collect URLs that are farther away.
 
+**DOM Crawling Depth**.
 
-**DOM crawling depth**
+DOM Crawling Depth means **how far away the DOM to be harvested is from the first DOM generated from the same URL**. The farther the DOM is, the more minimal actions the first DOM needs to perform to reach a specific DOM from the same URL.(Default: `Medium`)
 
-The DOM crawling depth refers to how far away the DOM to be harvested is from the first DOM generated from the same URL and is categorised as `high`, `medium` or `low`. The further away the DOMs are, the more minimal actions the first DOM needs to perform to reach a specific DOM from the same URL. (Default: `Medium`)
+If this option is set to `High`, it will **crawl DOMs from the first DOM to the farthest DOM** that are created when navigating to a URL, but it will take **more h** to do so. If this option is set to `Low`, the Project will **crawl DOMs in less time**, but will not collect the farther DOMs.
 
-Setting this option to `Up` will collect the DOMs that are generated when navigating to a URL, even those that are farther away from the first DOM, but it will take longer to collect them. If this option is set to `Low`, the project will take less time to collect DOMs, but will not collect farther DOMs.
 
+**Level of Conducted Events**
 
-**Level of conducted event**
+The Level of Conducted Events on a Page refers to **how many events on the page to be collected**. An Event is an action included on each page of the Web application being analyzed, which is an event that occurs when you click the mouse, input a key, or hover over a specific element.(Default: `Medium`)
 
-The Level of conducted event refers to how much the events on the page to be collected are fired and is categorised as `High`, `Medium`, or `Low`. An event is an action that is included on each page of the web application being analysed and occurs when a mouse click, keystroke, or hover over a specific element. (Default: `medium`)
+If this option is set to `High`, you will **have more events on the page**, but they will take **more time crawling**. If this option is set to `Low`, **it will take less time to crawl**, but the page will perform fewer events.
 
-Setting this option to `high` will **fire more events on the page**, but they will take longer to collect. Setting this option to `Low` will result in fewer events on the page, but will take less time to collect.
 
+**Resource Loading Timeout**
 
-**Resource loading timeout**
+Resource Loading Timeout refers to the maximum time **waiting for resources that require a long time to load when the Partial Page Loading Option is set to ON**. You can Input a number of `1` and more than or less than `600000`, and if no Value is Input, the Default is `10000`.(Unit: Milliseconds, Default: `10000`)
 
-The Resource loading timeout refers to the maximum time to wait for resources that require a long time to load when the Partial page loading option is set to `ON`. You can enter a number greater than or equal to `1` and less than or equal to `600000`; if no value is entered, the default value is `10000`. (Unit: milliseconds; default: `10000`)
+The lower the **Value** entered for this Option, the more resources it will Start Crawling without waiting for them to load, so there is a possibility that pages that absolutely need resources may not be able to be crawled properly. The higher the **Value** input for this Option, the longer we wait for resources to load**, and therefore the longer it takes to Crawl.
 
-The lower the **value entered for this option, the more resources it will start to ingest without waiting for them to load. This can result in pages that absolutely need resources not being ingested properly. The larger the **value** entered for this option, the longer the time spent waiting for resources to load, and therefore the longer it takes to collect them.
 
+**Event Timeout**
 
-**Event timeout**
+Event Timeout refers to the amount of time **waiting for the results of performing an event to be reflected in the DOM each time the event is performed**. You can Input a number more than `0` and less than `5000`, and if no Option is Input, the Default is `300`.(Unit: Milliseconds, Default: `300`)
 
-The event timeout refers to the amount of time you wait for the result of performing an event to be reflected in the DOM each time you perform the event. You can enter a number from `0` to `5000`, and the default value is `300` if no option is entered. (Unit: milliseconds; default: `300`)
+The larger the value entered for this Option, the slower it will be to **Crawled URLs of Web applications that take hrs to reflect the events they have performed in the DOM**. The lower the Value Input for this Option, the faster it will collect the URLs, but it will **not collect URLs for Web applications that require time when the DOM changes**.
 
-The larger the value entered for this option, the slower it is to collect the URLs of web applications that **take time to reflect the events they perform in the DOM**. A smaller value entered for this option will collect URLs faster, but will not collect URLs for web applications that require time for the DOM to change.
 
+**Number of HTTP Requests per Sec**
 
-**HTTP requests**
+Number of Requests refers to **the number of HTTP Requests per Sec that can be sent when collecting URLs**. You can Input a number that is more than `-1` and less than `10000`, and if no Option is entered, the Default is `-1`, in which case you will not limit the number of HTTP Requests that can be sent.(Unit: item(s), Default: `-1`)
 
-The HTTP request refers to the number of HTTP requests that can be sent in one second when collecting URLs. You can enter a number greater than or equal to `-1` and less than or equal to `10000`, and if no option is entered, the default value is `-1`, in which case you will not limit the number of HTTP requests that can be sent. (Unit: number, default: `-1`)
+A **higher** value entered for this Option will increase the number of HTTP Request(s) that can be sent in a second, which will make Analyzing Target URLs faster**, but may also increase the amount of traffic, which will **increase the load on the Analyzing Target Web Application server**. The **lower the value entered for this option, the lower the traffic volume, which will reduce the load on the Analyzing Target Web application server**, but will slow down the speed of collecting the URL.
 
-The **larger value entered for this option increases the number of HTTP requests that can be sent per second, making URL collection faster**, but it can also increase traffic volume, which can **increase the load on the web application server being analysed**. The lower the value entered for this option, the lower the traffic volume, which reduces the load on the analysed web application server, but slows down the collection of URLs.
 
+**HTTP Client Timeout**
 
-**HTTP client timeout**
+HTTP Client Timeout refers to the maximum amount of time **the HTTP client waits** when it encounters a delay in connecting to the Web server, sending an HTTP Request, and receiving an HTTP response **to perform analysis**. You can Input a number that is more than `0` and less than `30000`, and if no Option is Input, the Default is `3000`.(Unit: Milliseconds, Default: `3000`)
 
-The HTTP client timeout refers to the maximum amount of time that an HTTP client waits when it encounters delays in connecting to the web server, sending HTTP requests, and receiving HTTP responses in order to perform analytics. You can enter a number greater than or equal to `0` and less than or equal to `30000`, and the default value is `3000` if no option is entered. (Units: milliseconds; default: `3000`)
+The higher the **Value entered for this option, the more the analysis will proceed normally** even if there is a delay due to poor network connection status with the Web server. However, if the connection with the Web server is continuously disconnected, the Analyzing Time is likely to increase. The lower the **Value entered in this Option, the faster the analysis speed, but there is a possibility that the URL may not be analyzed** if the delay is caused by poor network connection status with the Web server.
 
-The higher the **value entered for this option, the faster the analysis will proceed** even if the delay is caused by a poor network connection to the web server. However, if the connection to the web server is constantly disconnected, the analysis time is likely to increase. The lower the value entered for this option, the faster the analysis, but the URL may not be analysed if the delay is caused by a poor network connection to the web server.
 
 
+### Web page setting options
 
-### Web page settings options
 
-**Sign-in log file**
+**Sign-in Log File**
 
-The Sign-in log file is an .ecl format file saved from the Sparrow DAST event clipboard that records a user's actions at a specific URL. It is typically used when collecting or analysing URLs by storing the ID and password information that a user used to log in at a specific URL.
+A Sign-in Log File is a **file in .ecl format saved from the Sparrow DAST Event Clipboard** that records a User's behavior at a specific URL. It is mainly used when collecting or analyzing URLs by storing the ID and Password information that a user used to log-in at a specific URL.
 
-**If you attach a login history file** during URL collection and analysis, when you reach the URL where the Event Clipboard's recording started, it will reproduce the user's actions stored in the file. In this way, you can **pass the required authentication on the login page**. For more information about the Event Clipboard, see [Analysing with the Event Clipboard](#analyze.md#co6xdo_66).
+If you attach a **Sign-in Log File** during URL collection and analysis, when the Event Clipboard reaches the URL where the recording started, it will replay the User's behavior stored in the file. In this way, you can **pass the required authentication on the Logged-in page**. For more information about the Event Clipboard, see [Analyzing with the Event Clipboard](#analyze.md#co6xdo_66).
 
 
-**Browser or HTTP client language**
+**Browser or HTTP Client Language**
 
-Sets what language is set in the browser where the web application being analysed is displayed, and what language the HTTP client can understand. This can be entered in locale format, represented by **Language_region** (default: `en_US`)
+Sets what language is set in the Browser where the Web application being analyzed is displayed and what language the HTTP client can understand. Input in the locale format represented by **Language_Region** (Default: `en_US`)
 
 
-**Crawling URL to unload**
+**Crawling URL to Unload**
 
-This option refers to a list of strings that are skipped if the URL contains certain words. You can enter one or more strings and separate them with an enter or comma (,).
+Crawling URL to Unload refers to a list of strings that will be skipped if the URL contains certain words. You can enter one or more strings and separate them with an Enter or comma (,).
 
-If any of the words in the list you enter for this option are included in the URL you want to collect, then the URL will not be collected. However, the URL will be skipped just before it is collected, so the browser can still visit it.
+If any of the words in the list you entered in this option are included in the URL you want to harvest, you will not harvest that URL. However, it will skip right before collecting the URL, so the Browser can still visit it.
 
 
-**Analyzing URL to unload**
+**Analyzing URL to Unload**
 
-This option is a list of strings that, if they contain certain words, will skip the URL without analysing it. You can enter one or more URLs and separate them with Enter or a comma (,).
+Excluded Analysis URLs is a list of strings that will skip the URL without analyzing it if it contains certain words. You can enter one or more URLs and separate them with an Enter or comma (,).
 
-If any of the words in the list you enter for this option are included in the URL you want to analyse, the URL will not be analysed.
+If any of the words in the list you entered for this option are included in the URL you want to analyze, the URL will not be analyzed.
 
-> **Tip:** If you want to exclude the behaviour of a page, rather than the entire page represented by a URL, from analysis, use the **Event Performance Exclusion Elements** option below.
+> **Tip:** If you want to exclude the behavior of a page from analysis, rather than all pages represented by URLs, enable the **Event Performance Excluded Elements** option below.
 
 
-**URL suffix to unload**
+**URL Suffix to Unload**
 
-This option is a **list of suffixes to skip without collecting URLs if they contain certain words or extensions at the end of the URL**. You can enter them in the form of extensions starting with a period (.) and separated by an enter or comma (,). (Default: `.js, .css, .xml, .jpg, .jpeg, .gif, .bmp, .png, .ico, .wma, .wav, .mp3, .wmv, .avi, .mp4, .mov, .exe, .zip, .tar, . tar.gz, .7z, .doc, .xls, .ppt, .docx, .xlsx, .pptx, .pdf, .txt, .csv, .jar, .eot, .woff2, .woff, .ttf, .otf, .apk, .hwp`)
+Unloaded URL Suffix is a **List of suffixes that will skip the URL without collecting it if it contains certain words or extensions at the end of the URL**. Input them in the format of extensions starting with a period (.) and separated by an Enter or comma (,) (Default: `.js, .css, .xml, .jpg, .jpeg, .gif, .bmp, .png, .ico, .wma, .wav, .mp3, .wmv, .avi, .mp4, .mov, .exe, .zip, .tar, . tar.gz, .7z, .doc, .xls, .ppt, .docx, .xlsx, .pptx, .pdf, .txt, .csv, .jar, .eot, .woff2, .woff, .ttf, .otf, .apk, .hwp`)
 
-If any of the words in the **list** entered in this option are included at the end of the URL you want to collect, you will not collect that URL. It will look at the attribute values of the HTML element, etc. before going to the URL and skip it, so you can skip it before downloading the file, etc.
+If any of the words in the **List** Input in this Option are included at the end of the URL you want to crawl, it will not crawl that URL. It will look at the Value of the HTML element's attributes, etc. before going to the URL and skip it, so you can skip it before downloading the File, etc.
 
 
-**Additional crawling URL**
+**Additional Crawling URL**
 
-If there are URLs you want to collect in addition to the URLs you entered when adding or setting up your project, you can enter them here. However, the **Additional collection scope** must be reachable from the URLs you set in the project or from URLs within the collection scope. You can enter one or more values as a string and separate them with an enter or comma (,).
+If there are URLs you want to collect in addition to the URLs you entered when Adding Project or Setting, you can collect additional URLs here. However, the **Additional Crawling URLs** must be reachable from the URLs you set in the Project or from URLs within the collection scope. You can enter one or more Values as a string and separate them with an Enter or comma (,).
 
-This option refers to URLs that are reachable from the URL being analysed but are not in the primary collection scope. Here, the primary collection scope of an analysis means URLs that are reachable from the analytics target URL entered in the project and have the same schema, such as http, and the same domain name or IP and port. For example, if your analytics target URL is `http://sparrow.com/main`, then even if you encounter a URL called `https://google.com` during ingestion, the rule of thumb is not to ingest it because it has a different schema or domain name. However, if you enter `google.com` in this option, you will collect `https://google.com`. You can enter more than one value and separate them with enter or a comma (,).
+Additional Crawling Scope refers to **URLs that can be reached from the Analyzing Target URL but are not in the Default Crawling Scope**. Here, the Default Collection Scope of an analysis refers to URLs that are reachable from the Analyzing Target URL entered in the project and have the same schema, such as http, and the same domain name or IP and port. Yes, if your Analyzing Target URL is `http://sparrow.com/main`, then even if you come across a URL called `https://google.com` when collecting, you shouldn't collect it because it has a different schema or domain name. However, if you input `google.com` into this Option, it will crawl `https://google.com`. You can Input more than one Value and separate them with an Enter or a comma (,).
 
-If the **list** you enter in this option contains any of the URLs in the list, they will be collected.
+If any of the URLs in the **List** you Input in this Option are Included, you will **Crawling URLs**.
 
 
-**Element to unload (CSS selector)**
+**Element to Unload (CSS Selector)**
 
-If the page contains any of the CSS selectors in the list you enter in this option, we will fire the events of both the HTML element and its child HTML elements. You can enter one or more CSS selectors to exclude and separate them with an Enter or comma (,).
+If the page contains any CSS selectors that fall into the List you Input in this Option, it will Perform the events of All of its HTML elements and child HTML elements. Input one or more CSS selectors to be Excluded and separate them with an Enter or comma (,).
 
-If the page contains any of the CSS selectors in the **list** entered in this option, the page will not fire all events on the corresponding HTML elements and child HTML elements. This is how you can **disable the logout button from being clicked** on a page.
+If any of the CSS selectors in the **List** you Input in this Option are Included on the page, they will **not** perform the events of their corresponding HTML elements and child HTML elements. In this way, you can **Prevent clicking the Logged-out button on a page** by.
 
 
-**Additional element (CSS selectors)**
+**Additional Element (CSS selector)**
 
-If the page contains at least one CSS selector from the list entered in this option, it will fire all of the events of its HTML elements and child HTML elements. You can enter one or more CSS selectors to add and separate them with an Enter or comma (,).
+If the page contains at least one CSS Selector from the List you Input in this Option, it will Perform All of the events of its HTML elements and child HTML elements. Input one or more CSS selectors to add and separate them with an Enter or comma (,).
 
-If the page contains any of the CSS selectors in the **list** entered in this option, it will fire the events of both the HTML element and its child HTML elements. In this way, you can **fire** elements on your page that are not included in the event, such as tags.
+If any of the CSS Selectors in the **List** you Input in this Option are included on the page, they will **perform the events of all of their corresponding HTML elements and child HTML elements**. In this way, you can **fire** elements on your page that are not Included in the event, such as Tags.
 
 
-**Element to unload (XPath)**
+**Element to Unload (XPath)**
 
-If the page contains any of the XPaths in the list entered in this option, it will not fire all events for that HTML element and its child HTML elements. In this way, you can prevent users from clicking the Logout button on a page. You can enter one or more XPaths to exclude and separate them with an Enter or comma (,).
+If the page contains any of the XPaths in the List you Input in this Option, it will not perform All of the events for that HTML element and its child HTML elements. In this way, you can prevent users from clicking the Logged-out button on a page. Input one or more XPaths to be Excluded and separate them with an Enter or comma (,).
 
-If the page contains any of the XPaths in the **list** entered in this option, the page will not fire any events on that HTML element and its child HTML elements. In this way, you can **disable the logout button from being clicked** on a page.
+If any of the XPaths in the **List** you Input in this Option are Included in the page, it will prevent All of the events of that HTML element and its child HTML elements from being fired. In this way, you can **Prevent clicking the Logged-out button on a page** by.
 
 
-**Additional element (XPath)**
+**Additional Element (XPath)**
 
-If the page contains any of the XPaths in the list you enter for this option, it will fire the events of both the HTML element and its child HTML elements. You can enter one or more XPaths to add and separate them with an Enter or comma (,).
+If the page contains any XPaths from the List you Input in this Option, it will fire All of the events of the corresponding HTML elements and child HTML elements. Input one or more XPaths to add, and separate them with an Enter or comma (,).
 
-If any of the XPaths in the **list** you enter in this option are included on the page, they will fire the events of both the HTML element and its child HTML elements. In this way, you can **fire elements on your page that are not included in the event, such as tags.
+If any of the XPaths in the **List** you Input in this Option are included on the page, they will **fire the events of that HTML element and all of its child HTML elements**. In this way, you can **fire elements on the page that are not included in the event, such as Tags**.
 
 
-**Custom HTTP header**
+**Custom HTTP Header**
 
-The custom HTTP header refers to a list of header names and values that are included in the HTTP request to be sent when collecting the URL. Entering the name and value of a header in this option will add that header to all HTTP request messages. You can add one or more headers by clicking the **Add** button and delete them by clicking the trash can icon.
+Custom HTTP Headers refers to a List of Names and Values of Headers that are included in the HTTP Request to be sent when Crawling URLs. Inputting the Name and Value of a Header in this Option will add that Header to all HTTP Request Messages. You can add one or more headers by clicking the **Add** button, and more by clicking the trash can icon.
 
-This option requires you to **Enter headers that are required in HTTP requests**, which may slow down collection as it sets up a proxy in the browser.
+This Option requires you to **Input Headers that are required for HTTP Requests**, which may slow down Crawling as it sets up a proxy in the Browser.
 
-With the exception of the `Cookie` header, **if you enter multiple headers with the same name, only one of them will be applied**. So if you need to enter multiple values, separate the header values with `;`. If a header with the same name already exists, it will be removed and a custom header will be added. To use custom headers, the host of the URL to be analysed must not be set to `localhost` or `127.0.0.1`. If you want to analyse a locally located web application, you must enter the local IP address.
-
+Except for the `Cookie` header, **if you enter multiple headers with the same name, only one of them will be applied**. So, if you need to enter multiple values, please enter the header values separated by `;`. If a header with the same name already exists, it will be cleared and the custom header will be added. To enable custom headers, the Host of the Analyzing Target URL must not be set to `localhost` or `127.0.0.1`. If you are analyzing a locally located Web application, you must Input the local IP Address.
 
