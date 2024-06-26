@@ -116,7 +116,7 @@ HTTP 클라이언트 대기 시간은 **HTTP 클라이언트가 분석을 수행
 이 옵션에 입력된 **값이 클수록 웹 서버와의 네트워크 연결 상태가 좋지 않아 지연이 발생한 경우에도 분석이 정상적으로 진행**됩니다. 단, 웹 서버와의 연결 끊김이 지속적으로 발생하면 분석 시간이 늘어날 가능성이 높습니다. 이 옵션에 입력된 **값이 적을수록 분석 속도는 빨라지지만 웹 서버와의 네트워크 연결 상태가 좋지 않아서 지연이 발생한 경우 URL을 분석하지 못할 가능성**이 있습니다.
 
 
-## 웹 페이지 설정 옵션 
+### 웹 페이지 설정 옵션 
 
 **로그인 기록 파일**
 
@@ -312,7 +312,7 @@ The higher the **value entered for this option, the faster the analysis will pro
 
 
 
-## Web page settings options
+### Web page settings options
 
 **Login History File**
 

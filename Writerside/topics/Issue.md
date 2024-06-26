@@ -5,7 +5,9 @@ switcher-label: Language
 # Issue
 
 
-## 이슈 유형 {switcher-key="한국어"}
+## 이슈 {switcher-key="한국어"}
+
+### 이슈 유형 
 
 이슈는 해당 이슈를 검출한 분석 엔진에 따라서 **소스코드 이슈**, **컴포넌트 이슈**, **웹 취약점 이슈**로 나눌 수 있습니다.
 
@@ -18,14 +20,14 @@ switcher-label: Language
 - 웹 취약점 이슈: 웹 취약점 분석을 통해 검출된 이슈입니다.
 
 
-## 이슈 위험도 
+### 이슈 위험도 
 
 Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도에 따라 5단계로 구분합니다. 사용자는 위험도를 통해 검출된 이슈가 얼마나 위험한 문제인지를 파악할 수 있습니다. 예를 들어, 소스코드 이슈에서 **매우 높음** 위험도는 당장 해결해야 하는 시급한 문제를 가리키며, **매우 낮음**은 보안이나 품질에 큰 영향을 미치지 않는 문제를 포함합니다.
 
 이러한 위험도는 이슈를 검출하는 규칙의 **위험도**와 동일합니다. 위험도는 이슈 검출 규칙이 기초하고 있는 컴플라이언스의 설명에 기반하여 지정됩니다. 가장 위험한 이슈부터 차례대로 **매우 높음**, **높음**, **보통**, **낮음**, **매우 낮음**과 같은 5개의 단계로 구분됩니다.
 
 
-## 이슈 상태 
+### 이슈 상태 
 
 이슈가 검출되면 해당 이슈를 확인하고 해결하거나, 오탐 또는 다른 원인으로 인해 이슈에서 제외하도록 처리해야 합니다. 이슈를 어떻게 처리했는지 표시하기 위해서 이슈마다 **이슈 상태**를 다음과 같이 표시합니다.
 
@@ -34,7 +36,7 @@ Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도�
 - 해결: 담당자가 해당 이슈에서 발견된 문제를 해결함.
 
 
-## 이슈 제외 
+### 이슈 제외 
 
 검출된 이슈 중에는 잠재적으로 문제가 될 가능성이 있을 뿐 실제로 보안 취약점 혹은 품질 문제라고 볼 수 없는 경우가 있습니다. 이러한 경우 보안 진단 전문가라고 할 수 있는 사용자가 특정 이슈를 문제에서 제외시킬 수 있도록 만든 기능이 **이슈 제외**입니다.
 
@@ -42,7 +44,9 @@ Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도�
 
 
 
-## Issue type {switcher-key="English"}
+## Issue {switcher-key="English"}
+
+### Issue type
 
 Issues can be categorised as Source Issues, Supply Chain Issues, or Web Vulnerability Issues, depending on the analysis engine that detected the issue.
 
@@ -55,14 +59,14 @@ Issues can be categorised as Source Issues, Supply Chain Issues, or Web Vulnerab
 - Web vulnerability issues: Issues detected through web vulnerability analysis.
 
 
-## Issue risk 
+### Issue risk 
 
 Sparrow Cloud categorises recent issues detected in your project into five levels of risk. The risk level gives users an idea of how dangerous a detected issue is. For example, in source code issues, a **Very High** risk level indicates urgent issues that need to be addressed immediately, while **Very Low** includes issues that do not have a significant impact on security or quality.
 
 These risk levels are the same as the risk level of the rule that detects the issue. The risk level is assigned based on the description of the compliance that the issue detection rule is based on. There are five levels of risk, starting with the most risky issues and moving up: **Very High**, **High**, **Moderate**, **Low**, and **Very Low**.
 
 
-## Issue status 
+### Issue status 
 
 When an issue is detected, it needs to be verified and resolved, or processed to exclude it from the issue due to false positives or other causes. To indicate how the issue has been handled, we display an **issue status** for each issue as follows
 
@@ -71,7 +75,7 @@ When an issue is detected, it needs to be verified and resolved, or processed to
 - Resolved: The rep has resolved the issue found in the issue.
 
 
-## Exclude an issue 
+### Exclude issues 
 
 Sometimes detected issues are only potentially problematic and not actually security vulnerabilities or quality issues. In these cases, the **Issue Exclusion** feature was created to allow users who are experts in security diagnostics to exclude certain issues from the problem.
 
