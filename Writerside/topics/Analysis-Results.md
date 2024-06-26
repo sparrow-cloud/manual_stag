@@ -14,6 +14,27 @@ switcher-label: Language
 <img src="projdetails01.png" alt="Alt text" width="450"/>
 
 
+### 이슈 
+
+**이슈**는 분석 대상을 분석한 결과로써 발견한 보안 취약점 및 품질 관련 문제를 가리킵니다. **이슈** 탭에 표시되는 **이슈 목록**에는 Sparrow Cloud에서 검출한 이슈가 포함되어 있습니다. 이슈는 검출한 도구에 따라서 **소스코드 이슈**, **컴포넌트 이슈**, **웹 취약점 이슈**로 분류됩니다.
+
+이슈에 대한 더 자세한 내용은 [이슈](Issue.md)를 참고하세요.
+
+
+### 자산 
+
+Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은 분석에 사용한 분석 대상에서 생성됩니다: 분석 대상에 포함된 파일이나 하위 URL을 식별하고 이 정보로 **자산 목록**을 보여줍니다. 분석 대상에 따라서 소스코드 분석과 컴포넌트 분석에 사용된 리포지토리에서 식별한 자산은 **파일**로 표시되고, 웹 취약점 분석에 사용된 웹 페이지에서 시결한 자산은 **URL**로 표시됩니다.
+
+자산에 대한 더 자세한 내용은 [자산](Asset.md)을 참고하세요.
+
+
+### 컴포넌트 
+
+**컴포넌트**란 특정 프로그램을 식별할 수 있는 최소 단위이며 라이선스가 필요한 소프트웨어, 독점 소프트웨어, 오픈소스 소프트웨어 등을 가리킵니다. Sparrow Cloud에서는 분석 대상 파일에 포함된 소프트웨어가 무엇인지를 식별하기 위해 파일을 컴포넌트로 나누어서 분석합니다. 그리고 컴포넌트가 사용하고 있는 오픈소스 라이선스를 **컴포넌트** 탭의 개별 컴포넌트에 정리합니다. 또한, 특정 라이선스에 해당하는 컴포넌트는 이슈 목록에서 이슈로 검출됩니다.
+
+컴포넌트에 대한 더 자세한 내용은 [컴포넌트](Component.md)를 참고하세요.
+
+
 ## Analysis results {switcher-key="English"}
 
 The results you can see in your project include the findings from your **recent analyses**. In this context, "recent analyses" includes two things 1) the last analysis performed on **file** assets, including repositories and compressed files, and 2) the last analysis performed on **URL** assets, which point to web pages. This means that up to two analyses can be shown together in Recent Analyses.
@@ -25,43 +46,21 @@ To see detailed results, click the four tabs on the right side of the project: *
 <img src="projdetails01.png" alt="Alt text" width="450"/>
 
 
-
-### 이슈 {switcher-key="한국어"}
-
-**이슈**는 분석 대상을 분석한 결과로써 발견한 보안 취약점 및 품질 관련 문제를 가리킵니다. **이슈** 탭에 표시되는 **이슈 목록**에는 Sparrow Cloud에서 검출한 이슈가 포함되어 있습니다. 이슈는 검출한 도구에 따라서 **소스코드 이슈**, **컴포넌트 이슈**, **웹 취약점 이슈**로 분류됩니다.
-
-이슈에 대한 더 자세한 내용은 [이슈](Issue.md)를 참고하세요.
-
-
-### Issues {switcher-key="English"}
+### Issues 
 
 **Issues** are security vulnerabilities and quality issues found as a result of analysing your analytics targets. The **Issues list** displayed in the **Issues** tab contains the issues detected by Sparrow Cloud. Issues are categorised as source code issues, supply chain issues, or web vulnerability issues, depending on the tool that detected them.
 
 For more information about the issues, see [Issue](Issue.md).
 
 
-### 자산 {switcher-key="한국어"}
-
-Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은 분석에 사용한 분석 대상에서 생성됩니다: 분석 대상에 포함된 파일이나 하위 URL을 식별하고 이 정보로 **자산 목록**을 보여줍니다. 분석 대상에 따라서 소스코드 분석과 컴포넌트 분석에 사용된 리포지토리에서 식별한 자산은 **파일**로 표시되고, 웹 취약점 분석에 사용된 웹 페이지에서 시결한 자산은 **URL**로 표시됩니다.
-
-자산에 대한 더 자세한 내용은 [자산](Asset.md)을 참고하세요.
-
-
-### Assets {switcher-key="English"}
+### Assets 
 
 Sparrow Cloud displays analysis results called **Assets**. Assets are generated from the analytics target you used for analysis: It identifies the files or sub URLs contained in the analyse target and uses this information to show a list of **assets**. Depending on the analysis target, assets identified from repositories used for source code analysis and supply chain analysis are shown as **Files**, while assets sourced from web pages used for web vulnerability analysis are shown as **URLs**.
 
 For more information about assets, see [Asset](Asset.md).
 
 
-### 컴포넌트 {switcher-key="한국어"}
-
-**컴포넌트**란 특정 프로그램을 식별할 수 있는 최소 단위이며 라이선스가 필요한 소프트웨어, 독점 소프트웨어, 오픈소스 소프트웨어 등을 가리킵니다. Sparrow Cloud에서는 분석 대상 파일에 포함된 소프트웨어가 무엇인지를 식별하기 위해 파일을 컴포넌트로 나누어서 분석합니다. 그리고 컴포넌트가 사용하고 있는 오픈소스 라이선스를 **컴포넌트** 탭의 개별 컴포넌트에 정리합니다. 또한, 특정 라이선스에 해당하는 컴포넌트는 이슈 목록에서 이슈로 검출됩니다.
-
-컴포넌트에 대한 더 자세한 내용은 [컴포넌트](Component.md)를 참고하세요.
-
-
-### Components {switcher-key="English"}
+### Components 
 
 **Components** are the smallest units that can identify a specific program and refers to software that requires a licence, proprietary software, open source software, etc. Sparrow Cloud breaks down files into components to identify what software is included in the file being analysed, and organises the open source licences that the components are using into individual components on the Components tab. Components that are under a specific licence are also detected as issues in the issue list.
 

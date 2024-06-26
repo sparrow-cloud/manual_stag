@@ -11,16 +11,8 @@ GitHub 저장소나 URL을 분석하려면 **프로젝트**에서 분석 대상�
 1. **Sparrow Cloud**에 로그인한 다음, 분석하려는 프로젝트를 클릭하세요.
 2. **프로젝트 수정하기** 버튼을 클릭하세요.
 
-## Setting up analyses {switcher-key="English"}
 
-To analyse a GitHub repository or URL, you need to set up a **Source repository** or **Web page to analyse** in your **Project**. **Source repository refers to the repository you created with your GitHub account and points to the specific repository you set up in your project. When you perform an analysis, all files contained in that repository will be analysed. The **Web page to analyse** is a web page in the form of a URL that is accessible over the internet and is set by you. When you perform an analysis, you can analyse 1) the subpages that you can navigate to from that URL, and 2) the pages that you set as analysis options.
-
-
-1. Sign in to **Sparrow Cloud**, then click the project you want to analyse.
-2. Click the **Modify project** button.
-
-
-### 소스코드 저장소 설정하기 {switcher-key="한국어"}
+### 소스코드 저장소 설정하기 
 
 <img src="modifyProj01.png" alt="Alt text" width="450"/>
 
@@ -30,47 +22,20 @@ To analyse a GitHub repository or URL, you need to set up a **Source repository*
 6. 프로젝트 정보 슬라이드에서 **수정하기** 버튼을 클릭하세요.
 
 
-이제 **소스코드 저장소**를 설정했습니다. 여기에서 선택한 저장소에 저장된 파일을 **소스코드** 및 **오픈소스** 분석에서 사용하게 됩니다.
-
-### Setting up the source code repository {switcher-key="English"}
-
-<img src="modifyProj01.png" alt="Alt text" width="450"/>.
-
-3. If you don't have GitHub authentication, click the **GitHub authentication** button in the **Source repository** and log in to GitHub.
-4. If you have registered an account with GitHub or have already authenticated, click the **Select a GitHub repository** button.
-5. Select the repository you want to analyse from the slides.
-6. Click the **Modify** button on the project information slide.
-
-
-You have now set up your **Source code repository**, where files stored in the selected repository will be used in your **Source code** and **Open source** analyses.
-
-
-### 분석 대상 웹 페이지 설정하기 {switcher-key="한국어"}
+### 분석 대상 웹 페이지 설정하기 
 
 <img src="modifyProj03.png" alt="Alt text" width="450"/>
 
 7. **프로젝트 수정** 슬라이드에서 **웹 페이지 설정** 버튼을 클릭하세요.
 8. **URL**에 분석 대상인 웹 페이지의 주소를 입력하고 **연결 테스트** 버튼을 클릭하여 연결을 확인하세요.
 > **Tip**: URL은 `http://`로 시작하는 URL 형식으로 입력해야 합니다.
-9. 필요한 경우 **분석 옵션**을 조정하고 **설정하기** 버튼을 클릭하세요. 
+9. 필요한 경우 **분석 옵션**을 조정하고 **설정하기** 버튼을 클릭하세요.
 > **Tip**: 사용자는 웹 취약점 분석 옵션을 조정해서 웹 페이지를 어떤 범위로 어느 정도나 분석할지 결정할 수 있습니다. **분석 옵션**에 대한 자세한 설명은 [여기](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035)를 참고하세요.
 10. [키 파일 저장하기](#analysissetting.html#hpery9_1989)를 참고하여 **키 파일**을 다운로드해서 분석 대상 웹 페이지에 저장하세요.
 11. 프로젝트 정보 슬라이드에서 **수정하기** 버튼을 클릭하세요.
 
-### Setting up web pages to analyse {switcher-key="English"}
 
-<img src="modifyProj03.png" alt="Alt text" width="450"/>
-
-7. On the **Modify project** slide, click the **Set up web page** button.
-8. In **URL**, enter the address of the web page you want to analyse and click the **Test Connection** button to check the connection.
-> **Tip**: The URL must be entered in URL format starting with `http://`.
-9. Adjust the **Analysis options** if necessary and click the **Setup** button.
-> **Tip**: Users can adjust the web vulnerability analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035).
-10. See [Saving a key file](#analysissetting.html#hpery9_1989) to download the **key file** and save it to the web page being analysed.
-11. Click the **Modify** button on the project information slide.
-
-
-#### 키 파일 저장하기 {switcher-key="한국어"}
+#### 키 파일 저장하기 
 
 **키 파일**은 Sparrow Cloud에서 사용자가 프로젝트에 설정한 웹 페이지 URL을 타겟으로 삼아서 생성한 파일입니다. 사용자가 설정한 웹 페이지를 소유했는지를 확인하기 위해서 사용자에게 **키 파일**을 저장하도록 만듭니다. 만약에 사용자가 실수로 아무런 관계 없는 웹 페이지를 분석하도록 설정했더라도 키 파일이 없다면 분석이 시작되지 않게 됩니다.
 키 파일을 저장하는 방법은 다음과 같습니다.
@@ -85,7 +50,45 @@ You have now set up your **Source code repository**, where files stored in the s
 > **Tip**: **루트 디렉토리**는 일반적으로 분석하려는 프로그램이 저장되어 있는 최상위 폴더인 경우가 많습니다.
 
 
-#### Save the key file {switcher-key="English"}
+
+## Setting up analyses {switcher-key="English"}
+
+To analyse a GitHub repository or URL, you need to set up a **Source repository** or **Web page to analyse** in your **Project**. **Source repository refers to the repository you created with your GitHub account and points to the specific repository you set up in your project. When you perform an analysis, all files contained in that repository will be analysed. The **Web page to analyse** is a web page in the form of a URL that is accessible over the internet and is set by you. When you perform an analysis, you can analyse 1) the subpages that you can navigate to from that URL, and 2) the pages that you set as analysis options.
+
+
+1. Sign in to **Sparrow Cloud**, then click the project you want to analyse.
+2. Click the **Modify project** button.
+
+
+이제 **소스코드 저장소**를 설정했습니다. 여기에서 선택한 저장소에 저장된 파일을 **소스코드** 및 **오픈소스** 분석에서 사용하게 됩니다.
+
+### Setting up the source code repository 
+
+<img src="modifyProj01.png" alt="Alt text" width="450"/>.
+
+3. If you don't have GitHub authentication, click the **GitHub authentication** button in the **Source repository** and log in to GitHub.
+4. If you have registered an account with GitHub or have already authenticated, click the **Select a GitHub repository** button.
+5. Select the repository you want to analyse from the slides.
+6. Click the **Modify** button on the project information slide.
+
+
+You have now set up your **Source code repository**, where files stored in the selected repository will be used in your **Source code** and **Open source** analyses.
+
+
+### Setting up web pages to analyse 
+
+<img src="modifyProj03.png" alt="Alt text" width="450"/>
+
+7. On the **Modify project** slide, click the **Set up web page** button.
+8. In **URL**, enter the address of the web page you want to analyse and click the **Test Connection** button to check the connection.
+> **Tip**: The URL must be entered in URL format starting with `http://`.
+9. Adjust the **Analysis options** if necessary and click the **Setup** button.
+> **Tip**: Users can adjust the web vulnerability analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035).
+10. See [Saving a key file](#analysissetting.html#hpery9_1989) to download the **key file** and save it to the web page being analysed.
+11. Click the **Modify** button on the project information slide.
+
+
+#### Save the key file 
 
 **A key file is a file generated by Sparrow Cloud that targets a web page URL that you set up in your project. We require users to save the key file to ensure that they own the web page they set up. If a user accidentally sets an unrelated web page to be analysed, the analysis will not start without the key file.
 Here's how to save the key file
