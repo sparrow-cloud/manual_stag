@@ -24,7 +24,7 @@ switcher-label: Language
 
 Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도에 따라 5단계로 구분합니다. 사용자는 위험도를 통해 검출된 이슈가 얼마나 위험한 문제인지를 파악할 수 있습니다. 예를 들어, 소스코드 이슈에서 **매우 높음** 위험도는 당장 해결해야 하는 시급한 문제를 가리키며, **매우 낮음**은 보안이나 품질에 큰 영향을 미치지 않는 문제를 포함합니다.
 
-이러한 위험도는 이슈를 검출하는 규칙의 **위험도**와 동일합니다. 위험도는 이슈 검출 규칙이 기초하고 있는 컴플라이언스의 설명에 기반하여 지정됩니다. 가장 위험한 이슈부터 차례대로 **매우 높음**, **높음**, **보통**, **낮음**, **매우 낮음**과 같은 5개의 단계로 구분됩니다.
+이러한 위험도는 이슈를 검출하는 규칙의 **위험도**와 동일합니다. 위험도는 이슈 검출 규칙이 기초하고 있는 컴플라이언스 또는 가이드의 설명에 기반하여 지정됩니다. 가장 위험한 이슈부터 차례대로 **매우 높음**, **높음**, **보통**, **낮음**, **매우 낮음**과 같은 5개의 단계로 구분됩니다.
 
 
 ### 이슈 상태 
@@ -63,7 +63,7 @@ Issues can be categorised as Source Issues, Supply Chain Issues, or Web Vulnerab
 
 Sparrow Cloud categorises recent issues detected in your project into five levels of risk. The risk level gives users an idea of how dangerous a detected issue is. For example, in source code issues, a **Very High** risk level indicates urgent issues that need to be addressed immediately, while **Very Low** includes issues that do not have a significant impact on security or quality.
 
-These risk levels are the same as the risk level of the rule that detects the issue. The risk level is assigned based on the description of the compliance that the issue detection rule is based on. There are five levels of risk, starting with the most risky issues and moving up: **Very High**, **High**, **Moderate**, **Low**, and **Very Low**.
+These risk levels are the same as the risk level of the rule that detects the issue. The risk level is assigned based on the description of the compliance or guidelines that the issue detection rule is based on. There are five levels of risk, starting with the most risky issues and moving up: **Very High**, **High**, **Moderate**, **Low**, and **Very Low**.
 
 
 ### Issue status 
@@ -77,7 +77,7 @@ When an issue is detected, it needs to be verified and resolved, or processed to
 
 ### Exclude issues 
 
-Sometimes detected issues are only potentially problematic and not actually security vulnerabilities or quality issues. In these cases, the **Issue Exclusion** feature was created to allow users who are experts in security diagnostics to exclude certain issues from the problem.
+Sometimes detected issues are only potentially problematic and not actually security vulnerabilities or quality issues. In these cases, the **Issue Exclusion** allows users who are experts in security diagnostics to exclude certain issues from the problem.
 
 To exclude an issue, click the **Exclude issue** button on the issue detail page. Issues excluded through this feature are designed to not appear in the issue list. They are also not included in the issue count for the project.
 

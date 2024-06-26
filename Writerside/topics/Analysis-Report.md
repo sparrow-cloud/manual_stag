@@ -26,11 +26,11 @@ Sparrow Cloud provides reports on the analysis in PDF format. Export the report 
 <img src="exportReport.png" alt="Alt text" width="450"/>
 
 1. navigate to your project.
-2. click the **Get analytics list** button at the top of the page.
+2. click the **View analysis list** button at the top of the page.
 3. Click the analysis for which you want to print a report.
 4. Click the **Export report** button below the slide.
 5. Enter a filename for the report you want to output.
 6. Click the **Export** button.
 
-> **Tip**: If the analytics report file is too large, it will be split into multiple files.
+> **Tip**: If the analysis report file is too large, it will be split into multiple files.
  

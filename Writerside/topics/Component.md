@@ -34,11 +34,11 @@ Software Bill Of Materials (SBOM)는 분석한 대상 소프트웨어에서 서�
 
 ### Identification type
 
-Displays the type of target used to identify the component: **Binary**, **Dependencies**, **Source Code**, **Snippets**, **SBOM**.
+Displays the type of target used to identify the component: **Binary**, **Dependency**, **Source Code**, **Snippet**, **SBOM**.
 
 - Binary: means that the target analysed is a binary file.
 - Dependency: If a dependency file was analysed, such as **pom.xml**, which lists the libraries used by the software.
-- Source code: source code is analysed to generate and compare hash values of the source code.
+- Source code: Source code is analysed to generate and compare hash values of the source code.
 - Snippets: Marks header files (.h or .hpp) among C/C++ language files as the type to analyse.
 - SBOM: Indicates that the SBOM file, which lists the components that make up the software, is analysed.
 

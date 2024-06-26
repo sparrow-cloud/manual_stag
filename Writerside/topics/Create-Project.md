@@ -26,7 +26,7 @@ switcher-label: Language
 
 Create a project before performing any analysis. You can create a project by entering a project name.
 
-1. Go to the **All Project List**.
+1. Go to the **Project List**.
 
 <img src="프로젝트목록00.png" alt="Alt text" width="450"/>.
 
