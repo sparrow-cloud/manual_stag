@@ -23,12 +23,11 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 </tr>
 <tr>
 <td>소스코드, 컴포넌트 및 웹 취약점 분석 무료</td>
-<td>정적 분석을 위한
-향상된 분석 결과 제공</td>
-<td>컴포넌트와 오픈소스 라이선스 식별
-및 SBOM 생성</td>
+<td>정적 분석을 위한 향상된 분석 결과 제공, 
+보고서 생성</td>
+<td>컴포넌트와 오픈소스 라이선스 식별, 보고서 및 SBOM 생성</td>
 <td>웹 애플리케이션 점검과
-향상된 분석 결과 제공</td>
+향상된 분석 결과 제공, 보고서 생성</td>
 </tr>
 <tr>
 <td>₩ 0원</td>
@@ -68,6 +67,7 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 - 분석할 수 있는 GitHub 저장소 종류가 private으로 확장됩니다.
 - 컴포넌트 분석을 통해 식별된 오픈소스 라이선스를 확인할 수 있습니다.
 - 웹 취약점 분석에서 더 많은 규칙을 사용하고 분석 깊이도 증가합니다.
+- 구독한 분석의 분석 보고서 혹은 컴포넌트 분석의 경우 SBOM을 출력할 수 있습니다. 
 
 > **Tip**: 유료 사용자이더라도 GitHub App을 설치한 위치에 따라 분석할 수 있는 저장소의 종류에 차이가 발생할 수 있습니다. 자세한 내용은 [GitHub App 설치 위치](http://localhost:63342/Cloud_Guide/preview/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%99%80-%EB%B6%84%EC%84%9D.html#github-app)를 참고하세요.
 
@@ -91,13 +91,14 @@ Sparrow Cloud pricing plans are as follows
 <td>Web Vulnerability Analysis (Pro)</td>
 </tr>
 <tr>
-<td>Source code, supply chain and web vulnerability analysis for free</td>
-<td>Enhanced analysis results for static analysis
-for static analysis</td>
-<td>Identifies components and open source licences
-and generate SBOMs</td>
+<td>Source code, supply chain and web vulnerability analysis for free.</td>
+<td>Enhanced analysis results for source code analysis.
+ Analysis report.</td>
+<td>Identifies components and open source licences.
+Generates analysis report and SBOMs.</td>
 <td>Checks web applications and
-and provide enhanced analysis results</td>
+and provides enhanced analysis results.
+ Analysis report.</td>
 </tr>
 <tr>
 <td>free</td>
@@ -135,8 +136,9 @@ per person/month</td>
 If you are a free user, you can still experience all three services, but with some restrictions. Paid users get enhanced services in the following areas
 - You are not limited to the number of analyses you can perform.
 - The types of GitHub repositories that can be analysed are expanded to include private.
-- You can see open source licences identified through supply chain analysis.
+- You can check open source licences identified through supply chain analysis.
 - Web vulnerability analysis uses more rules and increases the depth of analysis.
+- You can print out the analysis report for the subscription, or the SBOM file for Supply Chain Analysis.
 
 > **Tip**: Even if you are a paid user, there may be differences in the types of repositories you can analyse depending on where you have installed the GitHub App. For more information, see [Where to install GitHub App](http://localhost:63342/Cloud_Guide/preview/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%99%80-%EB%B6%84%EC%84%9D.html#github-app).
 
