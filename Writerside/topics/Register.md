@@ -56,7 +56,7 @@ Sparrow Cloud 서비스를 사용하려면 사용자 계정을 등록해야 합�
 
 <img src="signup_Github02.png" alt="Alt text" width="450"/>
 
-> **Tip**: Sparrow Cloud에서는 GitHub의 아이디, 이메일과 같은 개인 정보를 사용합니다. 필요한 경우, **Confirm access** 페이지에서 비밀번호를 한 번 더 입력하세요.
+> **Tip**: Sparrow Cloud에서는 GitHub의 아이디, 이메일과 같은 개인 정보를 사용합니다. 필요한 경우, GitHub의 **Confirm access** 페이지에서 비밀번호를 한 번 더 입력하세요.
 
 
 
@@ -110,6 +110,6 @@ To use the Sparrow Cloud service, you need to register a user account. Users can
 
 <img src="signup_Github02.png" alt="Alt text" width="450"/> 
 
-> **Tip**: Sparrow Cloud uses your personal information, such as your GitHub username and email. If necessary, enter your password one more time on the **Confirm access** page.
+> **Tip**: Sparrow Cloud uses your personal information, such as your GitHub username and email. If necessary, enter your password one more time on the GitHub **Confirm access** page.
 
 
