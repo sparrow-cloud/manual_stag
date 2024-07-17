@@ -2,7 +2,7 @@
 switcher-label: Language
 ---
 
-# Subscription
+# Pricing
 
 
 ## 요금제 {switcher-key="한국어"}
@@ -86,7 +86,7 @@ Sparrow Cloud pricing plans are as follows
 <table>
 <tr>
 <td>Free</td>
-<td>Source code analysis (Pro)</td>
+<td>Source Code Analysis (Pro)</td>
 <td>Supply Chain Analysis (Pro)</td>
 <td>Web Vulnerability Analysis (Pro)</td>
 </tr>
