@@ -9,15 +9,15 @@ switcher-label: Language
 
 ### 이슈 유형 
 
-이슈는 해당 이슈를 검출한 분석 엔진에 따라서 **소스코드 이슈**, **컴포넌트 이슈**, **웹 취약점 이슈**로 나눌 수 있습니다.
+이슈는 해당 이슈를 검출한 분석 엔진에 따라서 **소스코드 이슈**, **오픈소스 이슈**, **웹취약점 이슈**로 나눌 수 있습니다.
 
 - 소스코드 이슈: 소스코드 분석을 통해 검출된 이슈입니다.
   - 보안 취약점: 소스코드에 잠재된 취약점 중 소프트웨어 보안과 관련된 문제입니다.
   - 품질 문제: 소스코드에 보안 문제를 발생시키지 않지만 품질 측면에서 검토해야 하는 문제입니다.
-- 컴포넌트 이슈: 컴포넌트 분석을 통해 검출된 이슈입니다.
-  - 취약한 컴포넌트: 컴포넌트 자체에서 취약점이 발견되었기 때문에 취약하다고 판단되는 문제입니다.
-  - 라이선스: 컴포넌트에서 사용하는 오픈소스 라이선스 중에서 카피레프트 라이선스 혹은 허용적 라이선스가 포함된 문제입니다.
-- 웹 취약점 이슈: 웹 취약점 분석을 통해 검출된 이슈입니다.
+- 오픈소스 이슈: 오픈소스 분석을 통해 검출된 이슈입니다.
+  - 취약한 컴포넌트: 오픈소스 컴포넌트 자체에서 취약점이 발견되었기 때문에 취약하다고 판단되는 문제입니다.
+  - 라이선스: 컴포넌트에서 사용하는 오픈소스 라이선스가 포함된 문제입니다.
+- 웹취약점 이슈: 웹취약점 분석을 통해 검출된 이슈입니다.
 
 
 ### 이슈 위험도 
@@ -48,15 +48,15 @@ Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도�
 
 ### Issue type
 
-Issues can be categorised as Source Issues, Supply Chain Issues, or Web Vulnerability Issues, depending on the analysis engine that detected the issue.
+Issues can be categorised as Source Issues, Open Source Issues, or Web Vulnerability Issues, depending on the analysis engine that detected the issue.
 
 - Source issues: Issues detected through source code analysis.
   - Security vulnerability: A potential vulnerability in the source code that is related to software security.
   - Quality issues: Issues that do not cause security issues in the source code, but should be reviewed from a quality perspective.
-- Supply Chain issues: Issues detected through supply chain analysis.
-  - Vulnerable component: An issue that is considered vulnerable because a vulnerability has been found in the component itself.
-  - Licence: Issues where the open source licence used by the component contains a copyleft or permissive licence.
-- Web vulnerability issues: Issues detected through web vulnerability analysis.
+- Open Source issues: Issues detected through open source analysis.
+  - Vulnerable component: An issue that is considered vulnerable because a vulnerability has been found in the open source component itself.
+  - Licence: Issues from the open source licence used by the component.
+- Web vulnerability issues: Issues detected through web app analysis.
 
 
 ### Issue risk 

@@ -82,7 +82,7 @@ You have now set up your **Source code repository**, where files stored in the s
 8. In **URL**, enter the address of the web page you want to analyse and click the **Test Connection** button to check the connection.
 > **Tip**: The URL must be entered in URL format starting with `http://`.
 9. Adjust the **options** if necessary and click the **Set** button.
-> **Tip**: Users can adjust the web vulnerability analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035).
+> **Tip**: Users can adjust the web app analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035).
 10. See [Saving a key file](#analysissetting.html#hpery9_1989) to download the **key file** and save it to the web page being analysed.
 11. Click the **Modify** button on the project information slide.
 

@@ -24,6 +24,8 @@ Sparrow Cloud에 방문하신 것을 환영합니다. 이 페이지에서는 Spa
 
 [SBOM 내보내기](Export-SBOM.md)
 
+[구독 목록](Subscription-List.md)
+
 [FAQ](FAQ.md)
 
 {type="text"}
@@ -50,6 +52,8 @@ Go to
 [Analysis Report](Analysis-Report.md)
 
 [Export SBOM](Export-SBOM.md)
+
+[Subscription List](Subscription-List.md)
 
 [FAQ](FAQ.md)
 

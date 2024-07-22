@@ -11,5 +11,5 @@ switcher-label: Language
 
 ## Frequently Asked Questions {switcher-key="English"}
 
-This page provides tips and tricks to get you started. Learn more about subscriptions and pricing, analysis coverage of GitHub repositories, web vulnerability analysis options, and more.
+This page provides tips and tricks to get you started. Learn more about subscriptions and pricing, analysis coverage of GitHub repositories, web app analysis options, and more.
 

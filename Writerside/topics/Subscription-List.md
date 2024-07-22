@@ -31,7 +31,7 @@ Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 
 <img src="payment01.png" alt="Alt text" width="450"/>
 
 6. 스텝페이의 지시에 따라 결재를 완료하세요.
-7. 이제 Sparrow Cloud의 상품을 구입했습니다.
+7. 이제 구매를 완료했습니다.
 
 
 
@@ -62,4 +62,4 @@ Users registered with Sparrow Cloud can run up to 1000 **Source Code Analyses**,
 <img src="payment01.png" alt="Alt text" width="450"/>
 
 6. Follow the instructions on StepPay to complete the payment. 
-7. You have now purchased Sparrow Cloud's product.
+7. Now the purchase completes.

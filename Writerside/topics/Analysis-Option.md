@@ -201,10 +201,10 @@ HTTP 클라이언트 대기 시간은 **HTTP 클라이언트가 분석을 수행
 
 ## Analysis Option {switcher-key="English"}
 
-Sparrow Cloud has prepared various options especially for web vulnerability analysis. You can set the options as follows before performing the analysis.
+Sparrow Cloud has prepared various options especially for web app analysis. You can set the options as follows before performing the analysis.
 
 
-### Web Vulnerability Analysis Options 
+### Web App Analysis Options 
 
 
 
