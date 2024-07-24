@@ -2,30 +2,27 @@
 switcher-label: Language
 ---
 
-# Subscription
+# Pricing
 
 
 ## 요금제 {switcher-key="한국어"}
 
-{type="narrow" sorted="desc"}
-베타 서비스 기간 중에는 구독 없이 모든 서비스를 사용하실 수 있습니다.
-{type="text"}
 
-Sparrow Cloud에서는 소스코드 분석, 컴포넌트 분석, 웹 취약점 분석이라는 세 개의 서비스를 매월 혹은 매년 구독할 수 있습니다. 요금은 분석의 종류와 서비스 기간에 따라 다르기 때문에 결재 창을 확인해주세요.
+Sparrow Cloud에서는 소스코드 분석, 오픈소스 분석, 웹취약점 분석이라는 세 개의 제품을 매월 혹은 매년 구독할 수 있습니다. 요금은 분석의 종류와 제공 기간에 따라 다르기 때문에 결재 창을 확인해주세요.
 Sparrow Cloud 요금제는 다음과 같습니다.
 
 <table>
 <tr>
 <td>Free</td>
 <td>소스코드 분석 (Pro)</td>
-<td>컴포넌트 분석 (Pro)</td>
-<td>웹 취약점 분석 (Pro)</td>
+<td>오픈소스 분석 (Pro)</td>
+<td>웹취약점 분석 (Pro)</td>
 </tr>
 <tr>
-<td>소스코드, 컴포넌트 및 웹 취약점 분석 무료</td>
+<td>소스코드, 오픈소스 및 웹취약점 분석 무료</td>
 <td>정적 분석을 위한 향상된 분석 결과 제공, 
 보고서 생성</td>
-<td>컴포넌트와 오픈소스 라이선스 식별, 보고서 및 SBOM 생성</td>
+<td>오픈소스 컴포넌트와 오픈소스 라이선스 식별, 보고서 및 SBOM 생성</td>
 <td>웹 애플리케이션 점검과
 향상된 분석 결과 제공, 보고서 생성</td>
 </tr>
@@ -40,7 +37,7 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 </tr>
 <tr>
 <td>- SLA 적용 안함<br>
-- 각 서비스의 기본 기능 제공<br>
+- 각 제품의 기본 기능 제공<br>
 - 분석 수 제한<br>
 - Public 저장소 지원<br>
 - 무료 전용 규칙 제공</td>
@@ -62,12 +59,12 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 </tr>
 </table>
 
-무료 사용자의 경우에도 세 가지 서비스를 경험하실 수 있습니다만 몇 가지 제한된 조건이 있습니다. 유료 사용자는 다음과 같은 부분에서 향상된 서비스를 받으실 수 있습니다.
+무료 사용자의 경우에도 세 가지 제품을 경험하실 수 있습니다만 몇 가지 제한된 조건이 있습니다. 유료 사용자는 다음과 같은 부분에서 향상된 서비스를 받으실 수 있습니다.
 - 수행할 수 있는 분석의 개수에 제한을 받지 않습니다.
 - 분석할 수 있는 GitHub 저장소 종류가 private으로 확장됩니다.
-- 컴포넌트 분석을 통해 식별된 오픈소스 라이선스를 확인할 수 있습니다.
-- 웹 취약점 분석에서 더 많은 규칙을 사용하고 분석 깊이도 증가합니다.
-- 구독한 분석의 분석 보고서 혹은 컴포넌트 분석의 경우 SBOM을 출력할 수 있습니다. 
+- 오픈소스 분석을 통해 식별된 오픈소스 라이선스를 확인할 수 있습니다.
+- 웹취약점 분석에서 더 많은 규칙을 사용하고 분석 깊이도 증가합니다.
+- 구독한 분석의 분석 보고서 혹은 오픈소스 분석의 경우 SBOM을 출력할 수 있습니다. 
 
 > **Tip**: 유료 사용자이더라도 GitHub App을 설치한 위치에 따라 분석할 수 있는 저장소의 종류에 차이가 발생할 수 있습니다. 자세한 내용은 [GitHub App 설치 위치](http://localhost:63342/Cloud_Guide/preview/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%99%80-%EB%B6%84%EC%84%9D.html#github-app)를 참고하세요.
 
@@ -75,23 +72,20 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 
 ## Pricing {switcher-key="English"}
 
-{type="narrow" sorted="desc"}
-During the beta period, you can use all services without a subscription.
-{type="text"}
 
 
-Sparrow Cloud offers three services: Source Code Analysis, Supply Chain Analysis, and Web Vulnerability Analysis, which you can subscribe to monthly or annually. Pricing varies depending on the type of analysis and length of service, so please check the payment window.
+Sparrow Cloud offers three products: Source Code Analysis, Open Source Analysis, and Web App Analysis, which you can subscribe to monthly or annually. Pricing varies depending on the type of analysis and billing cycle, so please check the payment window.
 Sparrow Cloud pricing plans are as follows
 
 <table>
 <tr>
 <td>Free</td>
-<td>Source code analysis (Pro)</td>
-<td>Supply Chain Analysis (Pro)</td>
-<td>Web Vulnerability Analysis (Pro)</td>
+<td>Source Code Analysis (Pro)</td>
+<td>Open Source Analysis (Pro)</td>
+<td>Web App Analysis (Pro)</td>
 </tr>
 <tr>
-<td>Source code, supply chain and web vulnerability analysis for free.</td>
+<td>Source code, open source and web app analysis for free.</td>
 <td>Enhanced analysis results for source code analysis.
  Analysis report.</td>
 <td>Identifies components and open source licences.
@@ -111,7 +105,7 @@ per person/month</td>
 </tr>
 <tr>
 <td>- SLA does not apply<br>
-- Provides basic features of each service<br>
+- Provides basic features of products<br>
 - Limited number of analyses<br>
 - Supports public repositories<br>
 - Provides free dedicated rules</td>
@@ -133,12 +127,12 @@ per person/month</td>
 </tr>
 </table>
 
-If you are a free user, you can still experience all three services, but with some restrictions. Paid users get enhanced services in the following areas
+If you are a free user, you can still experience all three products, but with some restrictions. Paid users get enhanced services in the following areas
 - You are not limited to the number of analyses you can perform.
 - The types of GitHub repositories that can be analysed are expanded to include private.
-- You can check open source licences identified through supply chain analysis.
-- Web vulnerability analysis uses more rules and increases the depth of analysis.
-- You can print out the analysis report for the subscription, or the SBOM file for Supply Chain Analysis.
+- You can check open source licences identified through open source analysis.
+- Web app analysis uses more rules and increases the depth of analysis.
+- You can print out the analysis report for the subscription, or the SBOM file for open source Analysis.
 
 > **Tip**: Even if you are a paid user, there may be differences in the types of repositories you can analyse depending on where you have installed the GitHub App. For more information, see [Where to install GitHub App](http://localhost:63342/Cloud_Guide/preview/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%99%80-%EB%B6%84%EC%84%9D.html#github-app).
 
