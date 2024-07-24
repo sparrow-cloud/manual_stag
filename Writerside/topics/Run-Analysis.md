@@ -5,16 +5,16 @@ switcher-label: Language
 
 ## 분석하기 {switcher-key="한국어"}
 
-이제 앞에서 생성한 프로젝트로 이동해서 분석을 수행하세요. **저장소** 또는 **URL**을 분석하기 위해서는 먼저 프로젝트를 설정해야 합니다. 자세한 내용은 [분석 설정하기](analysisSetting.md)를 참고하세요.
+이제 앞에서 생성한 프로젝트로 이동해서 분석을 수행하세요. **저장소, 압축 파일** 또는 **URL**을 분석하기 위해서는 먼저 프로젝트를 설정해야 합니다. 자세한 내용은 [분석 설정하기](analysisSetting.md)를 참고하세요.
 
 <img src="runAnalysis.png" alt="Alt text" width="450"/>
 
 1. **새 분석 시작하기** 버튼을 클릭하세요.
-2. **소스코드 및 컴포넌트** 분석을 시작하려면 **저장소** 또는 **압축 파일**을 선택하세요.
-3. **웹 취약점** 분석을 시작하려면 **URL**을 선택하세요.
+2. **소스코드 및 오픈소스** 분석을 시작하려면 **저장소** 또는 **압축 파일**을 선택하세요.
+3. **웹취약점** 분석을 시작하려면 **URL**을 선택하세요.
 4. 이제 분석이 시작됩니다.
 
-> **Tip**: 분석이 수행되는 동안 동일한 유형의 분석을 추가로 수행할 수 없습니다. 만약, 실행 중인 분석을 중지하려는 경우 분석 목록에서 해당 분석을 중지할 수 있습니다. 이미 완료된 분석은 중지하거나 삭제할 수 없다는 점에 유의하세요.
+> **Tip**: 분석이 수행되는 동안 동일한 분석 대상을 추가로 분석할 수 없습니다. 만약, 실행 중인 분석을 중지하려는 경우 분석 목록에서 해당 분석을 중지할 수 있습니다. 이미 완료된 분석은 중지하거나 삭제할 수 없다는 점에 유의하세요.
 
 ### 압축 파일 분석하기 
 
@@ -22,7 +22,7 @@ switcher-label: Language
 
 #### SBOM 파일 
 
-이미 생성된 SBOM 파일을 압축한 다음, 분석을 수행해서 결과를 확인할 수 있습니다. 단, SBOM의 형식이 다양하기 때문에 아래에 해당하지 않는 파일은 컴포넌트 분석을 통해 결과가 수행되지 않을 수 있습니다.
+이미 생성된 SBOM 파일을 압축한 다음, 분석을 수행해서 결과를 확인할 수 있습니다. 단, SBOM의 형식이 다양하기 때문에 아래에 해당하지 않는 파일은 오픈소스 분석을 통해 결과가 수행되지 않을 수 있습니다.
 
 - SPDX (.spdx): 버전 2.2
 - CycloneDX (.json): 버전 1.4
@@ -69,16 +69,16 @@ switcher-label: Language
 
 ## Run Analysis {switcher-key="English"}
 
-Now go to the project you created earlier and perform an analysis. To analyse a **repository** or **URL**, you must first set up a project, see [Setting up analysis](analysisSetting.md) for more information.
+Now go to the project you created earlier and perform an analysis. To analyse a **repository, zipped file** or **URL**, you must first set up a project, see [Setting up analysis](analysisSetting.md) for more information.
 
 <img src="runAnalysis.png" alt="Alt text" width="450"/>
 
 1. Click the **Start analysis** button.
-2. Select a repository or a zipped file to start analysing **Source code and supply chains**.
+2. Select a repository or a zipped file to start analysing **Source code and open source**.
 3. Or select **URL** to start analysing **Web Vulnerabilities**.
 4. The analysis will now start.
 
-> **Tip**: You cannot perform additional analyses of the same type while an analysis is running. If you want to stop a running analysis, you can do so from the list of analyses. Note that you cannot stop or delete an analysis that has already been completed.
+> **Tip**: You cannot perform another analyses with the same type of target while an analysis is running. If you want to stop a running analysis, you can do so from the list of analyses. Note that you cannot stop or delete an analysis that has already been completed.
 
 ### Analysing zipped file 
 
@@ -86,7 +86,7 @@ You can analyse compressed files up to 100 MB. Users without a subscription to t
 
 #### SBOM file 
 
-You can compress an SBOM file that has already been generated, and then run the analysis to see the results. However, due to the various formats of SBOMs, files that do not fall into the following categories may not result in supply chain analysis.
+You can compress an SBOM file that has already been generated, and then run the analysis to see the results. However, due to the various formats of SBOMs, files that do not fall into the following categories may not result in open source analysis.
 
 - SPDX (.spdx): version 2.2
 - CycloneDX (.json): Version 1.4

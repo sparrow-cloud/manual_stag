@@ -24,6 +24,8 @@ switcher-label: Language
 * Software Identification (SWID)
 
 5. **내보내기** 버튼을 클릭하세요.
+6. 스텝페이의 지시에 따라 결재를 완료하세요.
+7. 이제 Sparrow Cloud의 상품을 구입했습니다.
 
 
 ## Export SBOM {switcher-key="English"}

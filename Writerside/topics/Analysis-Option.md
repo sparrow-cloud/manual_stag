@@ -6,10 +6,10 @@ switcher-label: Language
 
 ## 분석 옵션 {switcher-key="한국어"}
 
-Sparrow Cloud는 특히 웹 취약점 분석에 대한 다양한 옵션을 준비했습니다. 분석을 수행하기 전에 다음과 같이 옵션을 설정할 수 있습니다.
+Sparrow Cloud는 특히 웹취약점 분석에 대한 다양한 옵션을 준비했습니다. 분석을 수행하기 전에 다음과 같이 옵션을 설정할 수 있습니다.
 
 
-### 웹 취약점 분석 옵션 
+### 웹취약점 분석 옵션 
 
 
 **상세 수행 로그**
@@ -34,7 +34,7 @@ Sparrow Cloud는 특히 웹 취약점 분석에 대한 다양한 옵션을 준�
 
 **일반 본문 분석**
 
-일반 본문 분석은 **URL 수집중에 받은 응답 메시지의 본문이 HTML이 아닌 일반 본문에서 URL을 수집**하는지를 의미하며 `예`, `아니요`로 구분합니다.(기본값: `예`)
+일반 본문 분석은 **URL 수집 중에 받은 응답 메시지의 본문이 HTML이 아닌 일반 본문에서 URL을 수집**하는지를 의미하며 `예`, `아니요`로 구분합니다.(기본값: `예`)
 
 이 옵션을 `예`로 설정하면 **일반 본문에서 URL 패턴을 사용하여 URL을 수집**합니다. 이로 인해 더 많은 URL을 수집하게 되지만 HTML뿐만 아니라 모든 본문을 분석하기 때문에 분석 속도가 느려지고 의미없는 URL을 수집할 가능성이 높습니다.
 
@@ -201,10 +201,10 @@ HTTP 클라이언트 대기 시간은 **HTTP 클라이언트가 분석을 수행
 
 ## Analysis Option {switcher-key="English"}
 
-Sparrow Cloud has prepared various options especially for web vulnerability analysis. You can set the options as follows before performing the analysis.
+Sparrow Cloud has prepared various options especially for web app analysis. You can set the options as follows before performing the analysis.
 
 
-### Web Vulnerability Analysis Options 
+### Web App Analysis Options 
 
 
 

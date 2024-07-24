@@ -1,0 +1,65 @@
+---
+switcher-label: Language
+---
+# Subscription List
+
+
+## 구독 목록 {switcher-key="한국어"}
+
+Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 분석**, 1000개의 **컴포넌트 분석**, 100개의 **웹취약점 분석**을 수행할 수 있습니다. 분석 횟수는 기본적으로 매월 1일마다 다시 초기화됩니다. 사용자는 구독 목록에서 몇 개의 분석을 수행할 수 있는지를 확인할 수 있습니다.
+
+1. 오른쪽 위에 있는 **사용자 이름**을 클릭하세요.
+2. **구독 관리**를 선택하세요.
+
+<img src="myaccount_sub00.png" alt="Alt text" width="450"/>
+
+3. 구독 목록의 위쪽에서 분석을 수행할 수 있는 횟수를 확인하세요.
+
+> **Tip**: 파일 형식 분석의 경우 소스코드 분석과 컴포넌트 분석을 동시에 수행하기 때문에 두 가지 분석의 분석 가능 횟수가 줄어들게 됩니다.
+
+
+### 구매하기
+
+1. **구독 목록**에서 **구독하러 가기** 버튼을 클릭하세요.
+2. 구독할 분석의 체크 박스를 선택하세요.
+
+<img src="myaccount_sub01.png" alt="Alt text" width="450"/>
+
+3. 구독 형태를 **월간** 또는 **연간** 중에서 선택하세요.
+5. 슬라이드 아래에서 **결재하기** 버튼을 클릭하세요.
+
+<img src="payment01.png" alt="Alt text" width="450"/>
+
+6. 스텝페이의 지시에 따라 결재를 완료하세요.
+7. 이제 구매를 완료했습니다.
+
+
+
+## Subscription list {switcher-key="English"}
+
+Users registered with Sparrow Cloud can run up to 1000 **Source Code Analyses**, 1000 **Supply Chain Analyses**, and 100 **Web Vulnerability Analyses** per month. The number of analyses resets by default on the 1st of every month. Users can see how many analyses they can perform in their subscription list.
+
+1. click on their **username** in the top right corner.
+2. Select **Manage Subscriptions**.
+
+<img src="myaccount_sub00.png" alt="Alt text" width="450"/>.
+
+3. Check the top of the subscription list to see how many times you can run the analyses.
+
+> **Tip**: For file type analysis, the number of analyses available for both source code and supply chain analysis will be reduced because the Sparrow Cloud performs both analyses at the same time.
+
+
+### Purchase product
+
+1. click the **Subscribe** button in the **Subscription List**.
+2. Check the box for the product you want to subscribe to.
+
+<img src="myaccount_sub01.png" alt="Alt text" width="450"/>
+
+3. Choose a subscription period i.e. monthly or yearly.
+5. click the **Pay** button at the bottom of the slide.
+
+<img src="payment01.png" alt="Alt text" width="450"/>
+
+6. Follow the instructions on StepPay to complete the payment. 
+7. Now the purchase completes.
