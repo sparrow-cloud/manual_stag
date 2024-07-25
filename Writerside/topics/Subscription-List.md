@@ -61,5 +61,5 @@ Users registered with Sparrow Cloud can run up to 1000 **Source Code Analyses**,
 
 <img src="payment01.png" alt="Alt text" width="450"/>
 
-6. Follow the instructions on StepPay to complete the payment. 
+6. Follow the instructions on the StepPay to complete the payment. 
 7. Now the purchase completes.

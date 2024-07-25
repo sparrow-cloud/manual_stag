@@ -48,13 +48,17 @@ Sparrow Cloud 서비스를 사용하려면 사용자 계정을 등록해야 합�
 
 <img src="signup_Github00.png" alt="Alt text" width="450"/>
 
-11. **Authorize Sparrow Cloud for Stage** 버튼을 클릭하세요.
+11. **Authorize Sparrow Cloud** 버튼을 클릭하세요.
 
 <img src="signup_Github01.png" alt="Alt text" width="450"/>
 
-12. **Sparrow Cloud For Stage 설치** 페이지에서 **Install** 버튼을 클릭하세요.
+12. **Sparrow Cloud 설치** 페이지에서 **Install** 버튼을 클릭하세요.
 
 <img src="signup_Github02.png" alt="Alt text" width="450"/>
+
+13. **사용자 이름** 및 추가 정보를 입력하고 **가입하기** 버튼을 클릭하세요.
+
+<img src="signup_Github03.png" alt="Alt text" width="450"/>
 
 > **Tip**: Sparrow Cloud에서는 GitHub의 아이디, 이메일과 같은 개인 정보를 사용합니다. 필요한 경우, GitHub의 **Confirm access** 페이지에서 비밀번호를 한 번 더 입력하세요.
 
@@ -102,13 +106,17 @@ To use the Sparrow Cloud service, you need to register a user account. Users can
 
 <img src="signup_Github00.png" alt="Alt text" width="450"/>
 
-11. Click the **Authorize Sparrow Cloud for Stage** button.
+11. Click the **Authorize Sparrow Cloud** button.
 
 <img src="signup_Github01.png" alt="Alt text" width="450"/>
 
-12. On the **Install Sparrow Cloud For Stage** page, click the **Install** button.
+12. On the **Install Sparrow Cloud** page, click the **Install** button.
 
 <img src="signup_Github02.png" alt="Alt text" width="450"/> 
+
+13. Enter a **User Name** and additional information, then, click **Sign-up** 버튼을 클릭하세요.
+
+<img src="signup_Github03.png" alt="Alt text" width="450"/>
 
 > **Tip**: Sparrow Cloud uses your personal information, such as your GitHub username and email. If necessary, enter your password one more time on the GitHub **Confirm access** page.
 
