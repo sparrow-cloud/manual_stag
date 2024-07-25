@@ -7,7 +7,7 @@ switcher-label: Language
 
 이제 앞에서 생성한 프로젝트로 이동해서 분석을 수행하세요. **저장소, 압축 파일** 또는 **URL**을 분석하기 위해서는 먼저 프로젝트를 설정해야 합니다. 자세한 내용은 [분석 설정하기](analysisSetting.md)를 참고하세요.
 
-<img src="runAnalysis.png" alt="Alt text" width="450"/>
+<img src="runAnalysis.png" alt="Alt text"/>
 
 1. **새 분석 시작하기** 버튼을 클릭하세요.
 2. **소스코드 및 오픈소스** 분석을 시작하려면 **저장소** 또는 **압축 파일**을 선택하세요.
@@ -71,7 +71,7 @@ switcher-label: Language
 
 Now go to the project you created earlier and perform an analysis. To analyse a **repository, zipped file** or **URL**, you must first set up a project, see [Setting up analysis](analysisSetting.md) for more information.
 
-<img src="runAnalysis.png" alt="Alt text" width="450"/>
+<img src="runAnalysis.png" alt="Alt text"/>
 
 1. Click the **Start analysis** button.
 2. Select a repository or a zipped file to start analysing **Source code and open source**.

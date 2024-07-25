@@ -11,7 +11,7 @@ Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 
 1. 오른쪽 위에 있는 **사용자 이름**을 클릭하세요.
 2. **구독 관리**를 선택하세요.
 
-<img src="myaccount_sub00.png" alt="Alt text" width="450"/>
+<img src="myaccount_sub00.png" alt="Alt text"/>
 
 3. 구독 목록의 위쪽에서 분석을 수행할 수 있는 횟수를 확인하세요.
 
@@ -23,12 +23,12 @@ Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 
 1. **구독 목록**에서 **구독하러 가기** 버튼을 클릭하세요.
 2. 구독할 분석의 체크 박스를 선택하세요.
 
-<img src="myaccount_sub01.png" alt="Alt text" width="450"/>
+<img src="myaccount_sub01.png" alt="Alt text"/>
 
 3. 구독 형태를 **월간** 또는 **연간** 중에서 선택하세요.
 5. 슬라이드 아래에서 **결재하기** 버튼을 클릭하세요.
 
-<img src="payment01.png" alt="Alt text" width="450"/>
+<img src="payment01.png" alt="Alt text"/>
 
 6. 스텝페이의 지시에 따라 결재를 완료하세요.
 7. 이제 구매를 완료했습니다.
@@ -42,7 +42,7 @@ Users registered with Sparrow Cloud can run up to 1000 **Source Code Analyses**,
 1. click on their **username** in the top right corner.
 2. Select **Manage Subscriptions**.
 
-<img src="myaccount_sub00.png" alt="Alt text" width="450"/>.
+<img src="myaccount_sub00.png" alt="Alt text"/>.
 
 3. Check the top of the subscription list to see how many times you can run the analyses.
 
@@ -54,12 +54,12 @@ Users registered with Sparrow Cloud can run up to 1000 **Source Code Analyses**,
 1. click the **Subscribe** button in the **Subscription List**.
 2. Check the box for the product you want to subscribe to.
 
-<img src="myaccount_sub01.png" alt="Alt text" width="450"/>
+<img src="myaccount_sub01.png" alt="Alt text"/>
 
 3. Choose a subscription period i.e. monthly or yearly.
 5. click the **Pay** button at the bottom of the slide.
 
-<img src="payment01.png" alt="Alt text" width="450"/>
+<img src="payment01.png" alt="Alt text"/>
 
 6. Follow the instructions on the StepPay to complete the payment. 
 7. Now the purchase completes.

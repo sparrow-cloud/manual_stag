@@ -13,7 +13,7 @@ switcher-label: Language
 
 2. 오른쪽 위에 있는 **SBOM 내보내기** 버튼을 클릭하세요.
 
-<img src="exportSBOM.png" alt="Alt text" width="450"/>
+<img src="exportSBOM.png" alt="Alt text"/>
 
 3. 파일 이름을 입력하세요.
 
@@ -36,7 +36,7 @@ switcher-label: Language
 
 2. Click the **Export SBOM** button in the top right corner.
 
-<img src="exportSBOM.png" alt="Alt text" width="450"/>
+<img src="exportSBOM.png" alt="Alt text"/>
 
 3. Enter a file name.
 
