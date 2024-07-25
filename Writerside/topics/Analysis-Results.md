@@ -11,7 +11,7 @@ switcher-label: Language
 
 프로젝트의 오른쪽에 있는 **요약**, **이슈**, **자산**, **컴포넌트**라는 네 개의 탭을 클릭해서 상세한 결과를 확인하세요.
 
-<img src="projdetails01.png" alt="Alt text" width="450"/>
+<img src="projdetails01.png" alt="Alt text"/>
 
 
 ### 이슈 
@@ -23,7 +23,7 @@ switcher-label: Language
 
 ### 자산 
 
-Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은 분석에 사용한 분석 대상에서 생성됩니다: 분석 대상에 포함된 파일이나 하위 URL을 식별하고 이 정보로 **자산 목록**을 보여줍니다. 분석 대상에 따라서 소스코드 분석과 오픈소스 분석에 사용된 리포지토리에서 식별한 자산은 **파일**로 표시되고, 웹 취약점 분석에 사용된 웹 페이지에서 시결한 자산은 **URL**로 표시됩니다.
+Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은 분석에 사용한 분석 대상에서 생성됩니다: 분석 대상에 포함된 파일이나 하위 URL을 식별하고 이 정보로 **자산 목록**을 보여줍니다. 분석 대상에 따라서 소스코드 분석과 오픈소스 분석에 사용된 리포지토리에서 식별한 자산은 **파일**로 표시되고, 웹 취약점 분석에 사용된 웹 페이지에서 식별한 자산은 **URL**로 표시됩니다.
 
 자산에 대한 더 자세한 내용은 [자산](Asset.md)을 참고하세요.
 
@@ -43,7 +43,7 @@ The results you can see in your project include the findings from your **recent 
 
 To see detailed results, click the four tabs on the right side of the project: **Summary**, **Issue**, **Asset**, and **Component**.
 
-<img src="projdetails01.png" alt="Alt text" width="450"/>
+<img src="projdetails01.png" alt="Alt text"/>
 
 
 ### Issues 
