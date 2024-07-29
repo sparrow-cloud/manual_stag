@@ -66,7 +66,7 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 - 웹취약점 분석에서 더 많은 규칙을 사용하고 분석 깊이도 증가합니다.
 - 구독한 분석의 분석 보고서 혹은 오픈소스 분석의 경우 SBOM을 출력할 수 있습니다. 
 
-> **Tip**: 유료 사용자이더라도 GitHub App을 설치한 위치에 따라 분석할 수 있는 저장소의 종류에 차이가 발생할 수 있습니다. 자세한 내용은 [GitHub App 설치 위치](http://localhost:63342/Cloud_Guide/preview/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%99%80-%EB%B6%84%EC%84%9D.html#github-app)를 참고하세요.
+> **Tip**: 유료 사용자이더라도 GitHub App을 설치한 위치에 따라 분석할 수 있는 저장소의 종류에 차이가 발생할 수 있습니다. 자세한 내용은 [GitHub App 설치 위치](GitHub.md)를 참고하세요.
 
 
 
@@ -134,6 +134,6 @@ If you are a free user, you can still experience all three products, but with so
 - Web app analysis uses more rules and increases the depth of analysis.
 - You can print out the analysis report for the subscription, or the SBOM file for open source Analysis.
 
-> **Tip**: Even if you are a paid user, there may be differences in the types of repositories you can analyse depending on where you have installed the GitHub App. For more information, see [Where to install GitHub App](http://localhost:63342/Cloud_Guide/preview/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%99%80-%EB%B6%84%EC%84%9D.html#github-app).
+> **Tip**: Even if you are a paid user, there may be differences in the types of repositories you can analyse depending on where you have installed the GitHub App. For more information, see [Where to install GitHub App](GitHub.md).
 
 
