@@ -10,7 +10,7 @@ switcher-label: Language
 Sparrow Cloud 서비스를 사용하려면 사용자 계정을 등록해야 합니다. 사용자는 개인 이메일 또는 GitHub 계정을 인증하여 Sparrow Cloud 계정을 생성할 수 있습니다.
 
 
-1. 먼저 [Sparrow Cloud 홈페이지](https://sparrowcloud.co.kr/)로 이동하세요. 
+1. 먼저 [Sparrow Cloud 홈페이지](https://app.sparrowcloud.ai/)로 이동하세요. 
 
 <img src="로그인.png" alt="Alt text"/>
 
@@ -69,7 +69,7 @@ Sparrow Cloud 서비스를 사용하려면 사용자 계정을 등록해야 합�
 To use the Sparrow Cloud service, you need to register a user account. Users can create a Sparrow Cloud account by verifying their personal email or GitHub account.
 
 
-1. First, go to the [Sparrow Cloud homepage](https://cloud.sparrowfasoo.com).
+1. First, go to the [Sparrow Cloud homepage](https://app.sparrowcloud.ai).
 
 <img src="로그인.png" alt="Alt text"/>.
 
