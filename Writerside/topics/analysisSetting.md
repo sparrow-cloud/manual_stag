@@ -31,7 +31,7 @@ GitHub 저장소나 URL을 분석하려면 **프로젝트**에서 분석 대상�
 8. **URL**에 분석 대상인 웹 페이지의 주소를 입력하고 **연결 테스트** 버튼을 클릭하여 연결을 확인하세요.
 > **Tip**: URL은 `http://`로 시작하는 URL 형식으로 입력해야 합니다.
 9. 필요한 경우 **분석 옵션**을 조정하고 **설정하기** 버튼을 클릭하세요.
-> **Tip**: 사용자는 웹취약점 분석 옵션을 조정해서 웹 페이지를 어떤 범위로 어느 정도나 분석할지 결정할 수 있습니다. **분석 옵션**에 대한 자세한 설명은 [여기](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035)를 참고하세요.
+> **Tip**: 사용자는 웹취약점 분석 옵션을 조정해서 웹 페이지를 어떤 범위로 어느 정도나 분석할지 결정할 수 있습니다. **분석 옵션**에 대한 자세한 설명은 [여기](Analysis-Option.md)를 참고하세요.
 10. [키 파일 저장하기](#analysissetting.html#hpery9_1989)를 참고하여 **키 파일**을 다운로드해서 분석 대상 웹 페이지에 저장하세요.
 11. 프로젝트 정보 슬라이드에서 **수정하기** 버튼을 클릭하세요.
 
@@ -82,7 +82,7 @@ You have now set up your **Source code repository**, where files stored in the s
 8. In **URL**, enter the address of the web page you want to analyse and click the **Test Connection** button to check the connection.
 > **Tip**: The URL must be entered in URL format starting with `http://`.
 9. Adjust the **options** if necessary and click the **Set** button.
-> **Tip**: Users can adjust the web app analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](http://localhost:63342/newCloud/preview/empty-md-topic.html#-k39vs6_6035).
+> **Tip**: Users can adjust the web app analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](Analysis-Option.md).
 10. See [Saving a key file](#analysissetting.html#hpery9_1989) to download the **key file** and save it to the web page being analysed.
 11. Click the **Modify** button on the project information slide.
 
