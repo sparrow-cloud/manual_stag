@@ -7,7 +7,7 @@ switcher-label: Language
 
 Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 다음과 같은 방법으로 보고서를 출력하세요.
 
-<img src="exportReport.png" alt="Alt text" width="450"/>
+<img src="exportReport.png" alt="Alt text"/>
 
 1. 프로젝트로 이동하세요.
 2. 페이지 위에 있는 **분석 목록 조회하기** 버튼을 클릭하세요.
@@ -27,13 +27,13 @@ Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 다음
 - 제외된 이슈 정보   : 제외된 이슈에 대한 정보.
 - 이슈 검출 규칙 정보 : 이슈를 검출한 규칙의 목록.
 
-<img src="report.png" alt="Alt text" width="450"/>
+<img src="report.png" alt="Alt text"/>
 
 ## Export Report {switcher-key="English"}
 
 Sparrow Cloud provides reports on the analysis in PDF format. Export the report in the following way
 
-<img src="exportReport.png" alt="Alt text" width="450"/>
+<img src="exportReport.png" alt="Alt text"/>
 
 1. navigate to your project.
 2. click the **View analysis list** button at the top of the page.
@@ -55,4 +55,4 @@ The report contains the following content:
 - Issue detection rule information: list of detection rules.
 
 
-<img src="report.png" alt="Alt text" width="450"/>
+<img src="report.png" alt="Alt text"/>

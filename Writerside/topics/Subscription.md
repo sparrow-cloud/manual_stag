@@ -14,9 +14,9 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 <table>
 <tr>
 <td>Free</td>
-<td>소스코드 분석 (Pro)</td>
-<td>오픈소스 분석 (Pro)</td>
-<td>웹취약점 분석 (Pro)</td>
+<td>소스코드 분석</td>
+<td>오픈소스 분석</td>
+<td>웹취약점 분석</td>
 </tr>
 <tr>
 <td>소스코드, 오픈소스 및 웹취약점 분석 무료</td>
@@ -28,11 +28,11 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 </tr>
 <tr>
 <td>₩ 0원</td>
-<td>₩ 26,000원
+<td>₩ 30,000원
 1인 기준/월</td>
-<td>₩ 26,000원
+<td>₩ 30,000원
 1인 기준/월</td>
-<td>₩ 195,000원
+<td>₩ 200,000원
 1인 기준/월</td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 - SLA 적용함<br>
 - 분석 수 무제한<br>
 - Private 저장소 지원<br>
-- 소스코드 1회 업로드 용량 100M</td>
+- 소스코드 1회 업로드 용량 100MB</td>
 <td>- 무료 기능 모두 포함<br>
 - SLA 적용함<br>
 - 분석 수 무제한<br>
@@ -80,9 +80,9 @@ Sparrow Cloud pricing plans are as follows
 <table>
 <tr>
 <td>Free</td>
-<td>Source Code Analysis (Pro)</td>
-<td>Open Source Analysis (Pro)</td>
-<td>Web App Analysis (Pro)</td>
+<td>Source Code Analysis</td>
+<td>Open Source Analysis</td>
+<td>Web App Analysis</td>
 </tr>
 <tr>
 <td>Source code, open source and web app analysis for free.</td>
@@ -113,12 +113,12 @@ per person/month</td>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
 - Private repository support<br>
-- 100M source code uploads per month</td>
+- 100 MB source code uploads per month</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
 - Private repository support<br>
-- 100MB per source code upload</td>
+- 100 MB per source code upload</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
