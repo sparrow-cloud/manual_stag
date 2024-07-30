@@ -39,7 +39,7 @@ GitHub 계정으로 Sparrow Cloud에 등록하거나 분석할 GitHub 리포지�
 
 ## Connecting GitHub repository {switcher-key="English"}
 
-Sparrow Cloud connects to your GitHub repository, pulls in uploaded files, and uses them for source code and open source analysis. As mentioned in the previous guide, it is mandatory to create and authenticate a GitHub account to perform this analysis.
+Sparrow Cloud connects to your GitHub repository, pulls in uploaded files, and uses them for code and open source analysis. As mentioned in the previous guide, it is mandatory to create and authenticate a GitHub account to perform this analysis.
 Please note that not all GitHub repositories are available to connect to Sparrow Cloud, depending on which plan you are on, and also depending on where you have installed the GitHub app, as follows
 
 
