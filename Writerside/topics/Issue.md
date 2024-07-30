@@ -48,15 +48,15 @@ Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도�
 
 ### Issue type
 
-Issues can be categorised as Source Issues, Open Source Issues, or Web Vulnerability Issues, depending on the analysis engine that detected the issue.
+Issues can be categorised as Source Issues, Open Source Issues, or Web App Issues, depending on the analysis engine that detected the issue.
 
-- Source issues: Issues detected through source code analysis.
+- Code issues: Issues detected through code analysis.
   - Security vulnerability: A potential vulnerability in the source code that is related to software security.
   - Quality issues: Issues that do not cause security issues in the source code, but should be reviewed from a quality perspective.
 - Open Source issues: Issues detected through open source analysis.
   - Vulnerable component: An issue that is considered vulnerable because a vulnerability has been found in the open source component itself.
   - Licence: Issues from the open source licence used by the component.
-- Web vulnerability issues: Issues detected through web app analysis.
+- Web app issues: Issues detected through web app analysis.
 
 
 ### Issue risk 

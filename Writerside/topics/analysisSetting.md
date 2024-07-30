@@ -71,7 +71,7 @@ To analyse a GitHub repository or URL, you need to set up a **Source repository*
 6. Click the **Modify** button on the slide.
 
 
-You have now set up your **Source code repository**, where files stored in the selected repository will be used in your **Source code** and **Open source** analyses.
+You have now set up your **Source code repository**, where files stored in the selected repository will be used in your **Code** and **Open source** analyses.
 
 
 ### Setting up web pages to analyse 

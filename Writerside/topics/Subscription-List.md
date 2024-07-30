@@ -34,7 +34,7 @@ Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 
 
 ## Subscription list {switcher-key="English"}
 
-Users registered with Sparrow Cloud can run up to 1000 **Source Code Analyses**, 1000 **Open Source Analyses**, and 100 **Web Vulnerability Analyses** per month. The number of analyses resets by default on the 1st of every month. Users can see how many analyses they can perform in their subscription list.
+Users registered with Sparrow Cloud can run up to 1000 **Code Analyses**, 1000 **Open Source Analyses**, and 100 **Web App Analyses** per month. The number of analyses resets by default on the 1st of every month. Users can see how many analyses they can perform in their subscription list.
 
 1. click on their **username** in the top right corner.
 2. Select **Manage Subscriptions**.
@@ -43,7 +43,7 @@ Users registered with Sparrow Cloud can run up to 1000 **Source Code Analyses**,
 
 3. Check the top of the subscription list to see how many times you can run the analyses.
 
-> **Tip**: For file type analysis, the number of analyses available for both source code and open source analysis will be reduced because the Sparrow Cloud performs both analyses at the same time.
+> **Tip**: For file type analysis, the number of analyses available for both code and open source analysis will be reduced because the Sparrow Cloud performs both analyses at the same time.
 
 
 ### Purchase product

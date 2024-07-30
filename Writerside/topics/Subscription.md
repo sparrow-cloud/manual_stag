@@ -74,19 +74,19 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 
 
 
-Sparrow Cloud offers three products: Source Code Analysis, Open Source Analysis, and Web App Analysis, which you can subscribe to monthly or annually. Pricing varies depending on the type of analysis and billing cycle, so please check the payment window.
+Sparrow Cloud offers three products: Code Analysis, Open Source Analysis, and Web App Analysis, which you can subscribe to monthly or annually. Pricing varies depending on the type of analysis and billing cycle, so please check the payment window.
 Sparrow Cloud pricing plans are as follows
 
 <table>
 <tr>
 <td>Free</td>
-<td>Source Code Analysis</td>
+<td>Code Analysis</td>
 <td>Open Source Analysis</td>
 <td>Web App Analysis</td>
 </tr>
 <tr>
-<td>Source code, open source and web app analysis for free.</td>
-<td>Enhanced analysis results for source code analysis.
+<td>Code, open source and web app analysis for free.</td>
+<td>Enhanced analysis results for code analysis.
  Analysis report.</td>
 <td>Identifies components and open source licences.
 Generates analysis report and SBOMs.</td>
@@ -113,17 +113,17 @@ per person/month</td>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
 - Private repository support<br>
-- 100 MB source code uploads per month</td>
+- Upload 100 MB source code for analyzing</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
 - Private repository support<br>
-- 100 MB per source code upload</td>
+- Upload 100 MB source code for analyzing</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
-- No limit on analyses depth<br>
-- No analysis rule limits</td>
+- No restriction on analyses depth<br>
+- No restriction on analysis rule</td>
 </tr>
 </table>
 
