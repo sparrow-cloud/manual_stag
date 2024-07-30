@@ -39,7 +39,7 @@ Users registered with Sparrow Cloud can run up to 1000 **Code Analyses**, 1000 *
 1. click on their **username** in the top right corner.
 2. Select **Manage Subscriptions**.
 
-<img src="myaccount_sub00.png" alt="Alt text"/>.
+<img src="myaccount_sub00.png" alt="Alt text"/>
 
 3. Check the top of the subscription list to see how many times you can run the analyses.
 

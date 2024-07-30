@@ -28,12 +28,18 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 </tr>
 <tr>
 <td>₩ 0원</td>
-<td>₩ 30,000원
-1인 기준/월</td>
-<td>₩ 30,000원
-1인 기준/월</td>
-<td>₩ 200,000원
-1인 기준/월</td>
+<td>월간 ₩ 30,000원
+
+연간 ₩ 330,000원
+</td>
+<td>월간 ₩ 30,000원
+
+연간 ₩ 330,000원
+</td>
+<td>월간 ₩ 200,000원
+
+연간 ₩ 2,200,000원
+</td>
 </tr>
 <tr>
 <td>- SLA 적용 안함<br>
@@ -96,12 +102,18 @@ and provides enhanced analysis results.
 </tr>
 <tr>
 <td>free</td>
-<td>$ 20.00
-per person/month</td>
-<td>$ 20.00
-per person/month</td>
-<td>$ 20.00
-per person/month</td>
+<td>Monthly $ 20.00
+
+Yearly $ 220.00
+</td>
+<td>Monthly $ 20.00
+
+Yearly $ 220.00
+</td>
+<td>Monthly $ 150.00
+
+Yearly $ 1,650.00
+</td>
 </tr>
 <tr>
 <td>- SLA does not apply<br>
