@@ -59,5 +59,5 @@ Go to
 
 {type="text"}
 
-If you have any further questions, please contact [Sparrow Customer Support](https://cs.sparrow.im/ko/tickets).
+If you have any further questions, please contact [Sparrow Customer Support](https://cs.sparrow.im/en/tickets).
 
