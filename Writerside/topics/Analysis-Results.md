@@ -48,14 +48,14 @@ To see detailed results, click the four tabs on the right side of the project: *
 
 ### Issues 
 
-**Issues** are security vulnerabilities and quality problems found as a result of analysing your analysis targets. The **Issues list** displayed in the **Issue** tab contains the issues detected by Sparrow Cloud. Issues are categorised as source code issues, open source issues, or web vulnerability issues, depending on the tool that detected them.
+**Issues** are security vulnerabilities and quality problems found as a result of analysing your analysis targets. The **Issues list** displayed in the **Issue** tab contains the issues detected by Sparrow Cloud. Issues are categorised as code issues, open source issues, or web app issues, depending on the tool that detected them.
 
 For more information about the issues, see [Issue](Issue.md).
 
 
 ### Assets 
 
-Sparrow Cloud displays analysis results called **Assets**. Assets are generated from the analysis target you used for analysis: It identifies the files or sub URLs contained in the analyse target and uses this information to show a list of **assets**. Depending on the analysis target, assets identified from repositories used for source code analysis and open source analysis are shown as **Files**, while assets sourced from web pages used for web app analysis are shown as **URLs**.
+Sparrow Cloud displays analysis results called **Assets**. Assets are generated from the analysis target you used for analysis: It identifies the files or sub URLs contained in the analyse target and uses this information to show a list of **assets**. Depending on the analysis target, assets identified from repositories used for code and open source analysis are shown as **Files**, while assets sourced from web pages used for web app analysis are shown as **URLs**.
 
 For more information about assets, see [Asset](Asset.md).
 

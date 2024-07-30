@@ -74,7 +74,7 @@ Now go to the project you created earlier and perform an analysis. To analyse a 
 <img src="runAnalysis.png" alt="Alt text"/>
 
 1. Click the **Start analysis** button.
-2. Select a repository or a zipped file to start analysing **Source code and open source**.
+2. Select a repository or a zipped file to start analysing **code and open source**.
 3. Or select **URL** to start analysing **Web Vulnerabilities**.
 4. The analysis will now start.
 

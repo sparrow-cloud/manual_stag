@@ -28,12 +28,18 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 </tr>
 <tr>
 <td>₩ 0원</td>
-<td>₩ 30,000원
-1인 기준/월</td>
-<td>₩ 30,000원
-1인 기준/월</td>
-<td>₩ 200,000원
-1인 기준/월</td>
+<td>월간 ₩ 30,000원
+
+연간 ₩ 330,000원
+</td>
+<td>월간 ₩ 30,000원
+
+연간 ₩ 330,000원
+</td>
+<td>월간 ₩ 200,000원
+
+연간 ₩ 2,200,000원
+</td>
 </tr>
 <tr>
 <td>- SLA 적용 안함<br>
@@ -74,19 +80,19 @@ Sparrow Cloud 요금제는 다음과 같습니다.
 
 
 
-Sparrow Cloud offers three products: Source Code Analysis, Open Source Analysis, and Web App Analysis, which you can subscribe to monthly or annually. Pricing varies depending on the type of analysis and billing cycle, so please check the payment window.
+Sparrow Cloud offers three products: Code Analysis, Open Source Analysis, and Web App Analysis, which you can subscribe to monthly or annually. Pricing varies depending on the type of analysis and billing cycle, so please check the payment window.
 Sparrow Cloud pricing plans are as follows
 
 <table>
 <tr>
 <td>Free</td>
-<td>Source Code Analysis</td>
+<td>Code Analysis</td>
 <td>Open Source Analysis</td>
 <td>Web App Analysis</td>
 </tr>
 <tr>
-<td>Source code, open source and web app analysis for free.</td>
-<td>Enhanced analysis results for source code analysis.
+<td>Code, open source and web app analysis for free.</td>
+<td>Enhanced analysis results for code analysis.
  Analysis report.</td>
 <td>Identifies components and open source licences.
 Generates analysis report and SBOMs.</td>
@@ -96,12 +102,18 @@ and provides enhanced analysis results.
 </tr>
 <tr>
 <td>free</td>
-<td>$ 20.00
-per person/month</td>
-<td>$ 20.00
-per person/month</td>
-<td>$ 20.00
-per person/month</td>
+<td>Monthly $ 20.00
+
+Yearly $ 220.00
+</td>
+<td>Monthly $ 20.00
+
+Yearly $ 220.00
+</td>
+<td>Monthly $ 150.00
+
+Yearly $ 1,650.00
+</td>
 </tr>
 <tr>
 <td>- SLA does not apply<br>
@@ -113,17 +125,17 @@ per person/month</td>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
 - Private repository support<br>
-- 100 MB source code uploads per month</td>
+- Upload 100 MB source code for analyzing</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
 - Private repository support<br>
-- 100 MB per source code upload</td>
+- Upload 100 MB source code for analyzing</td>
 <td>- Includes all free features<br>
 - SLAs apply<br>
 - Unlimited number of analyses<br>
-- No limit on analyses depth<br>
-- No analysis rule limits</td>
+- No restriction on analyses depth<br>
+- No restriction on analysis rule</td>
 </tr>
 </table>
 
