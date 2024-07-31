@@ -210,7 +210,7 @@ Sparrow Cloud has prepared various options especially for web app analysis. You 
 
 **Detailed Execution Log**
 
-Detailed Execution Log means whether to **store the detailed actions of the Browser, HTTP client, etc. that were executed when collecting the URL in the Log.(Default: `OFF`)
+Detailed Execution Log means whether to **store the detailed actions of the Browser, HTTP client, etc. that were executed when collecting the URL in the Log**.(Default: `OFF`)
 
 If this Option is set to `ON`, you can check the actions you started when collecting in the Log, so you can **OK if you collected the URL correctly**, but it will increase the size of the Log. If this Option is set to `OFF`, the Log volume will be smaller, but it will be harder to check if the URL was collected normally.
 
@@ -260,7 +260,7 @@ If this option is set to `ON`, it will **look for URLs Included in HTML comments
 
 Detect Storage Vulnerability refers to whether **additionally performs actions to detect storage-based vulnerabilities**. A storage-based vulnerability is a vulnerability that is stored in the DB, such as Stored XSS (Persistent XSS) or Stored SQL Injection (Persistent SQL Injection), and affects other pages without being reflected on the page immediately after the attack.(Default: `OFF`)
 
-If this option is Setting to `ON`, it will **Start Work extra to Detect Storage Vulnerability and Enable Checker to Detect Storage Vulnerability. This slows down the analysis, but allows for the detection of storage-based vulnerabilities. If this option is set to `OFF`, **Does not perform any additional work to detect storage-based vulnerabilities, and disables the checker to detect storage-based vulnerabilities**. This will speed up the analysis, but will not detect storage-based vulnerabilities.
+If this option is Setting to `ON`, it will **start extra work to detect storage vulnerability and enable checker to detect storage vulnerability**. This slows down the analysis, but allows for the detection of storage-based vulnerabilities. If this option is set to `OFF`, **Does not perform any additional work to detect storage-based vulnerabilities, and disables the checker to detect storage-based vulnerabilities**. This will speed up the analysis, but will not detect storage-based vulnerabilities.
 
 
 **URL Crawling Depth**
@@ -274,7 +274,7 @@ If this option is set to `High`, we will **crawl URLs farther away from the Star
 
 DOM Crawling Depth means **how far away the DOM to be harvested is from the first DOM generated from the same URL**. The farther the DOM is, the more minimal actions the first DOM needs to perform to reach a specific DOM from the same URL.(Default: `Medium`)
 
-If this option is set to `High`, it will **crawl DOMs from the first DOM to the farthest DOM** that are created when navigating to a URL, but it will take **more h** to do so. If this option is set to `Low`, the Project will **crawl DOMs in less time**, but will not collect the farther DOMs.
+If this option is set to `High`, it will **crawl DOMs from the first DOM to the farthest DOM** that are created to navigate to a URL, but it will take **more time** to do so. If this option is set to `Low`, the Project will **crawl DOMs in less time**, but will not collect the farther DOMs.
 
 
 **Level of Conducted Events**
@@ -288,7 +288,7 @@ If this option is set to `High`, you will **have more events on the page**, but 
 
 Resource Loading Timeout refers to the maximum time **waiting for resources that require a long time to load when the Partial Page Loading Option is set to ON**. You can Input a number of `1` and more than or less than `600000`, and if no Value is Input, the Default is `10000`.(Unit: Milliseconds, Default: `10000`)
 
-The lower the **Value** entered for this Option, the more resources it will Start Crawling without waiting for them to load, so there is a possibility that pages that absolutely need resources may not be able to be crawled properly. The higher the **Value** input for this Option, the longer we wait for resources to load**, and therefore the longer it takes to Crawl.
+**The lower the value entered for this option, the more resources it will start crawling without waiting for them to load**, so there is a possibility that pages that absolutely need resources may not be able to be crawled properly. **The higher the value input for this Option, the longer we wait for resources to load**, and therefore the longer it takes to Crawl.
 
 
 **Event Timeout**
@@ -302,7 +302,7 @@ The larger the value entered for this Option, the slower it will be to **Crawled
 
 Number of Requests refers to **the number of HTTP Requests per Sec that can be sent when collecting URLs**. You can Input a number that is more than `-1` and less than `10000`, and if no Option is entered, the Default is `-1`, in which case you will not limit the number of HTTP Requests that can be sent.(Unit: item(s), Default: `-1`)
 
-A **higher** value entered for this Option will increase the number of HTTP Request(s) that can be sent in a second, which will make Analyzing Target URLs faster**, but may also increase the amount of traffic, which will **increase the load on the Analyzing Target Web Application server**. The **lower the value entered for this option, the lower the traffic volume, which will reduce the load on the Analyzing Target Web application server**, but will slow down the speed of collecting the URL.
+A **higher value entered for this Option will increase the number of HTTP Request(s) that can be sent in a second, which will make Analyzing Target URLs faster**, but may also increase the amount of traffic, which will increase the load on the Analyzing Target Web Application server. **The lower the value entered for this option, the lower the traffic volume, which will reduce the load on the Analyzing Target Web application server**, but will slow down the speed of collecting the URL.
 
 
 **HTTP Client Timeout**

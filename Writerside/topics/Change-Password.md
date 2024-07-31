@@ -19,7 +19,7 @@ switcher-label: Language
 
 1. Click on your **username** in the top right corner 
 2. Select **My Account**. 
-3. Click on **Show Options*.
+3. Click on **Show Options**.
 
 <img src="myaccount_info.png" alt="Alt text"/>
 

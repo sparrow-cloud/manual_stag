@@ -18,7 +18,7 @@ GitHub 계정으로 Sparrow Cloud에 등록하거나 분석할 GitHub 리포지�
 
 <img src="signup_Github00.png" alt="Alt text"/>
 
-2. **Authorise Sparrow Cloud** 버튼을 클릭하여 권한을 부여합니다.
+2. **Authorize Sparrow Cloud** 버튼을 클릭하여 권한을 부여합니다.
 
 <img src="signup_Github01.png" alt="Alt text"/>
 
@@ -51,7 +51,7 @@ To register for Sparrow Cloud with a GitHub account or to connect a GitHub repos
 
 <img src="signup_Github00.png" alt="Alt text"/>
 
-2. Click **Authorise Sparrow Cloud** button to grant permission.
+2. Click **Authorize Sparrow Cloud** button to grant permission.
 
 <img src="signup_Github01.png" alt="Alt text"/>
 

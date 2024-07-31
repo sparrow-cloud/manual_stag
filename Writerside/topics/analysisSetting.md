@@ -54,7 +54,7 @@ GitHub 저장소나 URL을 분석하려면 **프로젝트**에서 분석 대상�
 
 ## Setting up analyses {switcher-key="English"}
 
-To analyse a GitHub repository or URL, you need to set up a **Source repository** or **Web page to analyse** in your **Project**. **Source repository refers to the repository you created with your GitHub account and points to the specific repository you set up in your project. When you perform an analysis, all files contained in that repository will be analysed. The **Web page to analyse** is a web page in the form of a URL that is accessible over the internet and is set by you. When you perform an analysis, you can analyse 1) the subpages that you can navigate to from that URL, and 2) the pages that you set as analysis options.
+To analyse a GitHub repository or URL, you need to set up a **Source repository** or **Web page to analyse** in your **Project**. Source repository refers to the repository you created with your GitHub account and points to the specific repository you set up in your project. When you perform an analysis, all files contained in that repository will be analysed. The **Web page to analyse** is a web page in the form of a URL that is accessible over the internet and is set by you. When you perform an analysis, you can analyse 1) the subpages that you can navigate to from that URL, and 2) the pages that you set as analysis options.
 
 
 1. Sign in to **Sparrow Cloud**, then click the project you want to analyse.
