@@ -11,7 +11,7 @@ switcher-label: Language
 
 프로젝트의 오른쪽에 있는 **요약**, **이슈**, **자산**, **컴포넌트**라는 네 개의 탭을 클릭해서 상세한 결과를 확인하세요.
 
-<img src="projdetails01.png" alt="Alt text"/>
+<img src="프로젝트상세01.png" alt="Alt text"/>
 
 
 ### 이슈 

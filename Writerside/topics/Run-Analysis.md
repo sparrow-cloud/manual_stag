@@ -7,7 +7,7 @@ switcher-label: Language
 
 이제 앞에서 생성한 프로젝트로 이동해서 분석을 수행하세요. **저장소, 압축 파일** 또는 **URL**을 분석하기 위해서는 먼저 프로젝트를 설정해야 합니다. 자세한 내용은 [분석 설정하기](analysisSetting.md)를 참고하세요.
 
-<img src="runAnalysis.png" alt="Alt text"/>
+<img src="분석실행.png" alt="Alt text"/>
 
 1. **새 분석 시작하기** 버튼을 클릭하세요.
 2. **소스코드 및 오픈소스** 분석을 시작하려면 **저장소** 또는 **압축 파일**을 선택하세요.
