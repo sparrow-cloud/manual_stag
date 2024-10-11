@@ -17,7 +17,7 @@ Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 다음
 5. 출력할 보고서의 **파일 이름**을 입력하세요.
 6. **내보내기** 버튼을 클릭하세요.
 
-> **Tip**: 분석 보고서 파일이 너무 큰 경우 여러 개의 파일로 나뉘어서 출력됩니다.
+> **Tip**: 완료된 분석의 보고서만 출력할 수 있습니다. 분석 보고서 파일이 너무 큰 경우 여러 개의 파일로 나뉘어서 출력됩니다.
 
 보고서에는 다음과 같은 내용이 포함됩니다.
 
@@ -44,7 +44,7 @@ Sparrow Cloud provides reports on the analysis in PDF format. Export the report 
 5. Enter a filename for the report you want to print out.
 6. Click the **Export** button.
 
-> **Tip**: If the analysis report file is too large, it will be split into multiple files.
+> **Tip**: You can print out the report from completed analyses only. If the analysis report file is too large, it will be split into multiple files.
 
 
 The report contains the following content:
