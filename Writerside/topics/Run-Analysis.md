@@ -7,7 +7,7 @@ switcher-label: Language
 
 이제 앞에서 생성한 프로젝트로 이동해서 분석을 수행하세요. **저장소, 압축 파일** 또는 **URL**을 분석하기 위해서는 먼저 프로젝트를 설정해야 합니다. 자세한 내용은 [분석 설정하기](analysisSetting.md)를 참고하세요.
 
-<img src="runAnalysis.png" alt="Alt text"/>
+<img src="분석실행.png" alt="Alt text"/>
 
 1. **새 분석 시작하기** 버튼을 클릭하세요.
 2. **소스코드 및 오픈소스** 분석을 시작하려면 **저장소** 또는 **압축 파일**을 선택하세요.
@@ -74,7 +74,7 @@ Now go to the project you created earlier and perform an analysis. To analyse a 
 <img src="runAnalysis.png" alt="Alt text"/>
 
 1. Click the **Start analysis** button.
-2. Select a repository or a zipped file to start analysing **code and open source**.
+2. Select **Repository** or **Zip file** to start analysing **code and open source**.
 3. Or select **URL** to start analysing **Web Vulnerabilities**.
 4. The analysis will now start.
 
@@ -93,7 +93,7 @@ You can compress an SBOM file that has already been generated, and then run the 
 - SWID tag (.swidtag): Version ISO/IEC 19770-2:2015
 
 
-### Analysing URLs 
+### Analysing URL 
 
 #### Event Clipboard 
 

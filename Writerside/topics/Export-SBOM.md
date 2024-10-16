@@ -10,13 +10,11 @@ switcher-label: Language
 
 
 1. SBOM을 내보내려는 **프로젝트**로 이동하세요.
-
 2. 오른쪽 위에 있는 **SBOM 내보내기** 버튼을 클릭하세요.
 
-<img src="exportSBOM.png" alt="Alt text"/>
+   <img src="SBOM내보내기.png" alt="Alt text"/>
 
 3. 파일 이름을 입력하세요.
-
 4. **SPDX (.spdx)**, **CycloneDX (.json)**, **Software Identification (SWID) (.zip)** 중에서 원하는 형식을 선택하세요.
 
 * Sofeware Package Data Exchange (SPDX)
@@ -33,13 +31,10 @@ switcher-label: Language
 
 
 1. Navigate to the **Project** you want to export the SBOM from.
-
 2. Click the **Export SBOM** button in the top right corner.
 
-<img src="exportSBOM.png" alt="Alt text"/>
-
+   <img src="exportSBOM.png" alt="Alt text"/>
 3. Enter a file name.
-
 4. Select the desired format from **SPDX (.spdx)**, **CycloneDX (.json)**, **Software Identification (SWID) (.zip)**.
 
 * Sofeware Package Data Exchange (SPDX)
