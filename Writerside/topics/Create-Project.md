@@ -28,11 +28,11 @@ Create a project before performing any analysis. You can create a project by ent
 
 1. Go to the **Project List**.
 
-<img src="프로젝트목록00.png" alt="Alt text"/>
+<img src="projList00.png" alt="Alt text"/>
 
 2. Click the **Add project** button in the top right corner of the list.
 
-<img src="프로젝트추가.png" alt="Alt text"/>
+<img src="addProj.png" alt="Alt text"/>
 
 3. Enter a name for your project.
 4. Click the **Add** button to create the project.

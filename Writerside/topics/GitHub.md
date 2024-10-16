@@ -16,15 +16,15 @@ GitHub 계정으로 Sparrow Cloud에 등록하거나 분석할 GitHub 리포지�
 
 1. 먼저 GitHub에 로그인합니다.
 
-<img src="signup_Github00.png" alt="Alt text"/>
+<img src="가입_Github00.png" alt="Alt text"/>
 
 2. **Authorize Sparrow Cloud** 버튼을 클릭하여 권한을 부여합니다.
 
-<img src="signup_Github01.png" alt="Alt text"/>
+<img src="가입_Github01.png" alt="Alt text"/>
 
 3. 연결할 리포지토리를 설정합니다.
 
-<img src="signup_Github02.png" alt="Alt text"/>
+<img src="가입_Github02.png" alt="Alt text"/>
 
 
 ### GitHub App 설치 위치 

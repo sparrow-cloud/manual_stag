@@ -22,18 +22,18 @@ Sparrow Cloud 서비스를 사용하려면 사용자 계정을 등록해야 합�
 
 3. **계정 등록** 페이지에서 사용자 이메일을 입력하세요.
 
-<img src="회원가입.png" alt="Alt text"/>
+<img src="가입_email00.png" alt="Alt text"/>
 
 > **Tip**: 이용약관 및 개인정보수집 및 이용정책을 확인하세요. 해당 내용에 동의해야 Sparrow Cloud 서비스에 계정을 등록할 수 있습니다.
 4. **이메일 인증하고 가입하기** 버튼을 클릭하세요.
 5. 입력한 이메일 주소로 계정 인증 메일이 발송됩니다.
 
-<img src="signup_email01.png" alt="Alt text"/>
+<img src="가입_email01.png" alt="Alt text"/>
 
 
 6. 인증 메일에서 **이메일 인증하기** 버튼을 클릭하세요.
 
-<img src="회원가입_추가정보.png" alt="Alt text"/>
+<img src="가입_email02.png" alt="Alt text"/>
 
 7. **계정 등록** 페이지에서 **사용자 이름** 및 **비밀번호**를 입력하고 인증을 완료하세요.
 8. 이제 **로그인** 페이지에서 등록한 **이메일** 및 **비밀번호**로 로그인할 수 있습니다.
@@ -46,19 +46,19 @@ Sparrow Cloud 서비스를 사용하려면 사용자 계정을 등록해야 합�
 9. 로그인 페이지에서 **GitHub 계정으로 로그인** 버튼을 클릭하세요.
 10. **GitHub 인증** 페이지에서 GitHub에 로그인하세요.
 
-<img src="signup_Github00.png" alt="Alt text"/>
+<img src="가입_Github00.png" alt="Alt text"/>
 
 11. **Authorize Sparrow Cloud** 버튼을 클릭하세요.
 
-<img src="signup_Github01.png" alt="Alt text"/>
+<img src="가입_Github01.png" alt="Alt text"/>
 
 12. **Sparrow Cloud 설치** 페이지에서 **Install** 버튼을 클릭하세요.
 
-<img src="signup_Github02.png" alt="Alt text"/>
+<img src="가입_Github02.png" alt="Alt text"/>
 
 13. **사용자 이름** 및 추가 정보를 입력하고 **가입하기** 버튼을 클릭하세요.
 
-<img src="signup_Github03.png" alt="Alt text"/>
+<img src="가입_Github03.png" alt="Alt text"/>
 
 > **Tip**: Sparrow Cloud에서는 GitHub의 아이디, 이메일과 같은 개인 정보를 사용합니다. 필요한 경우, GitHub의 **Confirm access** 페이지에서 비밀번호를 한 번 더 입력하세요.
 
@@ -71,7 +71,7 @@ To use the Sparrow Cloud service, you need to register a user account. Users can
 
 1. First, go to the [Sparrow Cloud homepage](https://app.sparrowcloud.ai).
 
-<img src="로그인.png" alt="Alt text"/>
+<img src="login.png" alt="Alt text"/>
 
 2. Click the **Sign-up** button to create an account with your email. To use your GitHub account, click the **Sign in with GitHub account** button.
 > **Tip**: Sparrow Cloud recommends that users who will be using GitHub repositories to perform code or open source analysis verify their GitHub account when creating an account.
@@ -81,7 +81,7 @@ To use the Sparrow Cloud service, you need to register a user account. Users can
 
 3. Enter your email on the **Register an account** page.
 
-<img src="회원가입.png" alt="Alt text"/>
+<img src="signup_email00.png" alt="Alt text"/>
 
 > **Tip**: Please read the Terms of Use and Privacy Policy. You must agree to them before you can register an account with Sparrow Cloud services.
 4. Click the **Verify your email and sign up** button.
@@ -92,7 +92,7 @@ To use the Sparrow Cloud service, you need to register a user account. Users can
 
 6. Click the **Verify email** button in the verification email.
 
-<img src="회원가입_추가정보.png" alt="Alt text"/>
+<img src="signup_email02.png" alt="Alt text"/>
 
 7. On the **Register Account** page, enter your **Username** and **Password** and complete the verification.
 8. You can now log in with your registered email and password on the **Sign-in** page.
