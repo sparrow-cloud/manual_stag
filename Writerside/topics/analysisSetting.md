@@ -49,7 +49,7 @@ GitHub 저장소나 URL을 분석하려면 **프로젝트**에서 분석 대상�
 3. CMD 창이나 파일 탐색기에서 웹 페이지를 실행하는 서버의 **루트 디렉토리**로 이동하세요.
 4. 다운로드한 **키 파일**을 저장하세요.
 
-> **Tip**: **루트 디렉토리**는 일반적으로 분석하려는 프로그램이 저장되어 있는 최상위 폴더인 경우가 많습니다.
+> **Tip**: **루트 디렉토리**는 일반적으로 분석하려는 프로그램이 저장되어 있는 최상위 폴더인 경우가 많습니다. 다만, 분석하려는 웹 페이지가 루트 디렉토리에 위치하지 않더라도 키 파일은 항상 루트 디렉토리에 저장합니다. 예를 들어, **웹 페이지 URL**에 `http://125.141.219.118:39251/benchmark/BenchmarkTest01660.html` 을 입력한 경우 키 파일의 위치는 `http://125.141.219.118:39251/sparrow-cloud-key-3452.txt` 입니다.
 
 
 
@@ -101,5 +101,5 @@ Here's how to save the key file
 3. Navigate to the **root directory** of the server running the web page in a CMD window or file explorer.
 4. Save the downloaded **key file**.
 
-> **Tip**: The **root directory** is usually the top-level folder where the program you want to analyse is stored.
+> **Tip**: The **root directory** is usually the top-level folder where the program you want to analyse is stored. Yet, the key file needs to be saved in the root directory even the web page to be analysed is not located on the root. For instance, when you enter the **web page URL** of `http://125.141.219.118:39251/benchmark/BenchmarkTest01660.html`, the key file path will be `http://125.141.219.118:39251/sparrow-cloud-key-3452.txt`.
  
