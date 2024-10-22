@@ -25,7 +25,7 @@ sastOption:
 ```
 
 
-분석 제외 경로에는 다수의 경로를 입력할 수 있습니다. 대소문자를 구분하지 않으며 경로를 구분하기 위해 `/`를 사용해야 합니다. 또한 와일드카드로써 `*`를 사용해서 패턴을 지정할 수 있습니다.
+옵션을 입력할 때는 탭이 아닌 공백을 사용하세요. 분석 제외 경로에는 다수의 경로를 입력할 수 있습니다. 대소문자를 구분하지 않으며 경로를 구분하기 위해 `/`를 사용해야 합니다. 또한 와일드카드로써 `*`를 사용해서 패턴을 지정할 수 있습니다.
 
 
 > **Tip**: **분석 제외 경로**에 입력한 경로는 **소스코드 분석**에만 적용된다는 점에 주의하세요. 즉, 이 경로에 해당하는 **오픈소스 분석**의 자산과 이슈는 분석 결과에 그대로 표시됩니다.
@@ -242,7 +242,7 @@ sastOption:
     - "*dev*"
 ```
 
-You can specify multiple items on the paths. The paths are not case-sensitive, and need to use `/` for delimiter, and can use `*` as wildcard for patterns.
+Please use a space instead of a tab. You can specify multiple items on the paths. The paths are not case-sensitive, and need to use `/` for delimiter, and can use `*` as wildcard for patterns.
 
 
 > **Tip**: The paths you entered in the **Excluded Path** only applies to **Code Analysis**. Thus, assets and issues analysed in the **Opensource Analysis** will be shown as they are.
