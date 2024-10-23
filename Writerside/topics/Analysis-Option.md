@@ -15,7 +15,7 @@ Sparrow Cloud에서 분석을 수행하기 전에 다음과 같이 옵션을 설
 분석 제외 경로는 분석에 포함하지 않을 폴더나 파일의 경로를 의미합니다. 사용자는 분석할 필요가 없는 파일이나 폴더의 경로를 옵션에 입력하면 됩니다. 
 
 1. 저장소 또는 압축 파일의 루트 디렉토리에 `.sparrow` 파일을 생성하세요.
-2. `.sparrow` 파일에 다음과 같이 분석에서 제외할 경로를 입력하세요.
+2. `.sparrow` 파일에 다음과 같이 분석에서 제외할 경로를 입력하세요. 샘플 다운로드 <resource src=".sparrow" />
 
 ```
 sastOption:  
@@ -233,7 +233,7 @@ You can set up the options as follows before performing the analysis.
 Excluded Path indicates paths excluded from the code analysis. Thus, users can enter paths of file or directory that do not need to be run on analysis.
 
 1. Create a file named `.sparrow` in the root of the repository or zipped file.
-2. Enter paths on the file in the following form.
+2. Enter paths on the file in the following form.  Download <resource src=".sparrow" />
 
 ```
 sastOption:  
