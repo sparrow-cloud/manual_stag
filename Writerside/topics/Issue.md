@@ -40,8 +40,13 @@ Sparrow Cloud는 프로젝트에서 검출된 최근 이슈를 위험한 정도�
 
 검출된 이슈 중에는 잠재적으로 문제가 될 가능성이 있을 뿐 실제로 보안 취약점 혹은 품질 문제라고 볼 수 없는 경우가 있습니다. 이러한 경우 보안 진단 전문가라고 할 수 있는 사용자가 특정 이슈를 문제에서 제외시킬 수 있도록 만든 기능이 **이슈 제외**입니다.
 
-이슈 상세 정보 페이지에 있는 **이슈 제외** 버튼을 클릭하면 이슈가 제외됩니다. 이 기능을 통해 제외된 이슈는 이슈 목록에 표시되지 않도록 설계되어 있습니다. 또한 제외된 이슈는 프로젝트에서 계산하는 이슈 수에도 포함되지 않습니다.
+이슈 상세 정보 페이지에 있는 **이슈 제외** 버튼을 클릭하면 이슈가 제외됩니다. 이 기능을 통해 제외된 이슈는 이슈 목록에 기본적으로 표시되지 않도록 필터링됩니다. 또한 제외된 이슈는 프로젝트에서 계산하는 이슈 수에도 포함되지 않습니다. 보고서에서도 이슈 수 및 이슈 상세 결과에 포함되지 않으며 제외된 이슈 정보라는 항목에 따로 표시됩니다.
 
+### 이슈 제외 취소
+
+앞서 제외한 이슈의 제외를 취소하려는 경우 이슈 목록에서 **제외**된 이슈를 표시하도록 필터를 설정한 다음 제외를 취소하려는 이슈의 상세 정보 페이지에 있는 **제외 취소** 버튼을 클릭하면 이슈 제외가 취소됩니다. 이렇게 이슈 제외가 취소된 이슈는 다시 이슈 수에 포함되고 보고서의 이슈 수 및 이슈 상세 결과에도 표시됩니다.
+
+ <img src="이슈제외취소.png" />
 
 
 ## Issue {switcher-key="English"}
@@ -79,7 +84,11 @@ When an issue is detected, it needs to be verified and resolved, or processed to
 
 Sometimes detected issues are only potentially problematic and not actually security vulnerabilities or quality issues. In these cases, the **Issue Exclusion** allows users who are experts in security diagnostics to exclude certain issues from the problem.
 
-To exclude an issue, click the **Exclude issue** button on the issue detail page. Issues excluded through this feature are designed to not appear in the issue list. They are also not included in the issue count for the project.
+To exclude an issue, click the **Exclude issue** button on the issue detail page. Issues excluded through this action are filtered out at default on the list, not included in the number of recent issues presented on the project summary, and not included in the chapters of the number of issues or issue details as well: to check the excluded issues, users need to set a filter on the list or go to chapters of Excluded issues on the report.
 
+### Include issues
 
+If you want to cancel excluding issues and rejoin them to the list, set the filter to show the **Excluded** issues, and click **Include Issue** button on the bottom of the detailed slide of the excluded issues. After including the issues, they will be joined to the number of issues and shown on the chapters of the numbers and issue detail pages on the report.
+
+ <img src="includeIssue.png" />
 

@@ -10,18 +10,20 @@ switcher-label: Language
 
 
 1. SBOM을 내보내려는 **프로젝트**로 이동하세요.
-2. 오른쪽 위에 있는 **SBOM 내보내기** 버튼을 클릭하세요.
+2. 오른쪽 위에 있는 **내보내기** 드롭다운 버튼을 클릭하세요.
+3. **SBOM 내보내기** 버튼을 클릭하세요.
+   
+   <img src="SBOM내보내기.png" />
 
-   <img src="SBOM내보내기.png" alt="Alt text"/>
+4. 파일 이름을 입력하세요.
+5. **SPDX (.spdx)**, **CycloneDX (.json)**, **Software Identification (SWID) (.zip)**, **NIS SBOM표준 (v0.8) (.csv, .pdf)** 중에서 원하는 형식을 선택하세요.
 
-3. 파일 이름을 입력하세요.
-4. **SPDX (.spdx)**, **CycloneDX (.json)**, **Software Identification (SWID) (.zip)** 중에서 원하는 형식을 선택하세요.
-
-* Sofeware Package Data Exchange (SPDX)
+* Software Package Data Exchange (SPDX)
 * CycloneDX
 * Software Identification (SWID)
+* NIS SBOM표준 (v0.8)
 
-5. **내보내기** 버튼을 클릭하세요.
+6. **내보내기** 버튼을 클릭하세요.
 
 
 
@@ -31,15 +33,18 @@ switcher-label: Language
 
 
 1. Navigate to the **Project** you want to export the SBOM from.
-2. Click the **Export SBOM** button in the top right corner.
+2. Click the **Export** dropdown button in the top right corner.
+3. Click **Export SBOM** button.
 
-   <img src="exportSBOM.png" alt="Alt text"/>
-3. Enter a file name.
-4. Select the desired format from **SPDX (.spdx)**, **CycloneDX (.json)**, **Software Identification (SWID) (.zip)**.
+   <img src="exportSBOM.png" />
+   
+4. Enter a file name.
+5. Select the desired format from **SPDX (.spdx)**, **CycloneDX (.json)**, **Software Identification (SWID) (.zip)**, **KNIS SBOM Standards (v0.8) (.csv, .pdf)** .
 
-* Sofeware Package Data Exchange (SPDX)
+* Software Package Data Exchange (SPDX)
 * CycloneDX
 * Software Identification (SWID)
+* Korean National Intelligence Service SBOM Standards (v0.8)
 
-5. Click the **Export** button.
+6. Click the **Export** button.
 

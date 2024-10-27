@@ -14,41 +14,42 @@ GitHub 저장소나 URL을 분석하려면 **프로젝트**에서 분석 대상�
 
 ### 소스코드 저장소 설정하기 
 
-<img src="프로젝트수정01.png" alt="Alt text"/>
+<img src="프로젝트수정01.png" />
 
 3. GitHub 인증을 하지 않은 경우 **소스코드 저장소**에서 **GitHub 인증** 버튼을 클릭하고 GitHub에 로그인하세요.
 4. GitHub으로 계정을 등록했거나 이미 인증을 마쳤다면 **GitHub 저장소 선택** 버튼을 클릭하세요.
-5. 슬라이드에서 분석할 저장소를 선택하세요.
-6. 프로젝트 정보 슬라이드에서 **수정하기** 버튼을 클릭하세요.
+5. 슬라이드에서 분석할 저장소를 선택하세요. 저장소의 기본 브랜치가 자동으로 선택됩니다.
+6. 프로젝트 정보 슬라이드에서 표시된 저장소의 브랜치 옆에 있는 **변경** 버튼을 클릭해서 브랜치를 변경할 수 있습니다.
+7. 모두 선택한 다음, 슬라이드 아래에서 **수정하기** 버튼을 클릭하세요.
 
 이제 **소스코드 저장소**를 설정했습니다. 여기에서 선택한 저장소에 저장된 파일을 **소스코드** 및 **오픈소스** 분석에서 사용하게 됩니다.
 
-### 분석 대상 웹 페이지 설정하기 
+### 분석 대상 웹 페이지 설정하기
 
-<img src="프로젝트수정03.png" alt="Alt text"/>
+<img src="프로젝트수정03.png" />
 
 7. **프로젝트 수정** 슬라이드에서 **웹 페이지 설정** 버튼을 클릭하세요.
 8. **URL**에 분석 대상인 웹 페이지의 주소를 입력하고 **연결 테스트** 버튼을 클릭하여 연결을 확인하세요.
 > **Tip**: URL은 `http://` 또는 `https://`로 시작하는 URL 형식으로 입력해야 합니다.
 9. 필요한 경우 **분석 옵션**을 조정하고 **설정하기** 버튼을 클릭하세요.
 > **Tip**: 사용자는 웹취약점 분석 옵션을 조정해서 웹 페이지를 어떤 범위로 어느 정도나 분석할지 결정할 수 있습니다. **분석 옵션**에 대한 자세한 설명은 [여기](Analysis-Option.md)를 참고하세요.
-10. [키 파일 저장하기](#analysissetting.html#hpery9_1989)를 참고하여 **키 파일**을 다운로드해서 분석 대상 웹 페이지에 저장하세요.
+10. [키 파일 저장하기](#키-파일-저장하기)를 참고하여 **키 파일**을 다운로드해서 분석 대상 웹 페이지에 저장하세요.
 11. 프로젝트 정보 슬라이드에서 **수정하기** 버튼을 클릭하세요.
 
 
-#### 키 파일 저장하기 
+#### 키 파일 저장하기
 
 **키 파일**은 Sparrow Cloud에서 사용자가 프로젝트에 설정한 웹 페이지 URL을 타겟으로 삼아서 생성한 파일입니다. 사용자가 설정한 웹 페이지를 소유했는지를 확인하기 위해서 사용자에게 **키 파일**을 저장하도록 만듭니다. 만약에 사용자가 실수로 아무런 관계 없는 웹 페이지를 분석하도록 설정했더라도 키 파일이 없다면 분석이 시작되지 않게 됩니다.
 키 파일을 저장하는 방법은 다음과 같습니다.
 
-<img src="프로젝트수정04.png" alt="Alt text"/>
+<img src="프로젝트수정04.png" />
 
-1. 먼저 프로젝트에서 **분석 대상 웹 페이지**를 설정해야 합니다. 위에서 [분석 대상 웹 페이지 설정하기](#analysissetting.html#hpery9_2779)를 참고하세요.
+1. 먼저 프로젝트에서 **분석 대상 웹 페이지**를 설정해야 합니다. 위에서 [분석 대상 웹 페이지 설정하기](#분석-대상-웹-페이지-설정하기)를 참고하세요.
 2. **프로젝트 수정하기** 슬라이드의 대상 URL에서 **키 파일 다운로드** 버튼을 클릭하세요.
 3. CMD 창이나 파일 탐색기에서 웹 페이지를 실행하는 서버의 **루트 디렉토리**로 이동하세요.
 4. 다운로드한 **키 파일**을 저장하세요.
 
-> **Tip**: **루트 디렉토리**는 일반적으로 분석하려는 프로그램이 저장되어 있는 최상위 폴더인 경우가 많습니다.
+> **Tip**: **루트 디렉토리**는 일반적으로 분석하려는 프로그램이 저장되어 있는 최상위 폴더인 경우가 많습니다. 다만, 분석하려는 웹 페이지가 루트 디렉토리에 위치하지 않더라도 키 파일은 항상 루트 디렉토리에 저장합니다. 예를 들어, **웹 페이지 URL**에 `http://125.141.219.118:39251/benchmark/BenchmarkTest01660.html` 을 입력한 경우 키 파일의 위치는 `http://125.141.219.118:39251/sparrow-cloud-key-3452.txt` 입니다.
 
 
 
@@ -63,41 +64,42 @@ To analyse a GitHub repository or URL, you need to set up a **Source Code Reposi
 
 ### Setting up source code repository 
 
-<img src="modifyProj01.png" alt="Alt text"/>
+<img src="modifyProj01.png" />
 
 3. If you don't have GitHub authentication, click **Get GitHub authentication** button in the **Source code repository** and log in to GitHub.
 4. If you have registered an account with GitHub or have already authenticated, click the **Select GitHub repository** button.
-5. Select the repository you want to analyse from the slide.
-6. Click the **Modify** button on the slide.
+5. Select the repository you want to analyse from the slide. Then, default branch of the repository will be set as default.
+6. In the Modify Project slide, click **modify** link in the repository setting to change the selected branch.
+7. Then, click **Modify** button on the bottom of the slide.
 
 
 You have now set up your **Source code repository**, where files stored in the selected repository will be used in your **Code** and **Open source** analyses.
 
 
-### Setting up web pages to analyse 
+### Setting up web page
 
-<img src="modifyProj03.png" alt="Alt text"/>
+<img src="modifyProj03.png" />
 
 7. On the **Modify project** slide, click the **Set web page** button.
 8. In **URL**, enter the address of the web page you want to analyse and click the **Test Connection** button to check the connection.
 > **Tip**: The URL must be entered in URL format starting with `http://` or `https://`.
 9. Adjust the **options** if necessary and click the **Set** button.
 > **Tip**: Users can adjust the web app analysis options to determine which web pages will be analysed and to what extent. For a detailed description of **Analysis Options**, see [here](Analysis-Option.md).
-10. See [Saving a key file](#analysissetting.html#hpery9_1989) to download the **key file** and save it to the web page being analysed.
+10. See [Saving the key file](#saving-the-key-file) to download the **key file** and save it to the web page being analysed.
 11. Click the **Modify** button on the project information slide.
 
 
-#### Save the key file 
+#### Saving the key file
 
 A **key file** is a file generated by Sparrow Cloud that targets a web page URL that you set up in your project. We require users to save the key file to ensure that they own the web page they set up. If a user accidentally sets an unrelated web page to be analysed, the analysis will not start without the key file.
 Here's how to save the key file
 
-<img src="modifyProj04.png" alt="Alt text"/>
+<img src="modifyProj04.png" />
 
-1. First, you need to set up analysable web pages in your project. See [Setting up web pages to analyse](#analysissetting.html#hpery9_2779) above.
+1. First, you need to set up analysable web pages in your project. See [Setting up web page](#setting-up-web-page) above.
 2. Click the **Download key file** button on the target URL in the **Modify your project** slide.
 3. Navigate to the **root directory** of the server running the web page in a CMD window or file explorer.
 4. Save the downloaded **key file**.
 
-> **Tip**: The **root directory** is usually the top-level folder where the program you want to analyse is stored.
+> **Tip**: The **root directory** is usually the top-level folder where the program you want to analyse is stored. Yet, the key file needs to be saved in the root directory even the web page to be analysed is not located on the root. For instance, when you enter the **web page URL** of `http://125.141.219.118:39251/benchmark/BenchmarkTest01660.html`, the key file path will be `http://125.141.219.118:39251/sparrow-cloud-key-3452.txt`.
  

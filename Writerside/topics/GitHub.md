@@ -1,7 +1,7 @@
 ---
 switcher-label: Language
 ---
-# GitHub App: Sparrow Cloud
+# Connect to GitHub
 
 
 ## GitHub 저장소 연결 {switcher-key="한국어"}
@@ -14,28 +14,22 @@ Sparrow Cloud는 GitHub 저장소에 연동하고, 업로드된 파일을 가져
 
 GitHub 계정으로 Sparrow Cloud에 등록하거나 분석할 GitHub 리포지토리를 연결하려면 GitHub 앱을 설치해야 합니다.
 
-1. 먼저 GitHub에 로그인합니다.
+1. 먼저 GitHub에 로그인하세요.
 
 <img src="가입_Github00.png" alt="Alt text"/>
 
-2. **Authorize Sparrow Cloud** 버튼을 클릭하여 권한을 부여합니다.
+2. **Authorize Sparrow Cloud** 버튼을 클릭하여 권한을 부여하세요.
 
 <img src="가입_Github01.png" alt="Alt text"/>
 
-3. 연결할 리포지토리를 설정합니다.
+3. 메일에 연결된 계정이 여러 개인 경우 연결할 계정을 선택하세요.
 
 <img src="가입_Github02.png" alt="Alt text"/>
 
+4. 연결할 리포지토리를 설정하세요. 전체 또는 일부를 선택할 수 있습니다.
 
-### GitHub App 설치 위치 
+<img src="가입_Github03.png" alt="Alt text"/>
 
-- GitHub App을 개인 계정에 설치한 경우
-  - 해당 계정의 public, private 저장소
-  - 해당 계정에서 fork해 온 저장소
-- GitHub App을 organization에 설치한 경우
-  - 개인 계정의 public 저장소
-  - 해당 organization의 public, private 저장소
-  - 해당 organization에서 fork해 온 저장소
 
 ## Connecting GitHub repository {switcher-key="English"}
 
@@ -55,18 +49,13 @@ To register for Sparrow Cloud with a GitHub account or to connect a GitHub repos
 
 <img src="signup_Github01.png" alt="Alt text"/>
 
-3. Set up the repository to connect to.
+3. Select one account when the GitHub email has multiple account.
 
 <img src="signup_Github02.png" alt="Alt text"/>
 
+4. Set up the repository to connect to. You can select all or part of repositories.
 
-### Installing location of GitHub App 
+<img src="signup_Github03.png" alt="Alt text"/>
 
-- If you installed GitHub App on a personal account
-  - The public and private repositories of that account
-  - The repository you forked from that account
-- If you installed the GitHub app in an organization
-  - The public repository of your personal account
-  - The public and private repositories of your organization
-  - The repository you forked from your organization
+
 

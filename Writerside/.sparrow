@@ -1,0 +1,4 @@
+sastOption:  
+  excludedPath:  
+    - "c:/aaa/bbb"  
+    - "*dev*"

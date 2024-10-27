@@ -6,8 +6,28 @@ switcher-label: Language
 
 ## 분석 옵션 {switcher-key="한국어"}
 
-Sparrow Cloud는 특히 웹취약점 분석에 대한 다양한 옵션을 준비했습니다. 분석을 수행하기 전에 다음과 같이 옵션을 설정할 수 있습니다.
+Sparrow Cloud에서 분석을 수행하기 전에 다음과 같이 옵션을 설정할 수 있습니다.
 
+### 소스코드 분석 옵션
+
+**분석 제외 경로**
+
+분석 제외 경로는 분석에 포함하지 않을 폴더나 파일의 경로를 의미합니다. 사용자는 분석할 필요가 없는 파일이나 폴더의 경로를 옵션에 입력하면 됩니다. 다만, **분석 제외 경로**에 입력한 경로는 **소스코드 분석에만 적용**된다는 점에 주의하세요. 즉, 이 경로에 해당하는 **오픈소스 분석의 자산과 이슈는 분석 결과에 그대로 표시**됩니다.
+
+
+1. 저장소 또는 압축 파일의 루트 디렉토리에 `.sparrow` 파일을 생성하세요.
+2. `.sparrow` 파일에 다음과 같이 분석에서 제외할 경로를 입력하세요.
+
+```
+sastOption:  
+  excludedPath:  
+    - "c:/aaa/bbb"  
+    - "*dev*"
+```
+
+> **Tip**: 샘플 파일은 여기<resource src="sample.sparrow" />에서 다운로드 받을 수 있습니다. **다운로드 받은 파일의 이름을 `.sparrow`로 수정**하고 사용하세요.
+
+옵션을 입력할 때는 탭이 아닌 공백을 사용하세요. 분석 제외 경로에는 다수의 경로를 입력할 수 있습니다. 대소문자를 구분하지 않으며 경로를 구분하기 위해 `/`를 사용해야 합니다. 또한 와일드카드로써 `*`를 사용해서 패턴을 지정할 수 있습니다.
 
 ### 웹취약점 분석 옵션 
 
@@ -64,7 +84,7 @@ HTML 주석 분석은 **URL을 수집할 때 HTML 본문의 응답 메시지를 
 
 저장 기반 취약점 검출은 **저장 기반 취약점을 검출하기 위한 동작을 추가적으로 수행**하는지를 의미하며 `예`, `아니요`로 구분합니다. 저장 기반 취약점이란 Stored XSS(Persistent XSS)나 Stored SQL Injection(Persistent SQL Injection) 처럼 DB에 저장되어서, 공격 후 페이지에 바로 반영되지 않고 다른 페이지에 영향을 주는 취약점을 의미합니다.(기본값: `아니요`)
 
-이 옵션을 `예`로 설정하면 **저장 기반 취약점을 검출하기 위해 추가적인 작업을 수행하고, 저장 기반 취약점을 검출하기 위한 체커를 활성화**합니다. 이로 인해 분석 속도가 느려지지만 저장 기반 취약점을 검출할 수 있습니다. 이 옵션을 `아니요`로 설정하면 **저장 기반 취약점을 검출하기 위한 작업을 수행하지 않고, 저장 기반 취약점을 검출하기 위한 체커를 비활성화**합니다. 이로 인해 분석 속도는 빨라지지만 저장 기반 취약점을 검출할 수 없습니다.
+이 옵션을 `예`로 설정하면 **저장 기반 취약점을 검출하기 위해 추가적인 작업을 수행하고, 저장 기반 취약점을 검출하기 위한 이슈 검출 규칙을 활성화**합니다. 이로 인해 분석 속도가 느려지지만 저장 기반 취약점을 검출할 수 있습니다. 이 옵션을 `아니요`로 설정하면 **저장 기반 취약점을 검출하기 위한 작업을 수행하지 않고, 저장 기반 취약점을 검출하기 위한 이슈 검출 규칙을 비활성화**합니다. 이로 인해 분석 속도는 빨라지지만 저장 기반 취약점을 검출할 수 없습니다.
 
 
 **URL 수집 깊이**
@@ -122,7 +142,7 @@ HTTP 클라이언트 대기 시간은 **HTTP 클라이언트가 분석을 수행
 
 로그인 기록 파일은 **Sparrow DAST 이벤트 클립보드에서 저장한 .ecl 형식의 파일**로써 **특정 URL에서 사용자의 동작이 기록**되어 있습니다. 주로 사용자가 특정 URL에서 로그인하는 데 사용한 ID 및 비밀번호 정보를 저장하여 URL을 수집하거나 분석할 때 사용합니다.
 
-**로그인 기록 파일을 첨부하는 경우** URL 수집 및 분석 중에 이벤트 클립보드의 기록이 시작된 URL에 도달하면 해당 파일에 저장된 사용자의 동작을 그대로 재현하게 됩니다. 이러한 방법으로 **로그인 페이지에서 필요한 인증을 통과**할 수 있습니다. 이벤트 클립보드에 대한 자세한 내용은 [이벤트 클립보드로 분석](#analyze.md#co6xdo_66)을 참고하세요.
+**로그인 기록 파일을 첨부하는 경우** URL 수집 및 분석 중에 이벤트 클립보드의 기록이 시작된 URL에 도달하면 해당 파일에 저장된 사용자의 동작을 그대로 재현하게 됩니다. 이러한 방법으로 **로그인 페이지에서 필요한 인증을 통과**할 수 있습니다. 이벤트 클립보드에 대한 자세한 내용은 [이벤트 클립보드로 분석](#RunAnalysis.md#이벤트-클립보드로-분석)을 참고하세요.
 
 
 **클라이언트 언어**
@@ -201,7 +221,29 @@ HTTP 클라이언트 대기 시간은 **HTTP 클라이언트가 분석을 수행
 
 ## Analysis Option {switcher-key="English"}
 
-Sparrow Cloud has prepared various options especially for web app analysis. You can set the options as follows before performing the analysis.
+
+You can set up the options as follows before performing the analysis.
+
+### Code analysis options
+
+**Excluded Path**
+
+Excluded Path indicates paths excluded from the code analysis. Thus, users can enter paths of file or directory that do not need to be run on analysis.
+
+1. Create a file named `.sparrow` in the root of the repository or zipped file.
+2. Enter paths on the file in the following form.  Download <resource src=".sparrow" />
+
+```
+sastOption:  
+  excludedPath:  
+    - "c:/aaa/bbb"  
+    - "*dev*"
+```
+
+Please use a space instead of a tab. You can specify multiple items on the paths. The paths are not case-sensitive, and need to use `/` for delimiter, and can use `*` as wildcard for patterns.
+
+
+> **Tip**: The paths you entered in the **Excluded Path** only applies to **Code Analysis**. Thus, assets and issues analysed in the **Opensource Analysis** will be shown as they are.
 
 
 ### Web App Analysis Options 
@@ -260,7 +302,7 @@ If this option is set to `ON`, it will **look for URLs Included in HTML comments
 
 Detect Storage Vulnerability refers to whether **additionally performs actions to detect storage-based vulnerabilities**. A storage-based vulnerability is a vulnerability that is stored in the DB, such as Stored XSS (Persistent XSS) or Stored SQL Injection (Persistent SQL Injection), and affects other pages without being reflected on the page immediately after the attack.(Default: `OFF`)
 
-If this option is Setting to `ON`, it will **start extra work to detect storage vulnerability and enable checker to detect storage vulnerability**. This slows down the analysis, but allows for the detection of storage-based vulnerabilities. If this option is set to `OFF`, **Does not perform any additional work to detect storage-based vulnerabilities, and disables the checker to detect storage-based vulnerabilities**. This will speed up the analysis, but will not detect storage-based vulnerabilities.
+If this option is Setting to `ON`, it will **start extra work to detect storage vulnerability and enable rules to detect storage vulnerability**. This slows down the analysis, but allows for the detection of storage-based vulnerabilities. If this option is set to `OFF`, **Does not perform any additional work to detect storage-based vulnerabilities, and disables the rules to detect storage-based vulnerabilities**. This will speed up the analysis, but will not detect storage-based vulnerabilities.
 
 
 **URL Crawling Depth**
@@ -320,7 +362,7 @@ The higher the **Value entered for this option, the more the analysis will proce
 
 A Sign-in Log File is a **file in .ecl format saved from the Sparrow DAST Event Clipboard** that records a User's behavior at a specific URL. It is mainly used when collecting or analyzing URLs by storing the ID and Password information that a user used to log-in at a specific URL.
 
-If you attach a **Sign-in Log File** during URL collection and analysis, when the Event Clipboard reaches the URL where the recording started, it will replay the User's behavior stored in the file. In this way, you can **pass the required authentication on the Logged-in page**. For more information about the Event Clipboard, see [Analyzing with the Event Clipboard](#analyze.md#co6xdo_66).
+If you attach a **Sign-in Log File** during URL collection and analysis, when the Event Clipboard reaches the URL where the recording started, it will replay the User's behavior stored in the file. In this way, you can **pass the required authentication on the Logged-in page**. For more information about the Event Clipboard, see [Analyzing with the Event Clipboard](Run-Analysis.md#analysing-with-the-event-clipboard).
 
 
 **Browser or HTTP Client Language**
