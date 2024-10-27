@@ -7,7 +7,7 @@ switcher-label: Language
 
 이제 앞에서 생성한 프로젝트로 이동해서 분석을 수행하세요. **저장소, 압축 파일** 또는 **URL**을 분석하기 위해서는 먼저 프로젝트를 설정해야 합니다. 자세한 내용은 [분석 설정하기](analysisSetting.md)를 참고하세요.
 
-<img src="분석실행.png" alt="Alt text"/>
+<img src="분석실행.png" />
 
 1. **새 분석 시작하기** 버튼을 클릭하세요.
 2. **소스코드 및 오픈소스** 분석을 시작하려면 **저장소** 또는 **압축 파일**을 선택하세요.
@@ -15,6 +15,10 @@ switcher-label: Language
 4. 이제 분석이 시작됩니다.
 
 > **Tip**: 분석이 수행되는 동안 동일한 분석 대상을 추가로 분석할 수 없습니다. 만약, 실행 중인 분석을 중지하려는 경우 분석 목록에서 해당 분석을 중지할 수 있습니다. 이미 완료된 분석은 중지하거나 삭제할 수 없다는 점에 유의하세요.
+
+### 저장소 분석하기
+
+Sparrow Cloud에 등록한 이메일과 동일한 이메일의 GitHub 저장소에 업로드한 파일을 분석할 수 있습니다. 설정하는 방법은 [소스코드 저장소 설정하기](#analysissetting.md#소스코드-저장소-설정하기)를 참고하세요. 서비스를 구독하지 않은 사용자는 Public 저장소만 분석할 수 있습니다.
 
 ### 압축 파일 분석하기 
 
@@ -29,6 +33,9 @@ switcher-label: Language
 - SWID tag(.swidtag): 버전 ISO/IEC 19770-2:2015
 
 ### URL 분석하기 
+
+웹 사이트 URL을 분석하는 방법은 [분석 대상 웹 페이지 설정하기](#analysissetting.md#분석-대상-웹-페이지-설정하기)를 참고하세요. 서비스를 구독하지 않은 사용자는 일부 웹취약점 분석 옵션을 사용할 수 없습니다.
+
 
 #### 이벤트 클립보드 
 
@@ -71,7 +78,7 @@ switcher-label: Language
 
 Now go to the project you created earlier and perform an analysis. To analyse a **repository, zipped file** or **URL**, you must first set up a project, see [Setting up analysis](analysisSetting.md) for more information.
 
-<img src="runAnalysis.png" alt="Alt text"/>
+<img src="runAnalysis.png" />
 
 1. Click the **Start analysis** button.
 2. Select **Repository** or **Zip file** to start analysing **code and open source**.
@@ -79,6 +86,11 @@ Now go to the project you created earlier and perform an analysis. To analyse a 
 4. The analysis will now start.
 
 > **Tip**: You cannot perform another analyses with the same type of target while an analysis is running. If you want to stop a running analysis, you can do so from the list of analyses. Note that you cannot stop or delete an analysis that has already been completed.
+
+
+### Analysing repository
+
+Files uploaded to the Github repositories can be analysed for the users who registered their github emails in the Sparrow Cloud. See [Setting up source code repository](analysisSetting.md#setting-up-source-code-repository) for details. Users who do not subscribe the Sparrow Cloud service can run analysis on public repositories only.
 
 ### Analysing zipped file 
 
@@ -95,9 +107,11 @@ You can compress an SBOM file that has already been generated, and then run the 
 
 ### Analysing URL 
 
+See [Setting up web page](analysisSetting.md#setting-up-web-page) for specifying a web page URL to run analysis. Users who do not subscribe the Sparrow Cloud service cannot modify some items of web app analysis options.
+
 #### Event Clipboard 
 
-The **Event Clipboard** is basically a tool that allows you to record and save events performed on a web page. You can use this feature to expand the scope of your analysis by saving the events performed by the user to a file and entering it into the [Analysis-Option.md]. If the URL you are analysing requires you to log in with a specific ID and password, you can save the event from the **Event Clipboard** to a file and upload it to the **Login History File** in **Analysis Options**, and the information stored in the file will be used for analysis.
+The **Event Clipboard** is basically a tool that allows you to record and save events performed on a web page. You can use this feature to expand the scope of your analysis by saving the events performed by the user to a file and entering it into the [Analysis option](Analysis-Option.md). If the URL you are analysing requires you to log in with a specific ID and password, you can save the event from the **Event Clipboard** to a file and upload it to the **Login History File** in **Analysis Options**, and the information stored in the file will be used for analysis.
 
 
 #### Installing the Event Clipboard 

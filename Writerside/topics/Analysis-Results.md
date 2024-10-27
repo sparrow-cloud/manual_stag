@@ -9,10 +9,17 @@ switcher-label: Language
 
 > **Tip**: **최근 분석** 이전에 수행한 분석 결과의 내용을 확인할 수 없다는 점에 주의하세요.
 
-프로젝트의 오른쪽에 있는 **요약**, **이슈**, **자산**, **컴포넌트**라는 네 개의 탭을 클릭해서 상세한 결과를 확인하세요.
+프로젝트의 오른쪽에 있는 **요약**, **레퍼런스**, **이슈**, **자산**, **컴포넌트**라는 다섯 개의 탭을 클릭해서 상세한 결과를 확인하세요.
 
-<img src="프로젝트상세01.png" alt="Alt text"/>
+<img src="프로젝트상세01.png" />
 
+
+
+### 레퍼런스
+
+**레퍼런스**는 분석 대상에서 검출한 이슈와 연관된 레퍼런스 및 레퍼런스 항목을 표시하고 최근 이슈 중에서 레퍼런스 항목에 해당하는 이슈의 개수를 표시합니다.
+
+레퍼런스에 대한 더 자세한 내용은 [레퍼런스](Reference.md)를 참고하세요.
 
 ### 이슈 
 
@@ -23,7 +30,7 @@ switcher-label: Language
 
 ### 자산 
 
-Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은 분석에 사용한 분석 대상에서 생성됩니다: 분석 대상에 포함된 파일이나 하위 URL을 식별하고 이 정보로 **자산 목록**을 보여줍니다. 분석 대상에 따라서 소스코드 분석과 오픈소스 분석에 사용된 리포지토리에서 식별한 자산은 **파일**로 표시되고, 웹 취약점 분석에 사용된 웹 페이지에서 식별한 자산은 **URL**로 표시됩니다.
+Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은 분석에 사용한 분석 대상에서 생성됩니다: 분석 대상에 포함된 파일이나 하위 URL을 식별하고 이 정보로 **자산 목록**을 보여줍니다. 분석 대상에 따라서 소스코드 분석과 오픈소스 분석에 사용된 리포지토리에서 식별한 자산은 **파일**로 표시되고, 웹취약점 분석에 사용된 웹 페이지에서 식별한 자산은 **URL**로 표시됩니다.
 
 자산에 대한 더 자세한 내용은 [자산](Asset.md)을 참고하세요.
 
@@ -41,10 +48,16 @@ The results you can see in your project include the findings from your **recent 
 
 > **Tip**: Note that you can't see the results of analyses performed before **Recent Analyses**.
 
-To see detailed results, click the four tabs on the right side of the project: **Summary**, **Issue**, **Asset**, and **Component**.
+To see detailed results, click the five tabs on the right side of the project: **Summary**, **Reference**, **Issue**, **Asset**, and **Component**.
 
-<img src="projdetails01.png" alt="Alt text"/>
+<img src="projdetails01.png" />
 
+
+### References
+
+**References** show references and reference chapters, and presents the related number of issues detected on the recent analysis.
+
+For more information about the references, see [Reference](Reference.md).
 
 ### Issues 
 

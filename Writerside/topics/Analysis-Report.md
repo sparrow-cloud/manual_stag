@@ -5,15 +5,15 @@ switcher-label: Language
 
 ## 분석 보고서  {switcher-key="한국어"}
 
-Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 다음과 같은 방법으로 보고서를 출력하세요.
+Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 프로젝트 상세의 **내보내기** 버튼을 클릭해서 최근 분석의 결과를 보고서로 출력하거나 다음과 같은 방법으로 특정 분석의 보고서를 출력하세요.
 
 
 1. 프로젝트로 이동하세요.
 2. 페이지 위에 있는 **분석 목록 조회하기** 버튼을 클릭하세요.
-   <img src="분석목록.png" alt="Alt text"/>
+   <img src="분석목록.png" />
 3. 보고서를 출력하려는 분석을 클릭하세요.
 4. 슬라이드 아래에 있는 **보고서 내보내기** 버튼을 클릭하세요.
-   <img src="보고서내보내기.png" alt="Alt text"/>
+   <img src="보고서내보내기.png" />
 5. 출력할 보고서의 **파일 이름**을 입력하세요.
 6. **내보내기** 버튼을 클릭하세요.
 
@@ -28,19 +28,19 @@ Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 다음
 - 제외된 이슈 정보   : 제외된 이슈에 대한 정보.
 - 이슈 검출 규칙 정보 : 이슈를 검출한 규칙의 목록.
 
-<img src="보고서.png" alt="Alt text"/>
+<img src="보고서.png" />
 
 ## Export Report {switcher-key="English"}
 
-Sparrow Cloud provides reports on the analysis in PDF format. Export the report in the following way
+Sparrow Cloud provides reports on the analysis in PDF format. Export the report of recent analysis from **Export** dropdown button in the Project or export the report of a certain analysis in the following way:
 
 
 1. navigate to your project.
 2. click the **View analysis list** button at the top of the page.
-   <img src="analysisList.png" alt="Alt text"/>
+   <img src="analysisList.png" />
 3. Click the analysis for which you want to print a report.
 4. Click the **Export report** button below the slide.
-   <img src="exportReport.png" alt="Alt text"/>
+   <img src="exportReport.png" />
 5. Enter a filename for the report you want to print out.
 6. Click the **Export** button.
 
@@ -57,4 +57,4 @@ The report contains the following content:
 - Detection rules : list of detection rules.
 
 
-<img src="report.png" alt="Alt text"/>
+<img src="report.png" />

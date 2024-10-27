@@ -11,11 +11,11 @@ switcher-label: Language
 
 1. **전체 프로젝트 목록**으로 이동하세요.
 
-<img src="프로젝트목록00.png" alt="Alt text"/>
+<img src="프로젝트목록00.png" />
 
 2. 목록 오른쪽 위에 있는 **프로젝트 추가하기** 버튼을 클릭하세요.
 
-<img src="프로젝트추가.png" alt="Alt text"/>
+<img src="프로젝트추가.png" />
 
 3. **프로젝트 이름**을 입력하세요. 
 4. **추가하기** 버튼을 클릭하면 프로젝트가 생성됩니다.
@@ -28,11 +28,11 @@ Create a project before performing any analysis. You can create a project by ent
 
 1. Go to the **Project List**.
 
-<img src="projList00.png" alt="Alt text"/>
+<img src="projList00.png" />
 
 2. Click the **Add project** button in the top right corner of the list.
 
-<img src="addProj.png" alt="Alt text"/>
+<img src="addProj.png" />
 
 3. Enter a name for your project.
 4. Click the **Add** button to create the project.

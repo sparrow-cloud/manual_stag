@@ -11,7 +11,7 @@ Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 
 1. 오른쪽 위에 있는 **사용자 이름**을 클릭하세요.
 2. **구독 관리**를 선택하세요.
 
-<img src="내계정_구독00.png" alt="Alt text"/>
+<img src="내계정_구독00.png" />
 
 3. 구독 목록의 위쪽에서 분석을 수행할 수 있는 횟수를 확인하세요.
 
@@ -23,7 +23,7 @@ Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 
 1. **구독 목록**에서 **구독하러 가기** 버튼을 클릭하세요.
 2. 구독할 분석의 체크 박스를 선택하세요.
 
-<img src="내계정_구독01.png" alt="Alt text"/>
+<img src="내계정_구독01.png" />
 
 3. 구독 형태를 **월간** 또는 **연간** 중에서 선택하세요.
 4. 슬라이드 아래에서 **결제하기** 버튼을 클릭하세요. 
@@ -39,7 +39,7 @@ Users registered with Sparrow Cloud can run up to 1000 **Code Analyses**, 1000 *
 1. click on their **username** in the top right corner.
 2. Select **Manage Subscriptions**.
 
-<img src="myaccount_sub00.png" alt="Alt text"/>
+<img src="myaccount_sub00.png" />
 
 3. Check the top of the subscription list to see how many times you can run the analyses.
 
@@ -51,7 +51,7 @@ Users registered with Sparrow Cloud can run up to 1000 **Code Analyses**, 1000 *
 1. click the **Subscribe** button in the **Subscription List**.
 2. Check the box for the product you want to subscribe to.
 
-<img src="myaccount_sub01.png" alt="Alt text"/>
+<img src="myaccount_sub01.png" />
 
 3. Choose a subscription period i.e. monthly or yearly. 
 4. click the **Pay** button at the bottom of the slide. 
