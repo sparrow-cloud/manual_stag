@@ -17,10 +17,9 @@ GitHub 저장소를 연결한 경우 분석할 수 있는 저장소는 다음과
 
 ### 설치 위치
 
-GitHub에 로그인한 후, 다음 페이지에서 Sparrow Cloud의 GitHub 연결 프로그램인 **GitHub App: Sparrow Cloud**으로 연결된 리포지토리가 어디인지를 확인할 수 있습니다.
+GitHub에 로그인한 후, 다음 페이지에서 Sparrow Cloud의 GitHub 연결 프로그램인 **GitHub App: Sparrow Cloud**으로 연결된 계정 또는 조직이 어디인지를 확인할 수 있습니다.
 
-https://github.com/apps/sparrow-cloud/installations/select_target
-
+<a href="https://github.com/apps/sparrow-cloud/installations/select_target">GitHub으로 이동</a>
 
 
 
@@ -40,8 +39,8 @@ After installing GitHub App connector, repositories available for the analysis a
 
 ### Installing location of GitHub App
 
-Signing-in to GitHub, you can check repositories where you installed **GitHub App: Sparrow Cloud**, the connector to the Sparrow Cloud.
+Signing-in to GitHub, you can check the account or organization where you installed **GitHub App: Sparrow Cloud**, the connector to the Sparrow Cloud.
 
-https://github.com/apps/sparrow-cloud/installations/select_target
+<a href="https://github.com/apps/sparrow-cloud/installations/select_target">Go to GitHub</a>
 
 
