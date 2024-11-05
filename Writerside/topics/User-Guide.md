@@ -30,7 +30,7 @@ Sparrow Cloud에 방문하신 것을 환영합니다. 이 페이지에서는 Spa
 
 {type="text"}
 
-추가적인 문의가 있으시면 Sparrow 고객센터로 연락해주세요.
+추가적인 문의가 있으시면 [Sparrow 고객센터](https://cs.sparrow.im/ko/tickets)로 연락해주세요.
 
 이메일: <cs@sparrow.im>
 
@@ -65,7 +65,7 @@ Go to
 
 {type="text"}
 
-If you have any further questions, please contact **Sparrow Customer Support**. 
+If you have any further questions, please contact [**Sparrow Customer Support**](https://cs.sparrow.im/en/tickets). 
 
 Contact: <cs@sparrow.im>
 
