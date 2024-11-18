@@ -16,3 +16,4 @@ switcher-label: Language
 
 This page provides tips and tricks to get you started. Learn more about subscriptions and pricing, analysis coverage of GitHub repositories, web app analysis options, and more.
 
+Check <a href="https://cs.sparrow.im/en/faq?product=cloud">Sparrow Customer Support</a> for more FAQs.
