@@ -21,7 +21,7 @@ Sparrow Cloud에서 분석을 수행하기 전에 다음과 같이 옵션을 설
 ```
 sastOption:  
   excludedPath:  
-    - "c:/aaa/bbb"  
+    - "*/src/test/*"  
     - "*dev*"
 ```
 
