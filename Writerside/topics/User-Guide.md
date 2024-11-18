@@ -65,7 +65,7 @@ Go to
 
 {type="text"}
 
-If you have any further questions, please contact [**Sparrow Customer Support**](https://cs.sparrow.im/en/tickets). 
+If you have any further questions, please contact [**Sparrow Customer Support**](https://cs.sparrow.im/en/faq?product=cloud). 
 
 Contact: <cs@sparrow.im>
 
