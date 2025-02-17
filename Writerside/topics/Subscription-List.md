@@ -8,12 +8,11 @@ switcher-label: Language
 
 Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 분석**, 1000개의 **오픈소스 분석**, 100개의 **웹취약점 분석**을 수행할 수 있습니다. 분석 횟수는 기본적으로 매월 1일마다 다시 초기화됩니다. 사용자는 구독 목록에서 몇 개의 분석을 수행할 수 있는지를 확인할 수 있습니다.
 
-1. 오른쪽 위에 있는 **사용자 이름**을 클릭하세요.
-2. **구독 관리**를 선택하세요.
+1. 오른쪽 위에 있는 **구독 관리** 아이콘을 클릭하세요.
 
-<img src="내계정_구독00.png" />
+   <img src="내계정_구독00.png" />
 
-3. 구독 목록의 위쪽에서 분석을 수행할 수 있는 횟수를 확인하세요.
+2. 구독 목록의 위쪽에서 분석을 수행할 수 있는 횟수를 확인하세요.
 
 > **Tip**: 파일 형식 분석의 경우 소스코드 분석과 오픈소스 분석을 동시에 수행하기 때문에 두 가지 분석의 분석 가능 횟수가 줄어들게 됩니다.
 
@@ -36,12 +35,11 @@ Sparrow Cloud에 등록한 사용자는 매월 최대 1000개의 **소스코드 
 
 Users registered with Sparrow Cloud can run up to 1000 **Code Analyses**, 1000 **Open Source Analyses**, and 100 **Web App Analyses** per month. The number of analyses resets by default on the 1st of every month. Users can see how many analyses they can perform in their subscription list.
 
-1. click on their **username** in the top right corner.
-2. Select **Manage Subscriptions**.
+1. Click **Manage Subscription** icon in the top right.
 
-<img src="myaccount_sub00.png" />
-
-3. Check the top of the subscription list to see how many times you can run the analyses.
+   <img src="myaccount_sub00.png" />
+ 
+2. Check the top of the subscription list to see how many times you can run the analyses.
 
 > **Tip**: For file type analysis, the number of analyses available for both code and open source analysis will be reduced because the Sparrow Cloud performs both analyses at the same time.
 
