@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.ACCESS_TOKEN}}
+          token: ${{ secrets.GITHUB_TOKEN}}
 
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
