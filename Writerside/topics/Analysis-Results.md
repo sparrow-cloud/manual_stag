@@ -5,14 +5,34 @@ switcher-label: Language
 
 ## 결과 확인하기 {switcher-key="한국어"}
 
+### 최근 분석
+
 프로젝트에서 확인할 수 있는 결과는 **최근 분석**에서 발견한 내용이 포함됩니다. 여기서 **최근 분석**이란 다음 두 가지를 포함합니다: 1) 리포지토리 및 압축 파일을 비롯한 **파일** 자산을 대상으로 수행한 마지막 분석, 2) 웹 페이지를 가리키는 **URL** 자산을 대상으로 수행한 마지막 분석. 즉, 최근 분석에는 최대 2개의 분석 결과가 함께 표시될 수 있습니다.
 
-> **Tip**: **최근 분석** 이전에 수행한 분석 결과의 내용을 확인할 수 없다는 점에 주의하세요.
+> **Tip**: **최근 분석** 이전에 수행한 분석 결과의 내용을 확인하려면 최근 분석을 삭제하세요. 분석을 삭제하려면 [분석 상세 정보](#분석-상세-정보)를 참고하세요.
 
 프로젝트의 오른쪽에 있는 **요약**, **레퍼런스**, **이슈**, **자산**, **컴포넌트**라는 다섯 개의 탭을 클릭해서 상세한 결과를 확인하세요.
 
 <img src="프로젝트상세01.png" />
 
+### 분석 상세 정보 
+
+**분석 목록**에서 프로젝트에서 수행한 분석에 대한 전반적인 데이터를 확인할 수 있습니다. 여기에는 분석의 **진행 상황**, **분석 시간**, **분석 시작 일시**, **분석 대상**, **위험도별 이슈 수** 등이 포함됩니다.
+
+<img src="분석상세.png" />
+
+
+#### 분석 데이터가 표시되지 않는 경우
+
+분석이 실패하는 경우 프로젝트 요약에는 분석 결과가 표시되지 않게 됩니다. 이 때 **분석 상세 정보**를 보면 분석이 실패했으며 실패의 원인이 무엇인지를 확인하실 수 있습니다.
+
+> **Tip**: 분석이 완료된 경우임에도 프로젝트 요약에 분석 결과가 표시되지 않았다면 **분석 상세 정보**에서 **위험도별 이슈 수**가 0이 아닌지를 확인하세요.
+
+#### 과거 분석 데이터를 확인하려는 경우
+
+앞서 설명한 것처럼 프로젝트 요약에는 [**최근 분석**](#최근-분석)만 표시됩니다. 만약 사용자가 프로젝트에서 수행한 다른 분석 결과를 확인하려는 경우 해당 분석 이후에 수행된 모든 분석을 삭제하는 방식으로 과거의 분석 결과를 확인하실 수 있습니다.
+
+> **Warning**: 일단 삭제된 데이터는 다시 복구할 수 없다는 점에 유의하세요.
 
 
 ### 레퍼런스
@@ -44,13 +64,35 @@ Sparrow Cloud는 **자산**이라는 분석 결과를 표시합니다. 자산은
 
 ## Analysis results {switcher-key="English"}
 
+### Recent Analyses
+
 The results you can see in your project include the findings from your **recent analyses**. In this context, "recent analyses" includes two things 1) the last analysis performed on **file** assets, including repositories and compressed files, and 2) the last analysis performed on **URL** assets, which point to web pages. This means that up to two analyses can be shown together in Recent Analyses.
 
-> **Tip**: Note that you can't see the results of analyses performed before **Recent Analyses**.
+> **Tip**: Note that if you check analyse results before **Recent Analyses**, delete **Recent Analyses**. See [Analysis details](#analysis-details) for more information.
 
 To see detailed results, click the five tabs on the right side of the project: **Summary**, **Reference**, **Issue**, **Asset**, and **Component**.
 
 <img src="projdetails01.png" />
+
+
+### Analysis details
+
+**Analysis List** shows more data from the analysis conducted in the project: including **Status**, **Analyzing time**, **Started time**, **Analyzing target**, **Risk level and issues** and etc.
+
+<img src="analysisDetails.png" />
+
+
+#### Cannot check results in Project summary.
+
+When the analysis fails, no results have shown in the Project summary. Then, go to the **Analysis details** to check that the analysis fails and what makes it fails as well.
+
+> **Tip**: For a completed analysis, and it does not show any results, check that **Risk level and issues** shows zero in the **Analysis details**.
+
+#### Want to view results from the previous analysis.
+
+As mentioned earlier, Project summary only shows data about [**Recent analyses**](#Recent-Analyses). If you want to check previous analysis results from the project, you can see the results by deleting all subsequent analyses performed after that analysis.
+
+> **Warning**: Note that the deleted data cannot be restored.
 
 
 ### References
