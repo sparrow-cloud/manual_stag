@@ -36,6 +36,7 @@ Sparrow Cloud에 등록한 이메일과 동일한 이메일의 GitHub 저장소�
 
 웹 사이트 URL을 분석하는 방법은 [분석 대상 웹 페이지 설정하기](#analysissetting.md#분석-대상-웹-페이지-설정하기)를 참고하세요. 서비스를 구독하지 않은 사용자는 일부 웹취약점 분석 옵션을 사용할 수 없습니다.
 
+> **Warning**: 패스워드를 입력하는 로그인 이외의 추가적인 인증이 필요한 웹 사이트의 경우 분석을 수행할 수 없습니다.
 
 #### 이벤트 클립보드 
 
@@ -109,6 +110,9 @@ You can compress an SBOM file that has already been generated, and then run the 
 
 See [Setting up web page](analysisSetting.md#setting-up-web-page) for specifying a web page URL to run analysis. Users who do not subscribe the Sparrow Cloud service cannot modify some items of web app analysis options.
 
+> **Warning**: For web-sites that require additional authentication beyond password log-in, analysis cannot be properly completed.
+
+
 #### Event Clipboard 
 
 The **Event Clipboard** is basically a tool that allows you to record and save events performed on a web page. You can use this feature to expand the scope of your analysis by saving the events performed by the user to a file and entering it into the [Analysis option](Analysis-Option.md). If the URL you are analysing requires you to log in with a specific ID and password, you can save the event from the **Event Clipboard** to a file and upload it to the **Login History File** in **Analysis Options**, and the information stored in the file will be used for analysis.
@@ -139,10 +143,10 @@ Now that you've installed the Event Clipboard, let's run it.
 Let's use the **Login History File** we recorded above to perform an analysis.
 
 1. Click **Modify project** button and click the **Set web page** button.
-2. Click **Search File** button in **Sign-in Log File** option.
+2. Click **Search File** button in **Login History File** option.
 3. Select the saved event clipboard file.
 4. Click **Set** button in the Web page settings.
 5. Click **Modify** button under **Modify Project**.
 
-> **Tip**: When recording login behaviour from the event clipboard, make sure to start recording from the redirected page. Also, to prevent clicking the logout button after login, add the logout button to the **Element to Unload** in the web page options.
+> **Tip**: When recording login id and password on the event clipboard, make sure to start recording from the redirected page. Also, to prevent clicking the logout button after login, add the logout button to the **Element to Unload** in the web page options.
  

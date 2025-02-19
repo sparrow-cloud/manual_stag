@@ -17,7 +17,7 @@ Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 프로
 5. 출력할 보고서의 **파일 이름**을 입력하세요.
 6. **내보내기** 버튼을 클릭하세요.
 
-> **Tip**: 완료된 분석의 보고서만 출력할 수 있습니다. 분석 보고서 파일이 너무 큰 경우 여러 개의 파일로 나뉘어서 출력됩니다.
+> **Tip**: 완료된 분석의 보고서만 출력할 수 있습니다. 분석 보고서 파일이 너무 큰 경우 여러 개의 파일로 나뉘어서 출력됩니다. 보고서 파일 샘플을 확인하시려면 <a href="https://raw.githubusercontent.com/sparrow-cloud/cloud/925d2e7e4e64b7a43b74ccfd9147a04666348492/report-examples/file-report.pdf">파일 분석 보고서</a> 또는 <a href="https://raw.githubusercontent.com/sparrow-cloud/cloud/925d2e7e4e64b7a43b74ccfd9147a04666348492/report-examples/web-report.pdf">URL 분석 보고서</a>를 참고하세요.
 
 보고서에는 다음과 같은 내용이 포함됩니다.
 
@@ -29,6 +29,8 @@ Sparrow Cloud에서는 PDF 형식의 분석 보고서를 제공합니다. 프로
 - 이슈 검출 규칙 정보 : 이슈를 검출한 규칙의 목록.
 
 <img src="보고서.png" />
+
+
 
 ## Export Report {switcher-key="English"}
 
@@ -44,7 +46,8 @@ Sparrow Cloud provides reports on the analysis in PDF format. Export the report 
 5. Enter a filename for the report you want to print out.
 6. Click the **Export** button.
 
-> **Tip**: You can print out the report from completed analyses only. If the analysis report file is too large, it will be split into multiple files.
+> **Tip**: You can print out the report from completed analyses only. If the analysis report file is too large, it will be split into multiple files. For the report sample, click <a href="https://raw.githubusercontent.com/sparrow-cloud/cloud/925d2e7e4e64b7a43b74ccfd9147a04666348492/report-examples/file-report-en.pdf">Analyzed file report</a> or <a href="https://raw.githubusercontent.com/sparrow-cloud/cloud/925d2e7e4e64b7a43b74ccfd9147a04666348492/report-examples/web-report-en.pdf">Analyzed URL Report</a>.
+
 
 
 The report contains the following content:
