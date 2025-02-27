@@ -25,7 +25,6 @@ sastOption:
     - "*dev*"
 ```
 
-
 옵션을 입력할 때는 탭이 아닌 공백을 사용하세요. 분석 제외 경로에는 다수의 경로를 입력할 수 있습니다. 대소문자를 구분하지 않으며 경로를 구분하기 위해 `/`를 사용해야 합니다. 또한 와일드카드로써 `*`를 사용해서 패턴을 지정할 수 있습니다.
 
 ### 웹취약점 분석 옵션 
@@ -230,8 +229,7 @@ You can set up the options as follows before performing the analysis.
 Excluded Path indicates paths excluded for the code analysis. Thus, users can enter paths of file or directory that do not need to be run on analysis. Yet, the **Excluded Path** applies to **code analysis** only: assets and issues detected from the open source analysis will be shown. 
 
 1. Create a file named `.sparrow` in the root of the repository or zipped file.
-2. Enter paths on the file in the following form.  Download <resource src=".sparrow" />
-
+2. Enter paths on the file in the following form.
 ```
 sastOption:  
   excludedPath:  
