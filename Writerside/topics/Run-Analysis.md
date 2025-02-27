@@ -14,7 +14,7 @@ switcher-label: Language
 3. **웹취약점** 분석을 시작하려면 **URL**을 선택하세요.
 4. 이제 분석이 시작됩니다.
 
-> **Tip**: 분석이 수행되는 동안 동일한 분석 대상을 추가로 분석할 수 없습니다. 만약, 실행 중인 분석을 중지하려는 경우 분석 목록에서 해당 분석을 중지할 수 있습니다. 이미 완료된 분석은 중지하거나 삭제할 수 없다는 점에 유의하세요.
+> **Tip**: 분석이 수행되는 동안 동일한 분석 대상을 추가로 분석할 수 없습니다. 만약, 실행 중인 분석을 중지하려는 경우 분석 목록에서 해당 분석을 중지할 수 있습니다.
 
 ### 저장소 분석하기
 
@@ -86,7 +86,7 @@ Now go to the project you created earlier and perform an analysis. To analyse a 
 3. Or select **URL** to start analysing **Web Vulnerabilities**.
 4. The analysis will now start.
 
-> **Tip**: You cannot perform another analyses with the same type of target while an analysis is running. If you want to stop a running analysis, you can do so from the list of analyses. Note that you cannot stop or delete an analysis that has already been completed.
+> **Tip**: You cannot perform another analyses with the same type of target while an analysis is running. If you want to stop a running analysis, you can do so from the list of analyses.
 
 
 ### Analysing repository
