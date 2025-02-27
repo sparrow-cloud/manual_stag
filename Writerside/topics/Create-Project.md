@@ -20,7 +20,9 @@ switcher-label: Language
 3. **프로젝트 이름**을 입력하세요. 
 4. **추가하기** 버튼을 클릭하면 프로젝트가 생성됩니다.
 
-분석을 시작하려면 생성한 프로젝트로 이동하세요. 자세한 내용은 [분석하기](Run-Analysis.md)에서 확인하실 수 있습니다.
+ > **Tip**: **데포 프로젝트로 추가합니다.**를 선택하면 추가되는 프로젝트에서 분석 결과 샘플을 확인하실 수 있습니다.
+
+분석을 시작하려면 생성한 프로젝트로 이동하세요. 자세한 내용은 [분석하기](Run-Analysis.md)를 참고하세요.
 
 ## Create Project {switcher-key="English"}
 
@@ -36,5 +38,7 @@ Create a project before performing any analysis. You can create a project by ent
 
 3. Enter a name for your project.
 4. Click the **Add** button to create the project.
+
+ > **Tip**: Select a checkbox for **Add as a sample project.**, and sample data will be added to the project.
 
 To start analysing, go to the project you created. For more information, see [Run Analysis](Run-Analysis.md).

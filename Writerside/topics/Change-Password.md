@@ -10,7 +10,7 @@ switcher-label: Language
 2. **내 계정**을 선택하세요.
 3. **선택 입력 항목 보기**를 클릭하세요
 
-<img src="내계정_정보.png" alt="Alt text"/>
+   <img src="내계정_정보.png" />
 
 4. **현재 비밀번호**, 새로운 **비밀번호**와 **비밀번호 확인**을 입력하세요.
 5. 슬라이드 아래에서 **변경하기** 버튼을 클릭하세요.
@@ -21,7 +21,7 @@ switcher-label: Language
 2. Select **My Account**. 
 3. Click on **Show Options**.
 
-<img src="myaccount_info.png" alt="Alt text"/>
+   <img src="myaccount_info.png" />
 
 4. Enter your current **Password**, new **Password** and **Confirm Password**. 
 5. Click **Modify** button at the bottom of the slide.
