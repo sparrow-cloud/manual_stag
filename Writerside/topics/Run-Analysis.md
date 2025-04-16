@@ -24,13 +24,6 @@ Sparrow Cloud에 등록한 이메일과 동일한 이메일의 GitHub 저장소�
 
 최대 100 MB까지의 압축 파일을 분석할 수 있습니다. 서비스를 구독하지 않은 사용자는 10 MB 이하의 압축 파일을 분석할 수 있습니다.
 
-#### SBOM 파일 
-
-이미 생성된 SBOM 파일을 압축한 다음, 분석을 수행해서 결과를 확인할 수 있습니다. 단, SBOM의 형식이 다양하기 때문에 아래에 해당하지 않는 파일은 오픈소스 분석을 통해 결과가 수행되지 않을 수 있습니다.
-
-- SPDX (.spdx): 버전 2.2
-- CycloneDX (.json): 버전 1.4
-- SWID tag(.swidtag): 버전 ISO/IEC 19770-2:2015
 
 ### URL 분석하기 
 
@@ -97,13 +90,6 @@ Files uploaded to the Github repositories can be analysed for the users who regi
 
 You can analyse compressed files up to 100 MB. Users without a subscription to the service can analyse compressed files of 10 MB or less.
 
-#### SBOM file 
-
-You can compress an SBOM file that has already been generated, and then run the analysis to see the results. However, due to the various formats of SBOMs, files that do not fall into the following categories may not result in open source analysis.
-
-- SPDX (.spdx): version 2.2
-- CycloneDX (.json): Version 1.4
-- SWID tag (.swidtag): Version ISO/IEC 19770-2:2015
 
 
 ### Analysing URL 
